@@ -1,0 +1,987 @@
+{
+  "version": "2.9",
+  "children": [
+    {
+      "type": "frame",
+      "id": "NMMGd",
+      "x": 0,
+      "y": 0,
+      "name": "Home Page",
+      "width": 1200,
+      "fill": "$color-bg",
+      "layout": "vertical",
+      "gap": "$space-section",
+      "padding": [
+        0,
+        0,
+        32,
+        0
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "gBE0q",
+          "name": "Header",
+          "width": "fill_container",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "$color-stroke-soft"
+          },
+          "padding": [
+            28,
+            0
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "GU2iE",
+              "name": "logo",
+              "fill": "$color-text",
+              "content": "OLYA DESIGN",
+              "fontFamily": "Playfair Display",
+              "fontSize": 24,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "zv3OF",
+              "name": "nav",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jjwUd",
+                  "name": "nav1",
+                  "fill": "$color-text",
+                  "content": "Портфолио",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "1RiB4",
+                  "name": "nav2",
+                  "fill": "$color-text",
+                  "content": "Обо мне",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "iKlFO",
+                  "name": "nav3",
+                  "fill": "$color-text",
+                  "content": "Контакты",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "LKbmb",
+          "name": "Hero",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "gzfb1",
+              "name": "heroLeft",
+              "width": 700,
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pqBZK",
+                  "name": "heroTitle",
+                  "fill": "$color-text",
+                  "content": "Привет, я Оля",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 48,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "yas7Z",
+                  "name": "heroText",
+                  "fill": "$color-text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Создаю чистые, функциональные и красивые интерфейсы для бизнеса и людей",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "WPjcN",
+                  "type": "ref",
+                  "ref": "hJekm",
+                  "name": "heroBtn",
+                  "x": 0,
+                  "y": 123
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "32Qmm",
+              "name": "heroAvatarWrap",
+              "width": 220,
+              "height": 220,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "O5bB1",
+                  "name": "avatar",
+                  "fill": "$color-mint",
+                  "width": 120,
+                  "height": 120
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nYNWB",
+          "name": "Works",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "DjBpu",
+              "name": "worksTitle",
+              "fill": "$color-text",
+              "content": "Избранные проекты",
+              "fontFamily": "Playfair Display",
+              "fontSize": 36,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "nLPQY",
+              "name": "Portfolio Grid Desktop",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "id": "6y3Yy",
+                  "type": "ref",
+                  "ref": "RQfke",
+                  "width": "fill_container",
+                  "name": "card1",
+                  "x": 0,
+                  "y": 0,
+                  "descendants": {
+                    "jaWq8": {
+                      "width": "fill_container"
+                    },
+                    "xoKzI": {
+                      "content": "Дизайн для стоматологии"
+                    },
+                    "PL0r4": {
+                      "width": "fit_content"
+                    },
+                    "dSbUD": {
+                      "content": "сайт"
+                    }
+                  }
+                },
+                {
+                  "id": "YZOk9",
+                  "type": "ref",
+                  "ref": "RQfke",
+                  "width": "fill_container",
+                  "name": "card2",
+                  "x": 408,
+                  "y": 0,
+                  "descendants": {
+                    "jaWq8": {
+                      "width": "fill_container"
+                    },
+                    "xoKzI": {
+                      "content": "Лендинг кофейни"
+                    },
+                    "PL0r4": {
+                      "width": "fit_content"
+                    },
+                    "dSbUD": {
+                      "content": "лендинг"
+                    }
+                  }
+                },
+                {
+                  "id": "mKUMJ",
+                  "type": "ref",
+                  "ref": "RQfke",
+                  "width": "fill_container",
+                  "name": "card3",
+                  "x": 816,
+                  "y": 0,
+                  "descendants": {
+                    "jaWq8": {
+                      "width": "fill_container"
+                    },
+                    "xoKzI": {
+                      "content": "Интернет-магазин свечей"
+                    },
+                    "PL0r4": {
+                      "width": "fit_content"
+                    },
+                    "dSbUD": {
+                      "content": "e-commerce"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "Ricm3",
+              "type": "ref",
+              "ref": "hJekm",
+              "name": "worksBtn",
+              "width": "fit_content",
+              "x": 0,
+              "y": 401,
+              "descendants": {
+                "vq0KR": {
+                  "content": "Смотреть все проекты"
+                }
+              }
+            },
+            {
+              "type": "text",
+              "id": "CDcEa",
+              "name": "tabLbl",
+              "fill": "$color-text",
+              "content": "Планшет: 2 колонки",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "031ZT",
+              "name": "gridTablet",
+              "width": 792,
+              "gap": 24,
+              "children": [
+                {
+                  "id": "Odspj",
+                  "type": "ref",
+                  "ref": "RQfke",
+                  "width": "fill_container",
+                  "name": "tabCard1",
+                  "x": 0,
+                  "y": 0,
+                  "descendants": {
+                    "jaWq8": {
+                      "width": "fill_container"
+                    },
+                    "xoKzI": {
+                      "content": "Дизайн для стоматологии"
+                    },
+                    "PL0r4": {
+                      "width": "fit_content"
+                    },
+                    "dSbUD": {
+                      "content": "сайт"
+                    }
+                  }
+                },
+                {
+                  "id": "zWmIU",
+                  "type": "ref",
+                  "ref": "RQfke",
+                  "width": "fill_container",
+                  "name": "tabCard2",
+                  "x": 408,
+                  "y": 0,
+                  "descendants": {
+                    "jaWq8": {
+                      "width": "fill_container"
+                    },
+                    "xoKzI": {
+                      "content": "Лендинг кофейни"
+                    },
+                    "PL0r4": {
+                      "width": "fit_content"
+                    },
+                    "dSbUD": {
+                      "content": "лендинг"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "sYpdo",
+              "name": "mobLbl",
+              "fill": "$color-text",
+              "content": "Телефон: 1 колонка",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "jB6m8",
+              "name": "gridMobile",
+              "width": 390,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "id": "5HoLj",
+                  "type": "ref",
+                  "ref": "RQfke",
+                  "width": "fill_container",
+                  "name": "mobCard1",
+                  "x": 0,
+                  "y": 0,
+                  "descendants": {
+                    "jaWq8": {
+                      "width": "fill_container"
+                    },
+                    "xoKzI": {
+                      "content": "Интернет-магазин свечей"
+                    },
+                    "PL0r4": {
+                      "width": "fit_content"
+                    },
+                    "dSbUD": {
+                      "content": "e-commerce"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "IZ6Jq",
+          "name": "About",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "type": "text",
+              "id": "bRnFF",
+              "name": "aboutTitle",
+              "fill": "$color-text",
+              "content": "Обо мне",
+              "fontFamily": "Playfair Display",
+              "fontSize": 36,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "9MvbG",
+              "name": "aboutText",
+              "fill": "$color-text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Я — веб-дизайнер с любовью к минимализму и функциональности. Моя задача — делать интерфейсы, которые решают задачи бизнеса и радуют пользователей.",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "AoopC",
+              "name": "skills",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "id": "CVvnZ",
+                  "type": "ref",
+                  "ref": "tgsuD",
+                  "name": "skill1",
+                  "width": "fit_content",
+                  "x": 0,
+                  "y": 0,
+                  "descendants": {
+                    "dx82Z": {
+                      "content": "UI/UX дизайн"
+                    }
+                  }
+                },
+                {
+                  "id": "MQnpa",
+                  "type": "ref",
+                  "ref": "tgsuD",
+                  "name": "skill2",
+                  "width": "fit_content",
+                  "x": 128,
+                  "y": 0,
+                  "descendants": {
+                    "dx82Z": {
+                      "content": "Прототипирование"
+                    }
+                  }
+                },
+                {
+                  "id": "tpKuD",
+                  "type": "ref",
+                  "ref": "tgsuD",
+                  "name": "skill3",
+                  "width": "fit_content",
+                  "x": 295,
+                  "y": 0,
+                  "descendants": {
+                    "dx82Z": {
+                      "content": "Дизайн-системы"
+                    }
+                  }
+                },
+                {
+                  "id": "zkAsD",
+                  "type": "ref",
+                  "ref": "tgsuD",
+                  "name": "skill4",
+                  "width": "fit_content",
+                  "x": 449,
+                  "y": 0,
+                  "descendants": {
+                    "dx82Z": {
+                      "content": "Адаптивная вёрстка"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "yWOr9",
+              "name": "aboutArrowWrap",
+              "children": [
+                {
+                  "id": "nT0qZ",
+                  "type": "ref",
+                  "ref": "GKKrz",
+                  "name": "aboutArrow",
+                  "x": 0,
+                  "y": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Wg5ra",
+          "name": "Contacts",
+          "width": "fill_container",
+          "gap": 48,
+          "children": [
+            {
+              "type": "frame",
+              "id": "9RAbS",
+              "name": "contactsLeft",
+              "width": 720,
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XHzVT",
+                  "name": "contactsTitle",
+                  "fill": "$color-text",
+                  "content": "Давайте работать",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 36,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "Mv6QU",
+                  "type": "ref",
+                  "ref": "IJJyp",
+                  "name": "formName",
+                  "x": 0,
+                  "y": 64,
+                  "descendants": {
+                    "shA5x": {
+                      "content": "Имя"
+                    }
+                  }
+                },
+                {
+                  "id": "KGtGW",
+                  "type": "ref",
+                  "ref": "IJJyp",
+                  "name": "formEmail",
+                  "x": 0,
+                  "y": 123,
+                  "descendants": {
+                    "shA5x": {
+                      "content": "Email"
+                    }
+                  }
+                },
+                {
+                  "id": "PbLBI",
+                  "type": "ref",
+                  "ref": "rDqTc",
+                  "name": "formMsg",
+                  "x": 0,
+                  "y": 182,
+                  "descendants": {
+                    "jx4Xl": {
+                      "content": "Сообщение"
+                    }
+                  }
+                },
+                {
+                  "id": "Q18KH",
+                  "type": "ref",
+                  "ref": "hJekm",
+                  "name": "sendBtn",
+                  "width": "fit_content",
+                  "x": 0,
+                  "y": 330,
+                  "descendants": {
+                    "vq0KR": {
+                      "content": "Отправить"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "EUWSN",
+              "name": "contactsRight",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                56,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ycED9",
+                  "name": "socTitle",
+                  "fill": "$color-text",
+                  "content": "Соцсети",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 24,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "2fLpQ",
+                  "name": "socRow1",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "id": "GRynb",
+                      "type": "ref",
+                      "ref": "Ryn9f",
+                      "name": "socIcon1",
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "type": "text",
+                      "id": "WBN7Y",
+                      "name": "socTxt1",
+                      "fill": "$color-text",
+                      "content": "Behance",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "QamQ5",
+                  "name": "socRow2",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "id": "rhfRb",
+                      "type": "ref",
+                      "ref": "TYeqi",
+                      "name": "socIcon2",
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "type": "text",
+                      "id": "AuG2l",
+                      "name": "socTxt2",
+                      "fill": "$color-text",
+                      "content": "Telegram",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "7tZvZ",
+                  "name": "socRow3",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "id": "q3QPB",
+                      "type": "ref",
+                      "ref": "GKKrz",
+                      "name": "socIcon3",
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "type": "text",
+                      "id": "Cl2sz",
+                      "name": "socTxt3",
+                      "fill": "$color-text",
+                      "content": "Instagram",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HuCIn",
+          "name": "Footer",
+          "width": "fill_container",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "$color-stroke-soft"
+          },
+          "padding": [
+            24,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "LQ90L",
+              "name": "copy",
+              "fill": "$color-text",
+              "content": "© 2025 Olya Design",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "juP9p",
+      "x": 1300,
+      "y": 0,
+      "name": "Components Library",
+      "width": 460,
+      "fill": "$color-card",
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "$color-stroke-soft"
+      },
+      "layout": "vertical",
+      "gap": 20,
+      "padding": 24,
+      "children": [
+        {
+          "type": "text",
+          "id": "hHuEn",
+          "name": "libTitle",
+          "fill": "$color-text",
+          "content": "Reusable Components",
+          "fontFamily": "Playfair Display",
+          "fontSize": 24,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "hJekm",
+          "name": "comp/button",
+          "reusable": true,
+          "fill": "$color-accent",
+          "cornerRadius": 40,
+          "padding": [
+            12,
+            28
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "vq0KR",
+              "name": "btnLabel2",
+              "fill": "$color-text",
+              "content": "Смотреть работы",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "IJJyp",
+          "name": "comp/input",
+          "reusable": true,
+          "width": 360,
+          "fill": "$color-card",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "$color-accent"
+          },
+          "padding": [
+            12,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "shA5x",
+              "name": "inputLabel2",
+              "fill": "#BFAF9E",
+              "content": "Ваше имя",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "rDqTc",
+          "name": "comp/textarea",
+          "reusable": true,
+          "width": 360,
+          "height": 132,
+          "fill": "$color-card",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "$color-accent"
+          },
+          "padding": [
+            12,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "jx4Xl",
+              "name": "textareaLabel2",
+              "fill": "#BFAF9E",
+              "content": "Сообщение",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tgsuD",
+          "name": "comp/tag",
+          "reusable": true,
+          "fill": "$color-mint",
+          "cornerRadius": 20,
+          "padding": [
+            6,
+            12
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "dx82Z",
+              "name": "tagLabel2",
+              "fill": "$color-text",
+              "content": "тег",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "icon_font",
+          "id": "GKKrz",
+          "name": "comp/icon-arrow",
+          "reusable": true,
+          "width": 24,
+          "height": 24,
+          "iconFontName": "arrow-right",
+          "iconFontFamily": "lucide",
+          "fill": "$color-mint"
+        },
+        {
+          "type": "icon_font",
+          "id": "Ryn9f",
+          "name": "comp/icon-star",
+          "reusable": true,
+          "width": 24,
+          "height": 24,
+          "iconFontName": "star",
+          "iconFontFamily": "lucide",
+          "fill": "$color-mint"
+        },
+        {
+          "type": "icon_font",
+          "id": "TYeqi",
+          "name": "comp/icon-heart",
+          "reusable": true,
+          "width": 24,
+          "height": 24,
+          "iconFontName": "heart",
+          "iconFontFamily": "lucide",
+          "fill": "$color-mint"
+        },
+        {
+          "type": "frame",
+          "id": "RQfke",
+          "name": "comp/project-card",
+          "reusable": true,
+          "width": "fill_container",
+          "fill": "$color-card",
+          "cornerRadius": 24,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "$color-stroke-soft"
+          },
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 20,
+          "children": [
+            {
+              "type": "rectangle",
+              "cornerRadius": 16,
+              "id": "jaWq8",
+              "name": "cardImg2",
+              "fill": "$color-bg",
+              "width": "fill_container",
+              "height": 180,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$color-stroke-soft"
+              }
+            },
+            {
+              "type": "text",
+              "id": "xoKzI",
+              "name": "cardTitle2",
+              "fill": "$color-text",
+              "content": "Название проекта",
+              "fontFamily": "Playfair Display",
+              "fontSize": 24,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "PL0r4",
+              "name": "cardTagWrap2",
+              "fill": "$color-mint",
+              "cornerRadius": 20,
+              "padding": [
+                6,
+                12
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dSbUD",
+                  "name": "cardTagText2",
+                  "fill": "$color-text",
+                  "content": "тег",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "color-accent": {
+      "type": "color",
+      "value": "#E6C9A8"
+    },
+    "color-bg": {
+      "type": "color",
+      "value": "#FFF9F5"
+    },
+    "color-card": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "color-mint": {
+      "type": "color",
+      "value": "#C4E0D9"
+    },
+    "color-stroke-soft": {
+      "type": "color",
+      "value": "#F0E5DA"
+    },
+    "color-text": {
+      "type": "color",
+      "value": "#4A4A4A"
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "font-heading": {
+      "type": "string",
+      "value": "Playfair Display"
+    },
+    "space-section": {
+      "type": "number",
+      "value": 96
+    }
+  }
+}

@@ -1,4 +1,730 @@
 {
-  "note": "This file path is reserved for Pencil design data. Open it with the Pencil editor.",
-  "source": "user-pencil MCP"
+  "version": "2.9",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Olya Portfolio Design System",
+      "width": 1400,
+      "fill": "$color-bg",
+      "layout": "vertical",
+      "gap": 40,
+      "padding": 48,
+      "children": [
+        {
+          "type": "text",
+          "id": "M9B8K",
+          "name": "dsTitle",
+          "fill": "$color-text",
+          "content": "Design System - Portfolio Olya",
+          "fontFamily": "Playfair Display",
+          "fontSize": "$size-h2",
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "gb0wJ",
+          "name": "found",
+          "width": "fill_container",
+          "fill": "$color-card",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "$color-stroke-soft"
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 28,
+          "children": [
+            {
+              "type": "text",
+              "id": "kRpyK",
+              "name": "pTitle",
+              "fill": "$color-text",
+              "content": "Palette",
+              "fontFamily": "Playfair Display",
+              "fontSize": 24,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "E9SJR",
+              "name": "pRow",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "le89B",
+                  "name": "sw1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 12,
+                      "id": "YXhj5",
+                      "name": "sw1box",
+                      "fill": "$color-bg",
+                      "width": "fill_container",
+                      "height": 64,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$color-stroke-soft"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "K4Y8M",
+                      "name": "sw1txt",
+                      "fill": "$color-text",
+                      "content": "BG #FFF9F5",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ZJXQR",
+                  "name": "sw2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 12,
+                      "id": "jZE4g",
+                      "name": "sw2box",
+                      "fill": "$color-text",
+                      "width": "fill_container",
+                      "height": 64
+                    },
+                    {
+                      "type": "text",
+                      "id": "yQs3n",
+                      "name": "sw2txt",
+                      "fill": "$color-text",
+                      "content": "Text #4A4A4A",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "3hk9B",
+                  "name": "sw3",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 12,
+                      "id": "obbl6",
+                      "name": "sw3box",
+                      "fill": "$color-accent",
+                      "width": "fill_container",
+                      "height": 64
+                    },
+                    {
+                      "type": "text",
+                      "id": "QvmIC",
+                      "name": "sw3txt",
+                      "fill": "$color-text",
+                      "content": "Accent #E6C9A8",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FetLV",
+                  "name": "sw4",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 12,
+                      "id": "2piud",
+                      "name": "sw4box",
+                      "fill": "$color-mint",
+                      "width": "fill_container",
+                      "height": 64
+                    },
+                    {
+                      "type": "text",
+                      "id": "V1zSv",
+                      "name": "sw4txt",
+                      "fill": "$color-text",
+                      "content": "Mint #C4E0D9",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WNC7h",
+                  "name": "sw5",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 12,
+                      "id": "8N45B",
+                      "name": "sw5box",
+                      "fill": "$color-card",
+                      "width": "fill_container",
+                      "height": 64,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$color-stroke-soft"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "6nDHq",
+                      "name": "sw5txt",
+                      "fill": "$color-text",
+                      "content": "Card #FFFFFF",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "dnxXm",
+              "name": "tTitle",
+              "fill": "$color-text",
+              "content": "Typography",
+              "fontFamily": "Playfair Display",
+              "fontSize": 24,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "MLAmr",
+              "name": "tCol",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lUTC3",
+                  "name": "th1",
+                  "fill": "$color-text",
+                  "content": "Heading 48 - Playfair Display",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": "$size-h1",
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "b6say",
+                  "name": "th2",
+                  "fill": "$color-text",
+                  "content": "Heading 36 - Playfair Display",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": "$size-h2",
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "IU1TR",
+                  "name": "th3",
+                  "fill": "$color-text",
+                  "content": "Heading 24 - Playfair Display",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": "$size-h3",
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "qNqwc",
+                  "name": "tb1",
+                  "fill": "$color-text",
+                  "content": "Body 16 - Inter",
+                  "fontFamily": "Inter",
+                  "fontSize": "$size-body",
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "urFg1",
+                  "name": "tb2",
+                  "fill": "$color-text",
+                  "content": "Body 14 - Inter",
+                  "fontFamily": "Inter",
+                  "fontSize": "$size-caption",
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "na0R7",
+          "name": "Components",
+          "width": "fill_container",
+          "fill": "$color-card",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "$color-stroke-soft"
+          },
+          "layout": "vertical",
+          "gap": 28,
+          "padding": 28,
+          "children": [
+            {
+              "type": "frame",
+              "id": "HzSPG",
+              "name": "Button Component",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "9VsCz",
+                  "name": "btnTitle",
+                  "fill": "$color-text",
+                  "content": "1) Button - normal / hover",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "Vc7zA",
+                  "name": "btnRow",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "UMSyq",
+                      "name": "btnNorm",
+                      "fill": "$color-accent",
+                      "cornerRadius": 40,
+                      "padding": [
+                        12,
+                        28
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "1QEBZ",
+                          "name": "btnNormTxt",
+                          "fill": "$color-text",
+                          "content": "Смотреть",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MPNC0",
+                      "name": "btnHover",
+                      "fill": "#DDBA98",
+                      "cornerRadius": 40,
+                      "padding": [
+                        12,
+                        28
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "JHPfF",
+                          "name": "btnHoverTxt",
+                          "fill": "$color-text",
+                          "content": "Смотреть (hover)",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "4kOrg",
+              "name": "Input Component",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VOgKX",
+                  "name": "inputTitle",
+                  "fill": "$color-text",
+                  "content": "3) Input field",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "XEC9R",
+                  "name": "inputField",
+                  "width": 420,
+                  "fill": "$color-card",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$color-accent"
+                  },
+                  "padding": [
+                    12,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "afSG4",
+                      "name": "inputText",
+                      "fill": "#BFAF9E",
+                      "content": "Ваше имя",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Jjk9s",
+              "name": "Icons",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "h5vBe",
+                  "name": "iconsTitle",
+                  "fill": "$color-text",
+                  "content": "4) Icons 24x24",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "rxA7i",
+                  "name": "iconRow",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "URmma",
+                      "name": "icStar",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "$color-mint"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "lyQDO",
+                      "name": "icArrow",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "arrow-right",
+                      "iconFontFamily": "lucide",
+                      "fill": "$color-mint"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "EWvoI",
+                      "name": "icHeart",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "heart",
+                      "iconFontFamily": "lucide",
+                      "fill": "$color-mint"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "auumU",
+              "name": "Navigation",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pkEkU",
+                  "name": "navTitle",
+                  "fill": "$color-text",
+                  "content": "5) Navigation",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "M0XXL",
+                  "name": "navRow",
+                  "gap": 28,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "EIUOY",
+                      "name": "nav1",
+                      "fill": "$color-text",
+                      "content": "Портфолио",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "1afHX",
+                      "name": "nav2",
+                      "fill": "$color-text",
+                      "content": "Обо мне",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "B2Keo",
+                      "name": "nav3",
+                      "fill": "$color-text",
+                      "content": "Контакты",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "xHII4",
+                  "name": "navHover",
+                  "fill": "$color-accent",
+                  "content": "Портфолио (hover)",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hARWe",
+              "name": "Project Card",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "4l8La",
+                  "name": "cardTitle",
+                  "fill": "$color-text",
+                  "content": "2) Project card",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "YO7xk",
+                  "name": "card",
+                  "width": 420,
+                  "fill": "$color-card",
+                  "cornerRadius": 24,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$color-stroke-soft"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 16,
+                      "id": "Gar2p",
+                      "name": "cardImg",
+                      "fill": "$color-bg",
+                      "width": "fill_container",
+                      "height": 180,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$color-stroke-soft"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "a5tgY",
+                      "name": "cardContent",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "2fihh",
+                          "name": "cardName",
+                          "fill": "$color-text",
+                          "content": "Проект: Landing для бренда",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 24,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "OCLwY",
+                          "name": "tagWrap",
+                          "fill": "$color-mint",
+                          "cornerRadius": 20,
+                          "padding": [
+                            6,
+                            12
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "FDbkx",
+                              "name": "tagText",
+                              "fill": "$color-text",
+                              "content": "Web Design",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "QeoT8",
+                          "name": "cardBtn",
+                          "fill": "$color-accent",
+                          "cornerRadius": 40,
+                          "padding": [
+                            12,
+                            28
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "srrhE",
+                              "name": "cardBtnTxt",
+                              "fill": "$color-text",
+                              "content": "Смотреть",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "color-accent": {
+      "type": "color",
+      "value": "#E6C9A8"
+    },
+    "color-bg": {
+      "type": "color",
+      "value": "#FFF9F5"
+    },
+    "color-card": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "color-mint": {
+      "type": "color",
+      "value": "#C4E0D9"
+    },
+    "color-stroke-soft": {
+      "type": "color",
+      "value": "#F0E5DA"
+    },
+    "color-text": {
+      "type": "color",
+      "value": "#4A4A4A"
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "font-heading": {
+      "type": "string",
+      "value": "Playfair Display"
+    },
+    "size-body": {
+      "type": "number",
+      "value": 16
+    },
+    "size-caption": {
+      "type": "number",
+      "value": 14
+    },
+    "size-h1": {
+      "type": "number",
+      "value": 48
+    },
+    "size-h2": {
+      "type": "number",
+      "value": 36
+    },
+    "size-h3": {
+      "type": "number",
+      "value": 24
+    }
+  }
 }
