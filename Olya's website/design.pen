@@ -1,0 +1,746 @@
+{
+  "version": "2.9",
+  "children": [
+    {
+      "type": "frame",
+      "id": "ueAUk",
+      "x": 0,
+      "y": 0,
+      "name": "Frame 1",
+      "clip": true,
+      "width": 1200,
+      "height": 3786,
+      "fill": [
+        "#b4bea2ff",
+        {
+          "type": "gradient",
+          "gradientType": "linear",
+          "enabled": true,
+          "opacity": 0.20000000298023224,
+          "rotation": -270.00001029345725,
+          "size": {
+            "height": 0.9999999999999838
+          },
+          "colors": [
+            {
+              "color": "#000000ff",
+              "position": 0
+            },
+            {
+              "color": "#bbc4a600",
+              "position": 1
+            }
+          ],
+          "center": {
+            "x": 0.5000000665608743,
+            "y": 0.29305333853997306
+          }
+        }
+      ],
+      "stroke": {
+        "align": "inside",
+        "thickness": 1
+      },
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "YLyAc",
+          "x": 0,
+          "y": 0,
+          "name": "Rectangle 1",
+          "fill": "#d9d9d9ff",
+          "width": 1200,
+          "height": 1200,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "I1xfO",
+          "x": 0,
+          "y": 0,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "images\\photo_2026-03-20_00-16-12.jpg",
+            "mode": "fill"
+          },
+          "width": "fill_container(1200)",
+          "height": 1224
+        },
+        {
+          "type": "text",
+          "id": "bzuUG",
+          "x": 1048,
+          "y": 57,
+          "name": "КОНТАКТЫ",
+          "fill": "#ffffffff",
+          "content": "КОНТАКТЫ ",
+          "fontFamily": "Inter",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "rGdLm",
+          "x": 812,
+          "y": 57,
+          "name": "ПАРТФОЛИО",
+          "fill": "#ffffffff",
+          "content": "ПАРТФОЛИО",
+          "fontFamily": "Inter",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "VFBhd",
+          "x": 940,
+          "y": 57,
+          "name": "О СЕБЕ",
+          "fill": "#ffffffff",
+          "content": "О СЕБЕ",
+          "fontFamily": "Inter",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "VKqvq",
+          "x": 689,
+          "y": 57,
+          "name": "ГЛАВНАЯ",
+          "fill": "#ffffffff",
+          "content": "ГЛАВНАЯ",
+          "fontFamily": "Inter",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "rectangle",
+          "id": "5QiJK",
+          "x": 45,
+          "y": 37,
+          "name": "Rectangle 7",
+          "fill": "#d9d9d9ff",
+          "width": 235,
+          "height": 84,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          }
+        },
+        {
+          "type": "text",
+          "id": "SWIRH",
+          "x": 75,
+          "y": 57,
+          "name": "ЛОГОТИП",
+          "fill": "#000000ff",
+          "content": "ЛОГОТИП",
+          "fontFamily": "Inter",
+          "fontSize": 36,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "UAF84",
+          "x": 163,
+          "y": 1283,
+          "name": "О СЕБЕ",
+          "fill": "#000000ff",
+          "content": "О СЕБЕ  ",
+          "fontFamily": "Ledger",
+          "fontSize": 48,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "tQrrG",
+          "x": 48,
+          "y": 1433,
+          "name": "Привет! меня зовут Оля, создам крутой сайт по вашим запросам,",
+          "fill": "#000000ff",
+          "content": "Привет! меня зовут Оля, \nсоздам крутой сайт по вашим запросам,  ",
+          "fontFamily": "Ledger",
+          "fontSize": 48,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "sAn59",
+          "x": 420,
+          "y": 503,
+          "name": "НАЗВАНИЕ",
+          "fill": "#ffffffff",
+          "content": "НАЗВАНИЕ",
+          "fontFamily": "Ledger",
+          "fontSize": 48,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "mxVEB",
+          "x": 428,
+          "y": 1939,
+          "name": "ПАРТФОЛИО",
+          "fill": "#000000ff",
+          "content": "ПАРТФОЛИО",
+          "fontFamily": "Ledger",
+          "fontSize": 48,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "YmJQ3",
+          "x": 317,
+          "y": 2505,
+          "name": "СТИЛИ МОИХ РАБОТ",
+          "fill": "#000000ff",
+          "content": "СТИЛИ МОИХ РАБОТ ",
+          "fontFamily": "Ledger",
+          "fontSize": 48,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "rectangle",
+          "id": "3qEOh",
+          "x": 66,
+          "y": 2054,
+          "name": "Rectangle 9",
+          "fill": "#d9d9d9ff",
+          "width": 321,
+          "height": 392,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "a0B10",
+          "x": 439,
+          "y": 2054,
+          "name": "Rectangle 10",
+          "fill": "#d9d9d9ff",
+          "width": 321,
+          "height": 392,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "ObJUr",
+          "x": 812,
+          "y": 2054,
+          "name": "Rectangle 11",
+          "fill": "#d9d9d9ff",
+          "width": 321,
+          "height": 392,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "gIbJn",
+          "x": 66,
+          "y": 2659,
+          "name": "Rectangle 12",
+          "fill": "#d9d9d9ff",
+          "width": 281,
+          "height": 297,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "MKL4Y",
+          "x": 460,
+          "y": 2659,
+          "name": "Rectangle 13",
+          "fill": "#d9d9d9ff",
+          "width": 281,
+          "height": 297,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "Ulma7",
+          "x": 852,
+          "y": 2659,
+          "name": "Rectangle 14",
+          "fill": "#d9d9d9ff",
+          "width": 281,
+          "height": 297,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          }
+        },
+        {
+          "type": "text",
+          "id": "QjSK6",
+          "x": 74,
+          "y": 2984,
+          "name": "ОПИСАНИЕ",
+          "fill": "#000000ff",
+          "content": "ОПИСАНИЕ",
+          "fontFamily": "Ledger",
+          "fontSize": 20,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "Y3ia6",
+          "x": 460,
+          "y": 2984,
+          "name": "ОПИСАНИЕ",
+          "fill": "#000000ff",
+          "content": "ОПИСАНИЕ",
+          "fontFamily": "Ledger",
+          "fontSize": 20,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "PAg6P",
+          "x": 852,
+          "y": 2984,
+          "name": "ОПИСАНИЕ",
+          "fill": "#000000ff",
+          "content": "ОПИСАНИЕ",
+          "fontFamily": "Ledger",
+          "fontSize": 20,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "QVSM7",
+          "x": 56,
+          "y": 3466,
+          "name": "ИНФОРМАЦИЯ",
+          "fill": "#000000ff",
+          "content": "ИНФОРМАЦИЯ",
+          "fontFamily": "Ledger",
+          "fontSize": 20,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "Fqo2k",
+          "x": 56,
+          "y": 3522,
+          "name": "ТЕЛЕФОН",
+          "fill": "#000000ff",
+          "content": "ТЕЛЕФОН",
+          "fontFamily": "Ledger",
+          "fontSize": 20,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "9QmFf",
+          "x": 56,
+          "y": 3578,
+          "name": "ЭЛЕКТРОННАЯ ПОЧТА",
+          "fill": "#000000ff",
+          "content": "ЭЛЕКТРОННАЯ ПОЧТА ",
+          "fontFamily": "Ledger",
+          "fontSize": 20,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "rectangle",
+          "id": "xgXqg",
+          "x": 0,
+          "y": 554,
+          "name": "image 1",
+          "fill": [
+            {
+              "type": "image",
+              "enabled": true,
+              "url": "",
+              "mode": "fill"
+            },
+            {
+              "type": "gradient",
+              "gradientType": "linear",
+              "enabled": true,
+              "opacity": 0.20000000298023224,
+              "rotation": -180,
+              "size": {
+                "height": 1
+              },
+              "colors": [
+                {
+                  "color": "#000000ff",
+                  "position": 0
+                },
+                {
+                  "color": "#666666ff",
+                  "position": 1
+                }
+              ],
+              "center": {
+                "y": 0.4999999999999999
+              }
+            }
+          ],
+          "width": 382,
+          "height": 675,
+          "stroke": {
+            "align": "inside",
+            "thickness": 5,
+            "fill": "#ffffffff"
+          },
+          "effect": {
+            "type": "blur",
+            "radius": 3.5
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "j6z79",
+      "x": -1226,
+      "y": -2396,
+      "name": "Frame 2",
+      "clip": true,
+      "width": 5647,
+      "height": 2236,
+      "fill": "#ffffffff",
+      "stroke": {
+        "align": "inside",
+        "thickness": 1
+      },
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "z310Q",
+          "x": 77,
+          "y": 843,
+          "name": "#green #greenaesthetic #wallpaper #dandelions #flowers #soft 1",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "",
+            "mode": "fill"
+          },
+          "width": 736,
+          "height": 1308,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "WbbeD",
+          "x": 77,
+          "y": 843,
+          "name": "#green #greenaesthetic #wallpaper #dandelions #flowers #soft 2",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "",
+            "mode": "fill"
+          },
+          "width": 736,
+          "height": 1308,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "iKSoP",
+          "x": 2506,
+          "y": 871,
+          "name": "🌸 1",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "",
+            "mode": "fill"
+          },
+          "width": 720,
+          "height": 1280,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "mPlF4",
+          "x": 4086,
+          "y": 951,
+          "name": "Без названия (1) 1",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "",
+            "mode": "fill"
+          },
+          "width": 675,
+          "height": 1200,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "1YUrJ",
+          "x": 77,
+          "y": 843,
+          "name": "#green #greenaesthetic #wallpaper #dandelions #flowers #soft 3",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "",
+            "mode": "fill"
+          },
+          "width": 736,
+          "height": 1308,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "tkSaC",
+          "x": 77,
+          "y": 843,
+          "name": "#green #greenaesthetic #wallpaper #dandelions #flowers #soft 4",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "",
+            "mode": "fill"
+          },
+          "width": 736,
+          "height": 1308,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "n52bE",
+          "x": 4850,
+          "y": 843,
+          "name": "Без названия (2) 1",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "",
+            "mode": "fill"
+          },
+          "width": 736,
+          "height": 1308,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "CuOVJ",
+          "x": 1741,
+          "y": 1715,
+          "name": "Flower 1",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "",
+            "mode": "fill"
+          },
+          "width": 676,
+          "height": 399,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "xxwsL",
+          "x": 925,
+          "y": 116,
+          "name": "Без названия 1",
+          "fill": [
+            {
+              "type": "image",
+              "enabled": true,
+              "url": "",
+              "mode": "fill"
+            },
+            {
+              "type": "gradient",
+              "gradientType": "linear",
+              "enabled": true,
+              "opacity": 0.20000000298023224,
+              "rotation": -270.5027967546003,
+              "size": {
+                "height": 0.9812830254060998
+              },
+              "colors": [
+                {
+                  "color": "#000000ff",
+                  "position": 0
+                },
+                {
+                  "color": "#ffffff00",
+                  "position": 1
+                }
+              ],
+              "center": {
+                "x": 0.5093749806192196,
+                "y": -0.004032250377861563
+              }
+            }
+          ],
+          "width": 1200,
+          "height": 1511,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "Jy83i",
+          "x": 1233,
+          "y": 301,
+          "name": "Green wallpaper 1",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "opacity": 0.20000000298023224,
+            "rotation": -361.20812785503364,
+            "size": {
+              "height": 1.0869083132941864
+            },
+            "colors": [
+              {
+                "color": "#000000ff",
+                "position": 0
+              },
+              {
+                "color": "#b4bea2ff",
+                "position": 1
+              }
+            ],
+            "center": {
+              "x": 0.5435416573536153,
+              "y": 0.4566666412943452
+            }
+          },
+          "width": 1200,
+          "height": 1224,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "aHTcJ",
+      "x": 1656,
+      "y": 3335,
+      "name": "Frame 1000008496",
+      "width": 837,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1
+      },
+      "layout": "vertical",
+      "gap": 80,
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "1kF5x",
+          "name": "Кириллица",
+          "fill": "#ffffffa6",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Кириллица",
+          "lineHeight": 0.8536585365853658,
+          "textAlign": "center",
+          "fontFamily": "SF Pro Text",
+          "fontSize": 41,
+          "fontWeight": "normal",
+          "letterSpacing": -2.46
+        },
+        {
+          "type": "text",
+          "id": "mbe1c",
+          "name": "ЭНЕРГИЯ",
+          "fill": "#ffffffff",
+          "content": "ЭНЕРГИЯ",
+          "lineHeight": 1.1571428571428573,
+          "textAlign": "center",
+          "fontFamily": "Vasek",
+          "fontSize": 140,
+          "fontWeight": "normal",
+          "letterSpacing": 44
+        },
+        {
+          "type": "text",
+          "id": "lXy74",
+          "name": "*Для коммерческого использования",
+          "fill": "#ffffffa6",
+          "textGrowth": "fixed-width",
+          "width": 751,
+          "content": "*Для коммерческого использования",
+          "lineHeight": 0.8536585365853658,
+          "textAlign": "center",
+          "fontFamily": "SF Pro Text",
+          "fontSize": 41,
+          "fontWeight": "normal",
+          "letterSpacing": -2.46
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "FrSW2",
+      "x": 1752,
+      "y": 2471,
+      "name": "Спокойствие",
+      "fill": "#ffffffff",
+      "textGrowth": "fixed-width-height",
+      "width": 711,
+      "height": 200,
+      "content": "Спокойствие",
+      "lineHeight": 2.0973451327433628,
+      "textAlign": "center",
+      "fontFamily": "Plovdiv Script",
+      "fontSize": 113,
+      "fontWeight": "normal",
+      "letterSpacing": -5.65
+    }
+  ]
+}
