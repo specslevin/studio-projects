@@ -1,0 +1,2284 @@
+{
+  "version": "2.9",
+  "children": [
+    {
+      "type": "frame",
+      "id": "ImkOu",
+      "x": 0,
+      "y": 0,
+      "name": "LA FEE FLEUR Landing",
+      "width": 1440,
+      "fill": "$cream",
+      "layout": "vertical",
+      "gap": 64,
+      "padding": [
+        56,
+        88,
+        88,
+        88
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "iM3wC",
+          "name": "Hero",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "A47jF",
+              "name": "heroTopA",
+              "width": "fill_container",
+              "gap": 56,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ntTVX",
+                  "name": "brandColA",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ozYhU",
+                      "name": "logoWrapA",
+                      "width": 220,
+                      "height": 220,
+                      "fill": "$surface",
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$line-soft"
+                      },
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "49C9R",
+                          "x": 26,
+                          "y": 32,
+                          "name": "logoPathA",
+                          "geometry": "M10 112c14-42 44-76 80-90 31-12 64 0 86 27-16 1-33 12-43 29-13 21-12 46 6 64-23 8-53 1-75-19-15-15-21-39-16-59-15 15-28 36-36 62m70-91c-12 14-20 29-22 45m51-50c19 9 34 23 40 44",
+                          "width": 168,
+                          "height": 154,
+                          "stroke": {
+                            "thickness": 2,
+                            "join": "round",
+                            "cap": "round",
+                            "fill": "$sage"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "gK1nF",
+                      "name": "brandNameA",
+                      "fill": "$sage",
+                      "content": "LA FÉE FLEUR",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 92,
+                      "fontWeight": "500",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "egQcN",
+                      "name": "heroQuoteA",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Там, где рождается эстетика природы. Мы превращаем мимолетную красоту цветов в искусство, достойное страниц самых изысканных журналов. Позвольте легкости коснуться вашей жизни.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Jost",
+                      "fontSize": 24,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ARt5a",
+                  "name": "Hero Bouquet",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "urusy",
+                    "link": "https://unsplash.com/@urusy",
+                    "author": "Hiroyoshi Urushima"
+                  },
+                  "width": 520,
+                  "height": 660,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1722955119976-aae4eefccfb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MjcxODN8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line-soft"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "chYz6",
+          "name": "О нас",
+          "width": "fill_container",
+          "gap": 48,
+          "padding": [
+            32,
+            0,
+            0,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "WdT1D",
+              "name": "aboutTitleA",
+              "fill": "$rose",
+              "content": "О магазине",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 64,
+              "fontWeight": "500",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "text",
+              "id": "MsNUQ",
+              "name": "aboutTextA",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": 860,
+              "content": "Наш магазин — это признание в любви к природе и красоте. Мы не просто собираем букеты, мы создаем истории. Вдохновляясь оттенками рассвета и силуэтами садовых фей, мы подбираем каждую композицию так, чтобы она говорила на языке чувств. Мы верим, что цветы — это самый изящный способ выразить то, что сложно описать словами.",
+              "lineHeight": 1.55,
+              "fontFamily": "Jost",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "jycgw",
+          "name": "Галерея",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "SZzwN",
+              "name": "galleryTitleA",
+              "fill": "$text-primary",
+              "content": "Галерея букетов",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 56,
+              "fontWeight": "500",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "frame",
+              "id": "UvAxM",
+              "name": "Editorial Bouquet",
+              "metadata": {
+                "type": "unsplash",
+                "username": "keilahoetzel",
+                "link": "https://unsplash.com/@keilahoetzel",
+                "author": "Keila Hötzel"
+              },
+              "width": "fill_container",
+              "height": 500,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1715184678827-03cc7b1f0be6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MjcyOTB8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "stroke": {
+                "thickness": 1,
+                "fill": "$line-soft"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "AVmCu",
+              "name": "galleryGridA",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mama0",
+                  "name": "g1A",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "haberdoedas",
+                    "link": "https://unsplash.com/@haberdoedas",
+                    "author": "Haberdoedas"
+                  },
+                  "width": "fill_container",
+                  "height": 420,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1747348765580-57945ffc2dda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MjcxODR8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line-soft"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "UrNW5",
+                  "name": "g2A",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "girlwithredhat",
+                    "link": "https://unsplash.com/@girlwithredhat",
+                    "author": "Girl with red hat"
+                  },
+                  "width": "fill_container",
+                  "height": 420,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1624466548064-b98215a03cf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MjcxODV8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line-soft"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "qivPr",
+                  "name": "g3A",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "mrtiger",
+                    "link": "https://unsplash.com/@mrtiger",
+                    "author": "光术 山影"
+                  },
+                  "width": "fill_container",
+                  "height": 420,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1773408151760-2dfbe3af7daf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MjcxODZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line-soft"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "9xPmZ",
+          "name": "Топ-5 продаж",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "sCGxT",
+              "name": "top5TitleB",
+              "fill": "$text-primary",
+              "content": "Топ-5 продаж",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 56,
+              "fontWeight": "500",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "frame",
+              "id": "X3fep",
+              "name": "rowsB",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "pZUkz",
+                  "name": "row1B",
+                  "width": "fill_container",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "KC5ko",
+                      "name": "card1B",
+                      "width": "fill_container",
+                      "height": 230,
+                      "fill": "$surface",
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$line-soft"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "$shadow-soft",
+                        "offset": {
+                          "x": 0,
+                          "y": 6
+                        },
+                        "blur": 16
+                      },
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "NTy4g",
+                          "name": "icon1B",
+                          "width": 22,
+                          "height": 22,
+                          "iconFontName": "droplets",
+                          "iconFontFamily": "lucide",
+                          "fill": "$rose"
+                        },
+                        {
+                          "type": "text",
+                          "id": "8vFgY",
+                          "name": "title1B",
+                          "fill": "$text-primary",
+                          "content": "1. Классический шедевр",
+                          "fontFamily": "Jost",
+                          "fontSize": 26,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "JUz1B",
+                          "name": "desc1B",
+                          "fill": "$text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Пудровые розы в шляпной коробке",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Jost",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "F8V4w",
+                      "name": "card2B",
+                      "width": "fill_container",
+                      "height": 230,
+                      "fill": "$surface",
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$line-soft"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "$shadow-soft",
+                        "offset": {
+                          "x": 0,
+                          "y": 6
+                        },
+                        "blur": 16
+                      },
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "vvzaX",
+                          "name": "icon2B",
+                          "width": 22,
+                          "height": 22,
+                          "iconFontName": "sun",
+                          "iconFontFamily": "lucide",
+                          "fill": "$rose"
+                        },
+                        {
+                          "type": "text",
+                          "id": "WYOp7",
+                          "name": "title2B",
+                          "fill": "$text-primary",
+                          "content": "2. Сады Амальфи",
+                          "fontFamily": "Jost",
+                          "fontSize": 26,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LsdBy",
+                          "name": "desc2B",
+                          "fill": "$text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Сборная композиция в итальянском стиле",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Jost",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "xYMxw",
+                      "name": "card3B",
+                      "width": "fill_container",
+                      "height": 230,
+                      "fill": "$surface",
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$line-soft"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "$shadow-soft",
+                        "offset": {
+                          "x": 0,
+                          "y": 6
+                        },
+                        "blur": 16
+                      },
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "gpsJU",
+                          "name": "icon3B",
+                          "width": 22,
+                          "height": 22,
+                          "iconFontName": "feather",
+                          "iconFontFamily": "lucide",
+                          "fill": "$rose"
+                        },
+                        {
+                          "type": "text",
+                          "id": "A1Wmz",
+                          "name": "title3B",
+                          "fill": "$text-primary",
+                          "content": "3. Облако",
+                          "fontFamily": "Jost",
+                          "fontSize": 26,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "JmQxy",
+                          "name": "desc3B",
+                          "fill": "$text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Гортензия и гипсофила",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Jost",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JIejA",
+                  "name": "row2B",
+                  "width": "fill_container",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BVbpi",
+                      "name": "card4B",
+                      "width": "fill_container",
+                      "height": 230,
+                      "fill": "$surface",
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$line-soft"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "$shadow-soft",
+                        "offset": {
+                          "x": 0,
+                          "y": 6
+                        },
+                        "blur": 16
+                      },
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "Ufdca",
+                          "name": "icon4B",
+                          "width": 22,
+                          "height": 22,
+                          "iconFontName": "sparkles",
+                          "iconFontFamily": "lucide",
+                          "fill": "$rose"
+                        },
+                        {
+                          "type": "text",
+                          "id": "gSkUB",
+                          "name": "title4B",
+                          "fill": "$text-primary",
+                          "content": "4. Сливки & Лаванда",
+                          "fontFamily": "Jost",
+                          "fontSize": 26,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "rrWjz",
+                          "name": "desc4B",
+                          "fill": "$text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Нежно-кремовые тона с акцентом шалфея",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Jost",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WVMEL",
+                      "name": "card5B",
+                      "width": "fill_container",
+                      "height": 230,
+                      "fill": "$surface",
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$line-soft"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "$shadow-soft",
+                        "offset": {
+                          "x": 0,
+                          "y": 6
+                        },
+                        "blur": 16
+                      },
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "cKKMJ",
+                          "name": "icon5B",
+                          "width": 22,
+                          "height": 22,
+                          "iconFontName": "wand-sparkles",
+                          "iconFontFamily": "lucide",
+                          "fill": "$rose"
+                        },
+                        {
+                          "type": "text",
+                          "id": "kuHi6",
+                          "name": "title5B",
+                          "fill": "$text-primary",
+                          "content": "5. Взмах крыльев",
+                          "fontFamily": "Jost",
+                          "fontSize": 26,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qUVzj",
+                          "name": "desc5B",
+                          "fill": "$text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Микс-сборка в крафте с логотипом-феей",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Jost",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "3EHDB",
+                      "name": "spacerB",
+                      "width": "fill_container",
+                      "height": 230,
+                      "fill": "$cream"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "mZ4Vw",
+          "name": "Описание букетов",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 22,
+          "children": [
+            {
+              "type": "text",
+              "id": "qh4mf",
+              "name": "bqTitleD",
+              "fill": "$text-primary",
+              "content": "Текстуры и настроения",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 48,
+              "fontWeight": "500",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "frame",
+              "id": "ReRez",
+              "name": "bqGridD",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "nU7vS",
+                  "name": "bqCard1D",
+                  "width": "fill_container",
+                  "fill": "$surface",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line-soft"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "4EOpb",
+                      "name": "bqName1D",
+                      "fill": "$rose",
+                      "content": "Утренняя свежесть",
+                      "fontFamily": "Jost",
+                      "fontSize": 28,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "W2VRm",
+                      "name": "bqText1D",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Пионы цвета #FFC2BE, нежный шафран и веточки эвкалипта. Букет, полный воздуха и света.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Jost",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Jlhyd",
+                  "name": "bqCard2D",
+                  "width": "fill_container",
+                  "fill": "$surface",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line-soft"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vQpn5",
+                      "name": "bqName2D",
+                      "fill": "$sage",
+                      "content": "Силуэт феи",
+                      "fontFamily": "Jost",
+                      "fontSize": 28,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "JNs6d",
+                      "name": "bqText2D",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Экзотические орхидеи, маттиола и сухоцветы в оливковых тонах (#ADB680). Изящная композиция для тех, кто ценит эстетику минимализма.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Jost",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "2iVBT",
+                  "name": "bqCard3D",
+                  "width": "fill_container",
+                  "fill": "$surface",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line-soft"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qPHY7",
+                      "name": "bqName3D",
+                      "fill": "$rose",
+                      "content": "Персиковый мусс",
+                      "fontFamily": "Jost",
+                      "fontSize": 28,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dO3Ru",
+                      "name": "bqText3D",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Махровые розы, ранункулюсы и декоративная зелень. Вкусный, текстурный букет в модной журнальной стилистике.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Jost",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "02JKZ",
+          "name": "CTA",
+          "width": "fill_container",
+          "fill": "$terracotta",
+          "stroke": {
+            "thickness": 1,
+            "fill": "$line-soft"
+          },
+          "gap": 28,
+          "padding": [
+            36,
+            32
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "gA9XT",
+              "name": "ctaLeftD",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pK109",
+                  "name": "ctaTitleD",
+                  "fill": "$text-primary",
+                  "content": "Изящество в каждом лепестке.",
+                  "fontFamily": "Cormorant Garamond",
+                  "fontSize": 52,
+                  "fontWeight": "500",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "pGzVn",
+                  "name": "ctaTextD",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Нежность, ставшая формой. Позвольте легкости коснуться вашей жизни — мы соберем композицию для вашего особенного момента.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Jost",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "slk01",
+              "name": "ctaButtonD",
+              "fill": "$sage",
+              "gap": 8,
+              "padding": [
+                14,
+                24
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "afkkO",
+                  "name": "ctaBtnTextD",
+                  "fill": "#FEF0FF",
+                  "content": "Заказать букет",
+                  "fontFamily": "Jost",
+                  "fontSize": 18,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Ce4fY",
+      "x": 1640,
+      "y": 0,
+      "name": "LA FEE FLEUR V2 Editorial",
+      "width": 1440,
+      "fill": "$cream",
+      "layout": "vertical",
+      "gap": 72,
+      "padding": [
+        64,
+        96,
+        96,
+        96
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "VhsKn",
+          "name": "Hero V2",
+          "width": "fill_container",
+          "height": 760,
+          "fill": "$surface",
+          "stroke": {
+            "thickness": 1,
+            "fill": "$line-soft"
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Y9I8B",
+              "x": 0,
+              "y": 0,
+              "name": "heroImg2c",
+              "metadata": {
+                "type": "unsplash",
+                "username": "sangeeth_88",
+                "link": "https://unsplash.com/@sangeeth_88",
+                "author": "Sangeeth N"
+              },
+              "width": 1248,
+              "height": 760,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1654098420202-eb792647ebef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1Mjc1NTd8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "eqFce",
+              "x": 66,
+              "y": 58,
+              "name": "logoBox2c",
+              "width": 180,
+              "height": 180,
+              "fill": "#FEF0FF",
+              "stroke": {
+                "thickness": 1,
+                "fill": "$line-soft"
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "MzKLg",
+                  "x": 20,
+                  "y": 26,
+                  "name": "logoPath2c",
+                  "geometry": "M10 88c10-32 35-57 66-69 26-10 53 0 71 21-14 2-28 11-36 25-10 17-9 36 6 50-19 6-44 1-61-14-11-11-16-29-13-45-12 12-21 28-29 48m54-74c-10 10-16 22-18 34m42-38c15 7 27 18 32 34",
+                  "width": 140,
+                  "height": 124,
+                  "stroke": {
+                    "thickness": 2,
+                    "join": "round",
+                    "cap": "round",
+                    "fill": "$sage"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "mv6Sy",
+              "x": 272,
+              "y": 78,
+              "name": "name2c",
+              "fill": "$sage",
+              "content": "LA FÉE FLEUR",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 102,
+              "fontWeight": "500",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "text",
+              "id": "i6OW0",
+              "x": 274,
+              "y": 222,
+              "name": "heroText2c",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": 760,
+              "content": "Изящество в каждом лепестке. Нежность, ставшая формой.",
+              "lineHeight": 1.4,
+              "fontFamily": "Jost",
+              "fontSize": 30,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Gyb25",
+          "name": "О нас V2",
+          "width": "fill_container",
+          "gap": 36,
+          "children": [
+            {
+              "type": "text",
+              "id": "9YL3H",
+              "name": "aboutHead2c",
+              "fill": "$rose",
+              "content": "О нас",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 68,
+              "fontWeight": "500",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "text",
+              "id": "V7GGT",
+              "name": "aboutCopy2c",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": 980,
+              "content": "Наш магазин — это признание в любви к природе и красоте. Мы не просто собираем букеты, мы создаем истории. Вдохновляясь оттенками рассвета и силуэтами садовых фей, мы подбираем каждую композицию так, чтобы она говорила на языке чувств. Мы верим, что цветы — это самый изящный способ выразить то, что сложно описать словами.",
+              "lineHeight": 1.56,
+              "fontFamily": "Jost",
+              "fontSize": 21,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "5mbdM",
+          "name": "Галерея V2",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "2CIuB",
+              "name": "galTitle2e",
+              "fill": "$text-primary",
+              "content": "Галерея букетов",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 58,
+              "fontWeight": "500",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "frame",
+              "id": "eddaf",
+              "name": "galBig2e",
+              "metadata": {
+                "type": "unsplash",
+                "username": "amianyuhua",
+                "link": "https://unsplash.com/@amianyuhua",
+                "author": "Lizzie"
+              },
+              "width": "fill_container",
+              "height": 500,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1494336877155-7fb9c6984f0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1Mjc1ODd8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "stroke": {
+                "thickness": 1,
+                "fill": "$line-soft"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "607ES",
+              "name": "galRow2e",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "x7B2E",
+                  "name": "galA2e",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "mithriluna",
+                    "link": "https://unsplash.com/@mithriluna",
+                    "author": "Marites Allen"
+                  },
+                  "width": "fill_container",
+                  "height": 280,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1672665908299-06a9fa92bbc5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1Mjc1ODh8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line-soft"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "MGTbT",
+                  "name": "galB2e",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "aravindreddytarugu",
+                    "link": "https://unsplash.com/@aravindreddytarugu",
+                    "author": "Aravind Reddy Tarugu"
+                  },
+                  "width": "fill_container",
+                  "height": 280,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1677085972233-a1803bf47fc5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1Mjc1ODh8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line-soft"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "FiZF6",
+                  "name": "galC2e",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "vandaantje",
+                    "link": "https://unsplash.com/@vandaantje",
+                    "author": "Danielle Suijkerbuijk"
+                  },
+                  "width": "fill_container",
+                  "height": 280,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1746876306648-bc0b25722a4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1Mjc1ODl8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line-soft"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Z1wtd",
+          "name": "Описание букетов V2",
+          "width": "fill_container",
+          "gap": 20,
+          "children": [
+            {
+              "type": "frame",
+              "id": "AIph4",
+              "name": "copy1e",
+              "width": "fill_container",
+              "fill": "$surface",
+              "stroke": {
+                "thickness": 1,
+                "fill": "$line-soft"
+              },
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Y0gTu",
+                  "name": "copy1he",
+                  "fill": "$rose",
+                  "content": "Утренняя свежесть",
+                  "fontFamily": "Jost",
+                  "fontSize": 28,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "eutTi",
+                  "name": "copy1te",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Пионы цвета #FFC2BE, нежный шафран и веточки эвкалипта. Букет, полный воздуха и света.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Jost",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lgkqY",
+              "name": "copy2e",
+              "width": "fill_container",
+              "fill": "$surface",
+              "stroke": {
+                "thickness": 1,
+                "fill": "$line-soft"
+              },
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "yd9Os",
+                  "name": "copy2he",
+                  "fill": "$sage",
+                  "content": "Силуэт феи",
+                  "fontFamily": "Jost",
+                  "fontSize": 28,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "Zn9Dg",
+                  "name": "copy2te",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Экзотические орхидеи, маттиола и сухоцветы в оливковых тонах (#ADB680). Изящная композиция для тех, кто ценит эстетику минимализма.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Jost",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RbRly",
+              "name": "copy3e",
+              "width": "fill_container",
+              "fill": "$surface",
+              "stroke": {
+                "thickness": 1,
+                "fill": "$line-soft"
+              },
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "j9ewV",
+                  "name": "copy3he",
+                  "fill": "$rose",
+                  "content": "Персиковый мусс",
+                  "fontFamily": "Jost",
+                  "fontSize": 28,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "7upwH",
+                  "name": "copy3te",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Махровые розы, ранункулюсы и декоративная зелень. Вкусный, текстурный букет в модной журнальной стилистике.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Jost",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "9axXm",
+          "name": "Топ-5 продаж V2",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 22,
+          "children": [
+            {
+              "type": "text",
+              "id": "L8bNA",
+              "name": "top5v2h",
+              "fill": "$text-primary",
+              "content": "Топ-5 продаж",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 56,
+              "fontWeight": "500",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "frame",
+              "id": "fRSGk",
+              "name": "rowA",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "nh8Tk",
+                  "name": "c1",
+                  "width": "fill_container",
+                  "height": 240,
+                  "fill": "$surface",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line-soft"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "$shadow-soft",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 18
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "tJD8u",
+                      "name": "i1",
+                      "width": 22,
+                      "height": 22,
+                      "iconFontName": "droplets",
+                      "iconFontFamily": "lucide",
+                      "fill": "$rose"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TxNSk",
+                      "name": "t1",
+                      "fill": "$text-primary",
+                      "content": "1. Классический шедевр",
+                      "fontFamily": "Jost",
+                      "fontSize": 24,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ctSYS",
+                      "name": "d1",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Пудровые розы в шляпной коробке",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Jost",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UQylt",
+                  "name": "c2",
+                  "width": "fill_container",
+                  "height": 240,
+                  "fill": "$surface",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line-soft"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "$shadow-soft",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 18
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "XLtVm",
+                      "name": "i2",
+                      "width": 22,
+                      "height": 22,
+                      "iconFontName": "sun",
+                      "iconFontFamily": "lucide",
+                      "fill": "$rose"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Nr6rX",
+                      "name": "t2",
+                      "fill": "$text-primary",
+                      "content": "2. Сады Амальфи",
+                      "fontFamily": "Jost",
+                      "fontSize": 24,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "6eBkG",
+                      "name": "d2",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Сборная композиция в итальянском стиле",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Jost",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ZZqkL",
+                  "name": "c3",
+                  "width": "fill_container",
+                  "height": 240,
+                  "fill": "$surface",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line-soft"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "$shadow-soft",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 18
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "08SuZ",
+                      "name": "i3",
+                      "width": 22,
+                      "height": 22,
+                      "iconFontName": "feather",
+                      "iconFontFamily": "lucide",
+                      "fill": "$rose"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BPPEx",
+                      "name": "t3",
+                      "fill": "$text-primary",
+                      "content": "3. Облако",
+                      "fontFamily": "Jost",
+                      "fontSize": 24,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "SXZ06",
+                      "name": "d3",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Гортензия и гипсофила",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Jost",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "s4qHr",
+              "name": "rowB",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "JROsr",
+                  "name": "c4",
+                  "width": "fill_container",
+                  "height": 240,
+                  "fill": "$surface",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line-soft"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "$shadow-soft",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 18
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "5edxH",
+                      "name": "i4",
+                      "width": 22,
+                      "height": 22,
+                      "iconFontName": "sparkles",
+                      "iconFontFamily": "lucide",
+                      "fill": "$rose"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ucD4h",
+                      "name": "t4",
+                      "fill": "$text-primary",
+                      "content": "4. Сливки & Лаванда",
+                      "fontFamily": "Jost",
+                      "fontSize": 24,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NX4cx",
+                      "name": "d4",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Нежно-кремовые тона с акцентом шалфея",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Jost",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "eLTzt",
+                  "name": "c5",
+                  "width": "fill_container",
+                  "height": 240,
+                  "fill": "$surface",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line-soft"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "$shadow-soft",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 18
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "JufAH",
+                      "name": "i5",
+                      "width": 22,
+                      "height": 22,
+                      "iconFontName": "wand-sparkles",
+                      "iconFontFamily": "lucide",
+                      "fill": "$rose"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dwqJU",
+                      "name": "t5a",
+                      "fill": "$text-primary",
+                      "content": "5. Взмах крыльев",
+                      "fontFamily": "Jost",
+                      "fontSize": 24,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qjEGt",
+                      "name": "d5a",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Микс-сборка в крафте с логотипом-феей",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Jost",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wVmU8",
+                  "name": "sp2a",
+                  "width": "fill_container",
+                  "height": 240,
+                  "fill": "$cream"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "dLVYO",
+          "name": "CTA V2",
+          "width": "fill_container",
+          "fill": "$terracotta",
+          "stroke": {
+            "thickness": 1,
+            "fill": "$line-soft"
+          },
+          "gap": 20,
+          "padding": [
+            36,
+            30
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "izw3x",
+              "name": "cta2lefta",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ZsyNt",
+                  "name": "cta2ha",
+                  "fill": "$text-primary",
+                  "content": "Там, где рождается эстетика природы",
+                  "fontFamily": "Cormorant Garamond",
+                  "fontSize": 48,
+                  "fontWeight": "500",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "7PCHT",
+                  "name": "cta2ta",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Мы превращаем мимолетную красоту цветов в искусство, достойное страниц самых изысканных журналов. Позвольте легкости коснуться вашей жизни.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Jost",
+                  "fontSize": 19,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "eFU9f",
+              "name": "btn2a",
+              "fill": "$sage",
+              "padding": [
+                14,
+                24
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "5ybB0",
+                  "name": "btn2ta",
+                  "fill": "#FEF0FF",
+                  "content": "Заказать букет",
+                  "fontFamily": "Jost",
+                  "fontSize": 18,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Dt09Y",
+      "x": 3280,
+      "y": 0,
+      "name": "LA FEE FLEUR V3 Minimal Editorial",
+      "width": 1440,
+      "fill": "$cream",
+      "layout": "vertical",
+      "gap": 64,
+      "padding": [
+        72,
+        96,
+        96,
+        96
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "TevpS",
+          "name": "Hero V3",
+          "width": "fill_container",
+          "gap": 48,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Mi0i0",
+              "name": "logoBox3",
+              "width": 260,
+              "height": 260,
+              "fill": "#FEF0FF",
+              "stroke": {
+                "thickness": 1,
+                "fill": "$line-soft"
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "CRFRg",
+                  "x": 26,
+                  "y": 24,
+                  "name": "logoPath3",
+                  "geometry": "M12 120c16-46 48-82 86-96 30-11 62 1 86 28-16 0-36 10-47 27-13 21-11 47 7 66-22 7-52 1-72-17-16-15-22-38-18-58-16 14-30 37-38 64m72-98c-14 14-23 30-25 46m53-52c20 10 36 26 42 48",
+                  "width": 208,
+                  "height": 188,
+                  "stroke": {
+                    "thickness": 2,
+                    "join": "round",
+                    "cap": "round",
+                    "fill": "$sage"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fKCpO",
+              "name": "brand3",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "88NQM",
+                  "name": "name3",
+                  "fill": "$sage",
+                  "content": "LA FÉE FLEUR",
+                  "fontFamily": "Cormorant Garamond",
+                  "fontSize": 78,
+                  "fontWeight": "500",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "vB0O8",
+                  "name": "heroCopy3",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Там, где рождается эстетика природы. Мы превращаем мимолетную красоту цветов в искусство, достойное страниц самых изысканных журналов.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "Jost",
+                  "fontSize": 24,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Hjo1i",
+              "name": "heroImg3",
+              "metadata": {
+                "type": "unsplash",
+                "username": "leochane",
+                "link": "https://unsplash.com/@leochane",
+                "author": "Leo Chane"
+              },
+              "width": 420,
+              "height": 560,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1618119036936-c3d42e2a1643?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1Mjc4NjN8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "stroke": {
+                "thickness": 1,
+                "fill": "$line-soft"
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kCpQp",
+          "name": "О нас V3",
+          "width": "fill_container",
+          "gap": 40,
+          "children": [
+            {
+              "type": "text",
+              "id": "hg0nA",
+              "name": "aboutH3",
+              "fill": "$rose",
+              "content": "О магазине",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 62,
+              "fontWeight": "500",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "text",
+              "id": "sauew",
+              "name": "aboutT3",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": 900,
+              "content": "Наш магазин — это признание в любви к природе и красоте. Мы не просто собираем букеты, мы создаем истории. Вдохновляясь оттенками рассвета и силуэтами садовых фей, мы подбираем каждую композицию так, чтобы она говорила на языке чувств.",
+              "lineHeight": 1.55,
+              "fontFamily": "Jost",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hi6c8",
+          "name": "Галерея V3",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "type": "text",
+              "id": "GEs3f",
+              "name": "galH3",
+              "fill": "$text-primary",
+              "content": "Галерея букетов",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 56,
+              "fontWeight": "500",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "frame",
+              "id": "icOHv",
+              "name": "galBig3",
+              "metadata": {
+                "type": "unsplash",
+                "username": "cindyynini",
+                "link": "https://unsplash.com/@cindyynini",
+                "author": "Cindy Chan"
+              },
+              "width": "fill_container",
+              "height": 520,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1565695951564-007d8f297e48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1Mjc4NjR8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "stroke": {
+                "thickness": 1,
+                "fill": "$line-soft"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "4Qgp4",
+              "name": "galRow3",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xYG2q",
+                  "name": "g31",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "juchee",
+                    "link": "https://unsplash.com/@juchee",
+                    "author": "Christian Seebeck"
+                  },
+                  "width": "fill_container",
+                  "height": 280,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1621422705731-46a6c59f3bd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1Mjc4NjR8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line-soft"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "dKubZ",
+                  "name": "g32",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "pistos",
+                    "link": "https://unsplash.com/@pistos",
+                    "author": "Jeffrey Hamilton"
+                  },
+                  "width": "fill_container",
+                  "height": 280,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1709419482777-cfaed6c748af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1Mjc4NjV8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line-soft"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "hTdh0",
+                  "name": "g33",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "natellk",
+                    "link": "https://unsplash.com/@natellk",
+                    "author": "Natella Libin"
+                  },
+                  "width": "fill_container",
+                  "height": 280,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1743545415195-1d690e39230c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1Mjc4NjV8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line-soft"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "1E2Pc",
+          "name": "Топ-5 V3",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "HVb0z",
+              "name": "t3h",
+              "fill": "$text-primary",
+              "content": "Топ-5 продаж",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 54,
+              "fontWeight": "500",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "frame",
+              "id": "ndCPw",
+              "name": "t3list",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "TH2Q5",
+                  "name": "r31",
+                  "width": "fill_container",
+                  "fill": "$surface",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line-soft"
+                  },
+                  "gap": 12,
+                  "padding": [
+                    14,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "t4iq0",
+                      "name": "i31",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "droplets",
+                      "iconFontFamily": "lucide",
+                      "fill": "$rose"
+                    },
+                    {
+                      "type": "text",
+                      "id": "2t78E",
+                      "name": "t31",
+                      "fill": "$text-primary",
+                      "content": "1. Классический шедевр",
+                      "fontFamily": "Jost",
+                      "fontSize": 22,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "I2X5q",
+                  "name": "r32",
+                  "width": "fill_container",
+                  "fill": "$surface",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line-soft"
+                  },
+                  "gap": 12,
+                  "padding": [
+                    14,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "1o26n",
+                      "name": "i32",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "sun",
+                      "iconFontFamily": "lucide",
+                      "fill": "$rose"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ci4Yy",
+                      "name": "t32",
+                      "fill": "$text-primary",
+                      "content": "2. Сады Амальфи",
+                      "fontFamily": "Jost",
+                      "fontSize": 22,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "H8H5w",
+                  "name": "r33",
+                  "width": "fill_container",
+                  "fill": "$surface",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line-soft"
+                  },
+                  "gap": 12,
+                  "padding": [
+                    14,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "4OfT6",
+                      "name": "i33",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "feather",
+                      "iconFontFamily": "lucide",
+                      "fill": "$rose"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fzAni",
+                      "name": "t33",
+                      "fill": "$text-primary",
+                      "content": "3. Облако",
+                      "fontFamily": "Jost",
+                      "fontSize": 22,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nfin8",
+                  "name": "r34",
+                  "width": "fill_container",
+                  "fill": "$surface",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line-soft"
+                  },
+                  "gap": 12,
+                  "padding": [
+                    14,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "wLoG5",
+                      "name": "i34",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "sparkles",
+                      "iconFontFamily": "lucide",
+                      "fill": "$rose"
+                    },
+                    {
+                      "type": "text",
+                      "id": "uosKU",
+                      "name": "t34",
+                      "fill": "$text-primary",
+                      "content": "4. Сливки & Лаванда",
+                      "fontFamily": "Jost",
+                      "fontSize": 22,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bhKJk",
+                  "name": "r35",
+                  "width": "fill_container",
+                  "fill": "$surface",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line-soft"
+                  },
+                  "gap": 12,
+                  "padding": [
+                    14,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "KYTe2",
+                      "name": "i35",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "wand-sparkles",
+                      "iconFontFamily": "lucide",
+                      "fill": "$rose"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RSOg2",
+                      "name": "t35",
+                      "fill": "$text-primary",
+                      "content": "5. Взмах крыльев",
+                      "fontFamily": "Jost",
+                      "fontSize": 22,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fc274",
+          "name": "cta3",
+          "width": "fill_container",
+          "fill": "$terracotta",
+          "stroke": {
+            "thickness": 1,
+            "fill": "$line-soft"
+          },
+          "gap": 20,
+          "padding": [
+            34,
+            30
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "u8mmu",
+              "name": "cta3l",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Изящество в каждом лепестке. Нежность, ставшая формой.",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 44,
+              "fontWeight": "500",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "frame",
+              "id": "KoX5Z",
+              "name": "cta3b",
+              "fill": "$sage",
+              "padding": [
+                12,
+                22
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hdutv",
+                  "name": "cta3bt",
+                  "fill": "#FEF0FF",
+                  "content": "Заказать букет",
+                  "fontFamily": "Jost",
+                  "fontSize": 17,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "apricot": {
+      "type": "color",
+      "value": "#FFC2BE"
+    },
+    "cream": {
+      "type": "color",
+      "value": "#FEF0FF"
+    },
+    "line-soft": {
+      "type": "color",
+      "value": "#EADDE2"
+    },
+    "rose": {
+      "type": "color",
+      "value": "#D97F8B"
+    },
+    "sage": {
+      "type": "color",
+      "value": "#ADB680"
+    },
+    "shadow-soft": {
+      "type": "color",
+      "value": "#0000001A"
+    },
+    "surface": {
+      "type": "color",
+      "value": "#FFF9FB"
+    },
+    "terracotta": {
+      "type": "color",
+      "value": "#E0CFC3"
+    },
+    "text-primary": {
+      "type": "color",
+      "value": "#4A4347"
+    },
+    "text-secondary": {
+      "type": "color",
+      "value": "#7A7076"
+    }
+  }
+}
