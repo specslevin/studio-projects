@@ -1,4 +1,2831 @@
 {
   "version": "2.9",
-  "children": []
+  "children": [
+    {
+      "type": "frame",
+      "id": "hSqvW",
+      "x": 0,
+      "y": 0,
+      "name": "Sanek Landing",
+      "width": 1440,
+      "fill": "#F9F3E7",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "tuBth",
+          "name": "Header",
+          "width": "fill_container",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#E8D9C5"
+          },
+          "padding": [
+            24,
+            64
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "JkDtd",
+              "name": "brand1",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "N2qxO",
+                  "name": "logo1",
+                  "width": 28,
+                  "height": 28,
+                  "iconFontName": "coffee",
+                  "iconFontFamily": "lucide",
+                  "fill": "#7F8C5E"
+                },
+                {
+                  "type": "text",
+                  "id": "v3ZLZ",
+                  "name": "name1",
+                  "fill": "#3E2A27",
+                  "content": "Sanek",
+                  "fontFamily": "DS Supervixen Cyr, Wensleydale Gothic NBP, Aeonik, Sohne, serif",
+                  "fontSize": 34,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "1DuJq",
+              "name": "nav1",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "KDPPy",
+                  "name": "navt1",
+                  "fill": "#3E2A27",
+                  "content": "Меню",
+                  "fontFamily": "Jost, Golos Text, Inter, sans-serif",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "ZQvAk",
+                  "name": "navt2",
+                  "fill": "#3E2A27",
+                  "content": "О нас",
+                  "fontFamily": "Jost, Golos Text, Inter, sans-serif",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "0puDl",
+                  "name": "navt3",
+                  "fill": "#3E2A27",
+                  "content": "Контакты",
+                  "fontFamily": "Jost, Golos Text, Inter, sans-serif",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tZHxo",
+          "name": "Hero",
+          "width": "fill_container",
+          "gap": 36,
+          "padding": [
+            44,
+            64
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "A1L0U",
+              "name": "heroTxt1",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "blF4r",
+                  "name": "heroTitle1",
+                  "fill": "#3E2A27",
+                  "content": "Sanek",
+                  "fontFamily": "DS Supervixen Cyr, Wensleydale Gothic NBP, Aeonik, Sohne, serif",
+                  "fontSize": 108,
+                  "fontWeight": "700",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "PPBn7",
+                  "name": "heroSub1",
+                  "fill": "#3E2A27",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Кофе, который не злится по утрам. В отличие от Санека.",
+                  "lineHeight": 1.35,
+                  "fontFamily": "Jost, Golos Text, Inter, sans-serif",
+                  "fontSize": 24,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "8dlPE",
+                  "name": "Посмотреть меню",
+                  "fill": "#C27E5E",
+                  "cornerRadius": 8,
+                  "padding": [
+                    12,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "q1XHf",
+                      "name": "heroBtnText1",
+                      "fill": "#F9F3E7",
+                      "content": "Посмотреть меню",
+                      "fontFamily": "Jost, Golos Text, Inter, sans-serif",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VURP7",
+              "name": "Hero Photo",
+              "metadata": {
+                "type": "unsplash",
+                "username": "rm_reins",
+                "link": "https://unsplash.com/@rm_reins",
+                "author": "Roman"
+              },
+              "width": 620,
+              "height": 420,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1761695939616-1c03087c1ce4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1Mjk4ODF8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 18
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "cYCeJ",
+          "name": "О нас",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            24,
+            64
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "x2mLI",
+              "name": "aboutTitle1",
+              "fill": "#3E2A27",
+              "content": "О нас",
+              "fontFamily": "DS Supervixen Cyr, Wensleydale Gothic NBP, Aeonik, Sohne, serif",
+              "fontSize": 54,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "mhveM",
+              "name": "aboutBody1",
+              "fill": "#3E2A27",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Sanek — это маленькая кофейня с большим сердцем и отличным чувством юмора. Назвали в честь владельца, который обещал не кричать на бариста, если вы будете заказывать раф с сиропом в третий раз. Пока держится.",
+              "lineHeight": 1.45,
+              "fontFamily": "Jost, Golos Text, Inter, sans-serif",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "qKN6N",
+              "name": "aboutGuest1",
+              "fill": "#7F8C5E",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "У нас есть розетки. И печеньки. Живите здесь сколько нужно.",
+              "fontFamily": "Jost, Golos Text, Inter, sans-serif",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "4TkZg",
+          "name": "Меню напитков",
+          "width": "fill_container",
+          "fill": "#E8D9C5",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            28,
+            64
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "qiew5",
+              "name": "menuTitle2",
+              "fill": "#3E2A27",
+              "content": "Меню напитков",
+              "fontFamily": "Inter",
+              "fontSize": 52,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "MVhMv",
+              "name": "menuGrid2",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qMmkV",
+                  "name": "row21",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "xCyy7",
+                      "name": "card201",
+                      "width": "fill_container",
+                      "fill": "#F9F3E7",
+                      "cornerRadius": 12,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000D",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "blur": 12
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "jnt6S",
+                          "name": "text201",
+                          "fill": "#3E2A27",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Эспрессо\nКороткий, бодрый, без лишних разговоров.",
+                          "lineHeight": 1.35,
+                          "fontFamily": "Jost",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "hTyi1",
+                          "name": "price201",
+                          "fill": "#3E2A27",
+                          "content": "190 ₽",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "T9Bdu",
+                      "name": "card202",
+                      "width": "fill_container",
+                      "fill": "#F9F3E7",
+                      "cornerRadius": 12,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000D",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "blur": 12
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "2dPvd",
+                          "name": "text202",
+                          "fill": "#3E2A27",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Флэт уайт\nШелковистый микс двойного эспрессо и молока.",
+                          "lineHeight": 1.35,
+                          "fontFamily": "Jost",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Q6gIv",
+                          "name": "price202",
+                          "fill": "#3E2A27",
+                          "content": "260 ₽",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "GXDUf",
+                      "name": "card203",
+                      "width": "fill_container",
+                      "fill": "#F9F3E7",
+                      "cornerRadius": 12,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000D",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "blur": 12
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "l6GlH",
+                          "name": "text203",
+                          "fill": "#3E2A27",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Капучино\nТот самый пушистый облачок на удачное утро.",
+                          "lineHeight": 1.35,
+                          "fontFamily": "Jost",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vLpWF",
+                          "name": "price203",
+                          "fill": "#3E2A27",
+                          "content": "280 ₽",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VPKwH",
+                  "name": "row22",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "71noB",
+                      "name": "card204",
+                      "width": "fill_container",
+                      "fill": "#F9F3E7",
+                      "cornerRadius": 12,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000D",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "blur": 12
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GgUjs",
+                          "name": "text204",
+                          "fill": "#3E2A27",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Матча латте\nЗелёный дзен, когда дедлайн уже дышит в спину.",
+                          "lineHeight": 1.35,
+                          "fontFamily": "Jost",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Z8cgT",
+                          "name": "price204",
+                          "fill": "#3E2A27",
+                          "content": "320 ₽",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Lv5uw",
+                      "name": "card205",
+                      "width": "fill_container",
+                      "fill": "#F9F3E7",
+                      "cornerRadius": 12,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000D",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "blur": 12
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "XHju0",
+                          "name": "text205",
+                          "fill": "#3E2A27",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Раф с фисташкой\nСливочный, ореховый и dangerously comforting.",
+                          "lineHeight": 1.35,
+                          "fontFamily": "Jost",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "j0o1V",
+                          "name": "price205",
+                          "fill": "#3E2A27",
+                          "content": "360 ₽",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "d1an3",
+                      "name": "empty22",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "#E8D9C5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Kgcug",
+          "name": "Выпечка",
+          "width": "fill_container",
+          "gap": 24,
+          "padding": [
+            28,
+            64
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "rlhyx",
+              "name": "Croissant",
+              "metadata": {
+                "type": "unsplash",
+                "username": "haberdoedas",
+                "link": "https://unsplash.com/@haberdoedas",
+                "author": "Haberdoedas"
+              },
+              "width": 560,
+              "height": 340,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1769986804844-d8edf7117121?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MzAxNDN8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 16
+            },
+            {
+              "type": "frame",
+              "id": "RIaL7",
+              "name": "bakeTxt3",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Fzlhu",
+                  "name": "bakeTitle3",
+                  "fill": "#3E2A27",
+                  "content": "Выпечка",
+                  "fontFamily": "Inter",
+                  "fontSize": 52,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "rionY",
+                  "name": "bakeDesc3",
+                  "fill": "#3E2A27",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Круассан с хрустящей корочкой и мягким сливочным сердцем. Серьезно, он красивее некоторых бывших.",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Jost",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ygDzc",
+                  "name": "bakePrice3",
+                  "fill": "#3E2A27",
+                  "content": "Круассан — 240 ₽",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "bUSPD",
+                  "name": "bakeryIcon5",
+                  "width": 22,
+                  "height": 22,
+                  "iconFontName": "utensils-crossed",
+                  "iconFontFamily": "lucide",
+                  "fill": "#7F8C5E"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "xzq6o",
+          "name": "Атмосфера",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            28,
+            64
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "4xsQR",
+              "name": "atmTitle3",
+              "fill": "#3E2A27",
+              "content": "Атмосфера",
+              "fontFamily": "Inter",
+              "fontSize": 52,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "SEf7h",
+              "name": "atmRow3",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "bJHov",
+                  "name": "atmImg31",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "rosssneddon",
+                    "link": "https://unsplash.com/@rosssneddon",
+                    "author": "Ross Sneddon"
+                  },
+                  "width": "fill_container",
+                  "height": 260,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1545399885-fd918e63002f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MzAxNDR8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 14
+                },
+                {
+                  "type": "frame",
+                  "id": "bjKlj",
+                  "name": "atmImg32",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "olgayakovlenko",
+                    "link": "https://unsplash.com/@olgayakovlenko",
+                    "author": "Olga Iacovlenco"
+                  },
+                  "width": "fill_container",
+                  "height": 260,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1659330857720-1839c18d0eb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MzAxNDR8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 14
+                },
+                {
+                  "type": "frame",
+                  "id": "dTbUd",
+                  "name": "atmImg33",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "acastillejos",
+                    "link": "https://unsplash.com/@acastillejos",
+                    "author": "Armando Castillejos"
+                  },
+                  "width": "fill_container",
+                  "height": 260,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1440915261604-8f4cc0ac2bfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MzAxNDV8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 14
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "UciJS",
+          "name": "Контакты",
+          "width": "fill_container",
+          "fill": "#F9F3E7",
+          "gap": 28,
+          "padding": [
+            34,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "e4l7O",
+              "name": "contactLeft4",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "iptxL",
+                  "name": "contactTitle4",
+                  "fill": "#3E2A27",
+                  "content": "Контакты",
+                  "fontFamily": "Inter",
+                  "fontSize": 52,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "uOgHA",
+                  "name": "locRow4",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "UW9wG",
+                      "name": "locIcon4",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "map-pin",
+                      "iconFontFamily": "lucide",
+                      "fill": "#7F8C5E"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZpGmd",
+                      "name": "locText4",
+                      "fill": "#3E2A27",
+                      "content": "Москва, ул. Тёплый переулок, 7",
+                      "fontFamily": "Jost",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ZNJRp",
+                  "name": "timeText4",
+                  "fill": "#3E2A27",
+                  "content": "Ежедневно: 08:00 - 22:00",
+                  "fontFamily": "Jost",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "IqVSv",
+                  "name": "socText4",
+                  "fill": "#3E2A27",
+                  "content": "@sanek.coffee  |  t.me/sanekcoffee",
+                  "fontFamily": "Jost",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "QVYZS",
+              "name": "Map Placeholder",
+              "metadata": {
+                "type": "unsplash",
+                "username": "aleno",
+                "link": "https://unsplash.com/@aleno",
+                "author": "Adomas Aleno"
+              },
+              "width": 520,
+              "height": 260,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1584377159963-d6115d1036fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MzAxNDZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 14,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dqFxz",
+                  "x": 180,
+                  "y": 118,
+                  "name": "mapLabel4",
+                  "fill": "#3E2A27",
+                  "content": "Карта (заглушка)",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "elxBX",
+      "x": 1560,
+      "y": 0,
+      "name": "Sanek Mobile Landing",
+      "width": 390,
+      "fill": "#F9F3E7",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "mC9Pi",
+          "name": "headerM1",
+          "width": "fill_container",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#E8D9C5"
+          },
+          "padding": [
+            16,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "HG8S3",
+              "name": "brandM1",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "ViXFr",
+                  "name": "logoM1",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "coffee",
+                  "iconFontFamily": "lucide",
+                  "fill": "#7F8C5E"
+                },
+                {
+                  "type": "text",
+                  "id": "COlJD",
+                  "name": "nameM1",
+                  "fill": "#3E2A27",
+                  "content": "Sanek",
+                  "fontFamily": "DS Supervixen Cyr",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "icon_font",
+              "id": "DD5OA",
+              "name": "menuIconM1",
+              "width": 18,
+              "height": 18,
+              "iconFontName": "menu",
+              "iconFontFamily": "lucide",
+              "fill": "#3E2A27"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RHhQF",
+          "name": "heroM1",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 14,
+          "padding": 20,
+          "children": [
+            {
+              "type": "text",
+              "id": "CWkSb",
+              "name": "heroTitleM1",
+              "fill": "#3E2A27",
+              "content": "Sanek",
+              "fontFamily": "DS Supervixen Cyr",
+              "fontSize": 54,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "T5MWy",
+              "name": "heroSubM1",
+              "fill": "#3E2A27",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Кофе, который не злится по утрам.",
+              "lineHeight": 1.35,
+              "fontFamily": "Jost",
+              "fontSize": 17,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "AjBYb",
+              "name": "heroBtnM1",
+              "fill": "#C27E5E",
+              "cornerRadius": 8,
+              "padding": [
+                10,
+                14
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fKZ3X",
+                  "name": "heroBtnTxtM1",
+                  "fill": "#F9F3E7",
+                  "content": "Посмотреть меню",
+                  "fontFamily": "Jost",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "T66ik",
+              "name": "heroImgM1",
+              "metadata": {
+                "type": "unsplash",
+                "username": "rhweht",
+                "link": "https://unsplash.com/@rhweht",
+                "author": "Rafael Hoyos Weht"
+              },
+              "width": "fill_container",
+              "height": 210,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1750547057489-192ee2f97456?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MzA4ODV8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 12
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kgjM2",
+          "name": "aboutM1",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": [
+            10,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "jZkHR",
+              "name": "aboutTitleM1",
+              "fill": "#3E2A27",
+              "content": "О нас",
+              "fontFamily": "DS Supervixen Cyr",
+              "fontSize": 34,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "f6W6a",
+              "name": "aboutTxtM1",
+              "fill": "#3E2A27",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Sanek — маленькая кофейня с большим сердцем и хорошим чувством юмора.",
+              "lineHeight": 1.4,
+              "fontFamily": "Jost",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "u1iyc",
+          "name": "menuSecM1",
+          "width": "fill_container",
+          "fill": "#E8D9C5",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            18,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "5hXLc",
+              "name": "menuTitleM1",
+              "fill": "#3E2A27",
+              "content": "Меню напитков",
+              "fontFamily": "DS Supervixen Cyr",
+              "fontSize": 32,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "jNDCs",
+              "name": "tableM1",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "rFLHf",
+                  "name": "rowH1",
+                  "width": "fill_container",
+                  "fill": "#F9F3E7",
+                  "cornerRadius": 10,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000D",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 12
+                  },
+                  "gap": 6,
+                  "padding": [
+                    8,
+                    10
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jOis3",
+                      "name": "h1c1",
+                      "fill": "#3E2A27",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Напиток",
+                      "fontFamily": "Jost",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rDHTj",
+                      "name": "h1c2",
+                      "fill": "#3E2A27",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Описание",
+                      "fontFamily": "Jost",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "4mqQ1",
+                      "name": "h1c3",
+                      "fill": "#3E2A27",
+                      "content": "Цена",
+                      "fontFamily": "Jost",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "6JHvN",
+                  "name": "r11",
+                  "width": "fill_container",
+                  "fill": "#F9F3E7",
+                  "cornerRadius": 10,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000D",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 12
+                  },
+                  "gap": 6,
+                  "padding": [
+                    8,
+                    10
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SMha5",
+                      "name": "r11c1",
+                      "fill": "#3E2A27",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Эспрессо",
+                      "fontFamily": "Jost",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fHEFl",
+                      "name": "r11c2",
+                      "fill": "#3E2A27",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Короткий и бодрый",
+                      "fontFamily": "Jost",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "eeyl3",
+                      "name": "r11c3",
+                      "fill": "#3E2A27",
+                      "content": "190 ₽",
+                      "fontFamily": "Jost",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "8Cpdh",
+                  "name": "r12",
+                  "width": "fill_container",
+                  "fill": "#F9F3E7",
+                  "cornerRadius": 10,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000D",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 12
+                  },
+                  "gap": 6,
+                  "padding": [
+                    8,
+                    10
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bqRaU",
+                      "name": "r12c1",
+                      "fill": "#3E2A27",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Флэт уайт",
+                      "fontFamily": "Jost",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "U2goy",
+                      "name": "r12c2",
+                      "fill": "#3E2A27",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Молочный и шелковый",
+                      "fontFamily": "Jost",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lIeMh",
+                      "name": "r12c3",
+                      "fill": "#3E2A27",
+                      "content": "260 ₽",
+                      "fontFamily": "Jost",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LBaR6",
+                  "name": "r13",
+                  "width": "fill_container",
+                  "fill": "#F9F3E7",
+                  "cornerRadius": 10,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000D",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 12
+                  },
+                  "gap": 6,
+                  "padding": [
+                    8,
+                    10
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GYvHl",
+                      "name": "r13c1",
+                      "fill": "#3E2A27",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Капучино",
+                      "fontFamily": "Jost",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "o5rcL",
+                      "name": "r13c2",
+                      "fill": "#3E2A27",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Пышная молочная пенка",
+                      "fontFamily": "Jost",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "6nneA",
+                      "name": "r13c3",
+                      "fill": "#3E2A27",
+                      "content": "280 ₽",
+                      "fontFamily": "Jost",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OiRDF",
+                  "name": "r14",
+                  "width": "fill_container",
+                  "fill": "#F9F3E7",
+                  "cornerRadius": 10,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000D",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 12
+                  },
+                  "gap": 6,
+                  "padding": [
+                    8,
+                    10
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "83LVF",
+                      "name": "r14c1",
+                      "fill": "#3E2A27",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Матча латте",
+                      "fontFamily": "Jost",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wK2D2",
+                      "name": "r14c2",
+                      "fill": "#3E2A27",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Нежный и травяной",
+                      "fontFamily": "Jost",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "z9tmu",
+                      "name": "r14c3",
+                      "fill": "#3E2A27",
+                      "content": "320 ₽",
+                      "fontFamily": "Jost",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mh5RK",
+                  "name": "r15",
+                  "width": "fill_container",
+                  "fill": "#F9F3E7",
+                  "cornerRadius": 10,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000D",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 12
+                  },
+                  "gap": 6,
+                  "padding": [
+                    8,
+                    10
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "4QjyD",
+                      "name": "r15c1",
+                      "fill": "#3E2A27",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Раф с фисташкой",
+                      "fontFamily": "Jost",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "e8Tir",
+                      "name": "r15c2",
+                      "fill": "#3E2A27",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Сливочно-ореховый",
+                      "fontFamily": "Jost",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "a9sRG",
+                      "name": "r15c3",
+                      "fill": "#3E2A27",
+                      "content": "360 ₽",
+                      "fontFamily": "Jost",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Kjbhj",
+          "name": "bakeM2",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            18,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "zo5cj",
+              "name": "bakeTitleM2",
+              "fill": "#3E2A27",
+              "content": "Выпечка",
+              "fontFamily": "DS Supervixen Cyr",
+              "fontSize": 32,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "sm4RB",
+              "name": "bakeImgM2",
+              "metadata": {
+                "type": "unsplash",
+                "username": "wesmac5",
+                "link": "https://unsplash.com/@wesmac5",
+                "author": "Wesley Mc Lachlan"
+              },
+              "width": "fill_container",
+              "height": 180,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1598155102158-cecc15b90fa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MzA5MDl8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 12
+            },
+            {
+              "type": "text",
+              "id": "qXcMe",
+              "name": "bakeTxtM2",
+              "fill": "#3E2A27",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Круассан с хрустящей корочкой и мягким центром.",
+              "lineHeight": 1.4,
+              "fontFamily": "Jost",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "hWM4b",
+              "name": "bakePriceM2",
+              "fill": "#3E2A27",
+              "content": "240 ₽",
+              "fontFamily": "Jost",
+              "fontSize": 14,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "NbaqW",
+          "name": "atmM3",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            18,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "T5UDe",
+              "name": "atmTitleM3",
+              "fill": "#3E2A27",
+              "content": "Атмосфера",
+              "fontFamily": "DS Supervixen Cyr",
+              "fontSize": 32,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "4oDTv",
+              "name": "galRowM3",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "OZ3Bu",
+                  "name": "gal1M3",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "donguyenkhanhs",
+                    "link": "https://unsplash.com/@donguyenkhanhs",
+                    "author": "Khanh Do"
+                  },
+                  "width": "fill_container",
+                  "height": 140,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1734605013645-b42786c46f1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MzA5MjZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 12
+                },
+                {
+                  "type": "frame",
+                  "id": "f46td",
+                  "name": "gal2M3",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "dylan4photography",
+                    "link": "https://unsplash.com/@dylan4photography",
+                    "author": "Dylan4photography"
+                  },
+                  "width": "fill_container",
+                  "height": 140,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1644168044217-519a1af05b9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MzA5MjZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 12
+                },
+                {
+                  "type": "frame",
+                  "id": "Mbopu",
+                  "name": "gal3M3",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "tobolenkoph",
+                    "link": "https://unsplash.com/@tobolenkoph",
+                    "author": "Vladyslav Tobolenko"
+                  },
+                  "width": "fill_container",
+                  "height": 140,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1689579217770-6e34464d3ef1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MzA5Mjd8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 12
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fA9qb",
+          "name": "contactM3",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": 20,
+          "children": [
+            {
+              "type": "text",
+              "id": "bqTnj",
+              "name": "contactTitleM3",
+              "fill": "#3E2A27",
+              "content": "Контакты",
+              "fontFamily": "DS Supervixen Cyr",
+              "fontSize": 32,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "3pwLP",
+              "name": "locM3",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "hq56D",
+                  "name": "locIconM3",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "map-pin",
+                  "iconFontFamily": "lucide",
+                  "fill": "#7F8C5E"
+                },
+                {
+                  "type": "text",
+                  "id": "f6OOK",
+                  "name": "locTxtM3",
+                  "fill": "#3E2A27",
+                  "content": "Москва, ул. Тёплый переулок, 7",
+                  "fontFamily": "Jost",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "AgEdp",
+              "name": "timeM3",
+              "fill": "#3E2A27",
+              "content": "08:00 - 22:00 ежедневно",
+              "fontFamily": "Jost",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "2WAs9",
+              "name": "socialM3",
+              "fill": "#3E2A27",
+              "content": "@sanek.coffee",
+              "fontFamily": "Jost",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "aOf1F",
+              "name": "mapM3",
+              "metadata": {
+                "type": "unsplash",
+                "username": "vitlustinec",
+                "link": "https://unsplash.com/@vitlustinec",
+                "author": "Vít Luštinec"
+              },
+              "width": "fill_container",
+              "height": 150,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1762213382179-00725e36e061?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MzA5Mjh8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 12,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JPNM7",
+                  "x": 120,
+                  "y": 66,
+                  "name": "mapTxtM3",
+                  "fill": "#3E2A27",
+                  "content": "Карта (заглушка)",
+                  "fontFamily": "Jost",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "M6Zd8",
+          "name": "footerM3",
+          "width": "fill_container",
+          "fill": "#F9F3E7",
+          "padding": [
+            12,
+            20
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "1rJFI",
+              "name": "footerTxtM3",
+              "fill": "#3E2A27",
+              "content": "Sanek © 2026",
+              "fontFamily": "Jost",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "X1oaU",
+      "x": 2050,
+      "y": 0,
+      "name": "Sanek Organic Desktop",
+      "width": 1440,
+      "fill": "#F9F3E7",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "FY9Hq",
+          "name": "headD1",
+          "width": "fill_container",
+          "padding": [
+            26,
+            58
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "fZQf5",
+              "name": "brandD1",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "rcwMd",
+                  "name": "logoD1",
+                  "width": 30,
+                  "height": 30,
+                  "iconFontName": "coffee",
+                  "iconFontFamily": "lucide",
+                  "fill": "#7F8C5E"
+                },
+                {
+                  "type": "text",
+                  "id": "5YgEL",
+                  "name": "nameD1",
+                  "fill": "#3E2A27",
+                  "content": "Sanek",
+                  "fontFamily": "Jost",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "mwyWb",
+              "name": "menuD1",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "241BZ",
+                  "name": "md1",
+                  "fill": "#3E2A27",
+                  "content": "Меню",
+                  "fontFamily": "Jost",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "SI6AJ",
+                  "name": "md2",
+                  "fill": "#3E2A27",
+                  "content": "О нас",
+                  "fontFamily": "Jost",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Yvp4N",
+                  "name": "md3",
+                  "fill": "#3E2A27",
+                  "content": "Контакты",
+                  "fontFamily": "Jost",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "oRZvB",
+          "name": "heroD1",
+          "width": "fill_container",
+          "gap": 28,
+          "padding": [
+            30,
+            58
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "zPgH1",
+              "name": "heroTxtD1",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "3M1YB",
+                  "name": "heroTD1",
+                  "fill": "#3E2A27",
+                  "content": "Sanek",
+                  "fontFamily": "Jost",
+                  "fontSize": 94,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "1suqQ",
+                  "name": "heroSD1",
+                  "fill": "#3E2A27",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Органичный кофе и мягкий ритм дня.",
+                  "lineHeight": 1.35,
+                  "fontFamily": "Jost",
+                  "fontSize": 26,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "azgdT",
+                  "name": "btnD1",
+                  "fill": "#C27E5E",
+                  "cornerRadius": 999,
+                  "padding": [
+                    12,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "iw0cX",
+                      "name": "btnTxtD1",
+                      "fill": "#F9F3E7",
+                      "content": "Посмотреть меню",
+                      "fontFamily": "Jost",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "trxUF",
+              "name": "heroImgD1",
+              "metadata": {
+                "type": "unsplash",
+                "username": "jonathanborba",
+                "link": "https://unsplash.com/@jonathanborba",
+                "author": "Jonathan Borba"
+              },
+              "width": 640,
+              "height": 430,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1636138390765-c2497027eb89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MzExNjl8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 48
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "rgCdy",
+          "name": "aboutD1",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            16,
+            58
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "XGFTC",
+              "name": "aboutTD1",
+              "fill": "#3E2A27",
+              "content": "О нас",
+              "fontFamily": "Jost",
+              "fontSize": 52,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "Dbkpf",
+              "name": "aboutXD1",
+              "fill": "#3E2A27",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Небольшая кофейня Sanek в eco-настроении: дерево, мягкий свет, живые растения и кофе с характером.",
+              "lineHeight": 1.45,
+              "fontFamily": "Jost",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "rdykU",
+          "name": "menuSecD1",
+          "width": "fill_container",
+          "fill": "#E8D9C5",
+          "cornerRadius": 40,
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            24,
+            58
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "tJS3m",
+              "name": "menuTitleD1",
+              "fill": "#3E2A27",
+              "content": "Меню напитков",
+              "fontFamily": "Jost",
+              "fontSize": 50,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "RCF1v",
+              "name": "menuCardsD1",
+              "width": "fill_container",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "SjLhf",
+                  "name": "cardD11",
+                  "width": "fill_container",
+                  "fill": "#F9F3E7",
+                  "cornerRadius": 22,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000D",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 12
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RoHum",
+                      "name": "c11t",
+                      "fill": "#3E2A27",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Эспрессо\nКрепкий и чистый вкус",
+                      "fontFamily": "Jost",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "9Xv8U",
+                      "name": "c11p",
+                      "fill": "#3E2A27",
+                      "content": "190 ₽",
+                      "fontFamily": "Jost",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xzNR9",
+                  "name": "cardD12",
+                  "width": "fill_container",
+                  "fill": "#F9F3E7",
+                  "cornerRadius": 22,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000D",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 12
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "x35zj",
+                      "name": "c12t",
+                      "fill": "#3E2A27",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Флэт уайт\nКремовый и бархатный",
+                      "fontFamily": "Jost",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VJAeY",
+                      "name": "c12p",
+                      "fill": "#3E2A27",
+                      "content": "260 ₽",
+                      "fontFamily": "Jost",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mEnna",
+                  "name": "cardD13",
+                  "width": "fill_container",
+                  "fill": "#F9F3E7",
+                  "cornerRadius": 22,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000D",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 12
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "3N95V",
+                      "name": "c13t",
+                      "fill": "#3E2A27",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Матча латте\nТравяной и мягкий",
+                      "fontFamily": "Jost",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FvHbi",
+                      "name": "c13p",
+                      "fill": "#3E2A27",
+                      "content": "320 ₽",
+                      "fontFamily": "Jost",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "epbxP",
+          "name": "bakeD2",
+          "width": "fill_container",
+          "gap": 22,
+          "padding": [
+            26,
+            58
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "49cv1",
+              "name": "bakeImgD2",
+              "width": 540,
+              "height": 310,
+              "fill": "#E8D9C5",
+              "cornerRadius": 42
+            },
+            {
+              "type": "frame",
+              "id": "QaEew",
+              "name": "bakeTxtD2",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "cFuRD",
+                  "name": "bakeTitleD2",
+                  "fill": "#3E2A27",
+                  "content": "Выпечка",
+                  "fontFamily": "Jost",
+                  "fontSize": 50,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "cyZ1J",
+                  "name": "bakeDescD2",
+                  "fill": "#3E2A27",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Круассан с хрустящей корочкой, теплым сливочным центром и ароматом свежей выпечки.",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Jost",
+                  "fontSize": 19,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "tup3c",
+                  "name": "bakePriceD2",
+                  "fill": "#3E2A27",
+                  "content": "240 ₽",
+                  "fontFamily": "Jost",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "msXEj",
+          "name": "atmD2",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            10,
+            58
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "zwxsk",
+              "name": "atmTitleD2",
+              "fill": "#3E2A27",
+              "content": "Атмосфера",
+              "fontFamily": "Jost",
+              "fontSize": 50,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "oOaJo",
+              "name": "atmRowD2",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "SXJRN",
+                  "name": "a1D2",
+                  "width": "fill_container",
+                  "height": 250,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1774531524097.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 34
+                },
+                {
+                  "type": "frame",
+                  "id": "4wnTC",
+                  "name": "a2D2",
+                  "width": "fill_container",
+                  "height": 250,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1774531538781.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 34
+                },
+                {
+                  "type": "frame",
+                  "id": "jHN2B",
+                  "name": "a3D2",
+                  "width": "fill_container",
+                  "height": 250,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1774531554827.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 34
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "3CAVC",
+          "name": "contD2",
+          "width": "fill_container",
+          "fill": "#F9F3E7",
+          "cornerRadius": 36,
+          "gap": 20,
+          "padding": [
+            24,
+            58
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "jyzzh",
+              "name": "contLD2",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "i10He",
+                  "name": "contTD2",
+                  "fill": "#3E2A27",
+                  "content": "Контакты",
+                  "fontFamily": "Jost",
+                  "fontSize": 50,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "2KP4M",
+                  "name": "contXD2",
+                  "fill": "#3E2A27",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Москва, ул. Теплый переулок, 7\n08:00 - 22:00\n@sanek.coffee",
+                  "lineHeight": 1.45,
+                  "fontFamily": "Jost",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "uNU1C",
+              "name": "mapD2",
+              "width": 500,
+              "height": 230,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1774531569591.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "wjF0F",
+      "x": 3550,
+      "y": 0,
+      "name": "Sanek Organic Mobile",
+      "width": 390,
+      "fill": "#F9F3E7",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "X7qio",
+          "name": "headM1",
+          "width": "fill_container",
+          "padding": [
+            16,
+            18
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "0GQBq",
+              "name": "brandM1",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "3ybbq",
+                  "name": "logoM1",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "coffee",
+                  "iconFontFamily": "lucide",
+                  "fill": "#7F8C5E"
+                },
+                {
+                  "type": "text",
+                  "id": "Dgzj8",
+                  "name": "nameM1",
+                  "fill": "#3E2A27",
+                  "content": "Sanek",
+                  "fontFamily": "Jost",
+                  "fontSize": 30,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "6HV7v",
+          "name": "heroM1",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            16,
+            18
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "eR44Z",
+              "name": "heroTM1",
+              "fill": "#3E2A27",
+              "content": "Sanek",
+              "fontFamily": "Jost",
+              "fontSize": 56,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "2oF1j",
+              "name": "heroSM1",
+              "fill": "#3E2A27",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Organic / Eco атмосфера и мягкий вкус кофе.",
+              "lineHeight": 1.35,
+              "fontFamily": "Jost",
+              "fontSize": 17,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "LCCTU",
+              "name": "btnM1",
+              "fill": "#C27E5E",
+              "cornerRadius": 999,
+              "padding": [
+                10,
+                14
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "08zJc",
+                  "name": "btnTxtM1",
+                  "fill": "#F9F3E7",
+                  "content": "Смотреть меню",
+                  "fontFamily": "Jost",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "FwMZO",
+              "name": "heroImgM1",
+              "width": "fill_container",
+              "height": 210,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1774531558513.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 28
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kUOYo",
+          "name": "aboutM1",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            8,
+            18
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "ZzQ9z",
+              "name": "aboutTM1",
+              "fill": "#3E2A27",
+              "content": "О нас",
+              "fontFamily": "Jost",
+              "fontSize": 34,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "voNNI",
+              "name": "aboutXM1",
+              "fill": "#3E2A27",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Кофейня Sanek вдохновлена природой: дерево, камень, бумажные фактуры и много зелени.",
+              "lineHeight": 1.4,
+              "fontFamily": "Jost",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "6lqDT",
+          "name": "menuM1",
+          "width": "fill_container",
+          "fill": "#E8D9C5",
+          "cornerRadius": 28,
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            16,
+            18
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "VdQuY",
+              "name": "menuTM1",
+              "fill": "#3E2A27",
+              "content": "Меню напитков",
+              "fontFamily": "Jost",
+              "fontSize": 33,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "EJMHa",
+              "name": "rowM11",
+              "width": "fill_container",
+              "fill": "#F9F3E7",
+              "cornerRadius": 16,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#0000000D",
+                "offset": {
+                  "x": 0,
+                  "y": 4
+                },
+                "blur": 12
+              },
+              "gap": 8,
+              "padding": [
+                8,
+                10
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "S46B1",
+                  "name": "r11a",
+                  "fill": "#3E2A27",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Эспрессо",
+                  "fontFamily": "Jost",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "5rYmd",
+                  "name": "r11b",
+                  "fill": "#3E2A27",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Крепкий",
+                  "fontFamily": "Jost",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "fT3xZ",
+                  "name": "r11c",
+                  "fill": "#3E2A27",
+                  "content": "190 ₽",
+                  "fontFamily": "Jost",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "v4xj7",
+              "name": "rowM12",
+              "width": "fill_container",
+              "fill": "#F9F3E7",
+              "cornerRadius": 16,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#0000000D",
+                "offset": {
+                  "x": 0,
+                  "y": 4
+                },
+                "blur": 12
+              },
+              "gap": 8,
+              "padding": [
+                8,
+                10
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lmhKx",
+                  "name": "r12a",
+                  "fill": "#3E2A27",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Флэт уайт",
+                  "fontFamily": "Jost",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "XhYp2",
+                  "name": "r12b",
+                  "fill": "#3E2A27",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Бархатный",
+                  "fontFamily": "Jost",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "dZFaE",
+                  "name": "r12c",
+                  "fill": "#3E2A27",
+                  "content": "260 ₽",
+                  "fontFamily": "Jost",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "r7kkW",
+              "name": "rowM13",
+              "width": "fill_container",
+              "fill": "#F9F3E7",
+              "cornerRadius": 16,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#0000000D",
+                "offset": {
+                  "x": 0,
+                  "y": 4
+                },
+                "blur": 12
+              },
+              "gap": 8,
+              "padding": [
+                8,
+                10
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "kgVIQ",
+                  "name": "r13a",
+                  "fill": "#3E2A27",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Матча",
+                  "fontFamily": "Jost",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "LytgQ",
+                  "name": "r13b",
+                  "fill": "#3E2A27",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Травяной",
+                  "fontFamily": "Jost",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "tJEgs",
+                  "name": "r13c",
+                  "fill": "#3E2A27",
+                  "content": "320 ₽",
+                  "fontFamily": "Jost",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "7ZN0y",
+          "name": "bakeM2",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": [
+            16,
+            18
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "KgAhm",
+              "name": "bakeTM2",
+              "fill": "#3E2A27",
+              "content": "Выпечка",
+              "fontFamily": "Jost",
+              "fontSize": 34,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "S07IA",
+              "name": "bakeImgM2",
+              "width": "fill_container",
+              "height": 170,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1774531454269.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 24
+            },
+            {
+              "type": "text",
+              "id": "5brFG",
+              "name": "bakeXM2",
+              "fill": "#3E2A27",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Круассан, который пахнет утром и теплом.",
+              "fontFamily": "Jost",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "p7Zza",
+          "name": "atmM2",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            10,
+            18
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "b8zNW",
+              "name": "atmTM2",
+              "fill": "#3E2A27",
+              "content": "Атмосфера",
+              "fontFamily": "Jost",
+              "fontSize": 34,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "kzJsh",
+              "name": "g1M2",
+              "width": "fill_container",
+              "height": 120,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1774531480853.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 20
+            },
+            {
+              "type": "frame",
+              "id": "WxR4b",
+              "name": "g2M2",
+              "width": "fill_container",
+              "height": 120,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1774531496748.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 20
+            },
+            {
+              "type": "frame",
+              "id": "7eNFm",
+              "name": "g3M2",
+              "width": "fill_container",
+              "height": 120,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1774531528180.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 20
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "atVIp",
+          "name": "contM2",
+          "width": "fill_container",
+          "fill": "#F9F3E7",
+          "cornerRadius": 24,
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            16,
+            18
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "IlXn1",
+              "name": "contTM2",
+              "fill": "#3E2A27",
+              "content": "Контакты",
+              "fontFamily": "Jost",
+              "fontSize": 34,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "W9k78",
+              "name": "contXM2",
+              "fill": "#3E2A27",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Москва, ул. Теплый переулок, 7\n08:00 - 22:00\n@sanek.coffee",
+              "lineHeight": 1.45,
+              "fontFamily": "Jost",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "Gb2ij",
+              "name": "mapM2",
+              "width": "fill_container",
+              "height": 130,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1774531549032.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 20
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
