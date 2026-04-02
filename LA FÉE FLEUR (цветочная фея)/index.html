@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LA FÉE FLEUR — цветочный бутик</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500&family=Jost:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="lf-wrap">
+    <header class="lf-header">
+      <div class="lf-header__inner">
+        <a class="lf-logo" href="#">LA FÉE FLEUR</a>
+        <button class="lf-nav-toggle" type="button" aria-expanded="false" aria-controls="lf-nav" aria-label="Открыть меню" data-nav-toggle>
+          <span class="lf-nav-toggle__bar" aria-hidden="true"></span>
+        </button>
+        <nav class="lf-nav" id="lf-nav" data-nav>
+          <a href="#hero">Главная</a>
+          <a href="#about">О магазине</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="lf-hero" id="hero" aria-labelledby="hero-title">
+        <div class="lf-hero__grid">
+          <div class="lf-hero__brand">
+            <img class="lf-hero__logo-img" src="images/logo-la-fee-fleur.webp" width="440" height="478" alt="Логотип LA FÉE FLEUR" loading="eager">
+            <h1 class="lf-hero__title" id="hero-title">LA FÉE FLEUR</h1>
+            <p class="lf-hero__quote">Там, где рождается эстетика природы. Мы превращаем мимолетную красоту цветов в искусство, достойное страниц самых изысканных журналов. Позвольте легкости коснуться вашей жизни.</p>
+          </div>
+          <div class="lf-hero__visual">
+            <img src="images/hero-bouquet.webp" width="1040" height="1320" alt="Авторский букет LA FÉE FLEUR" loading="eager" decoding="async">
+          </div>
+        </div>
+      </section>
+
+      <section class="lf-about" id="about" aria-labelledby="about-title">
+        <h2 id="about-title">О магазине</h2>
+        <p>Наш магазин — это признание в любви к природе и красоте. Мы не просто собираем букеты, мы создаем истории. Вдохновляясь оттенками рассвета и силуэтами садовых фей, мы подбираем каждую композицию так, чтобы она говорила на языке чувств. Мы верим, что цветы — это самый изящный способ выразить то, что сложно описать словами.</p>
+      </section>
+
+      <section class="lf-cta-bar" aria-labelledby="cta-daily-title">
+        <h2 id="cta-daily-title">Свежие букеты каждый день</h2>
+        <a class="lf-btn" href="#contacts">Заказать букет</a>
+      </section>
+
+      <section class="lf-gallery" id="gallery" aria-labelledby="gallery-title">
+        <h2 id="gallery-title">Галерея букетов</h2>
+        <div class="lf-gallery__grid">
+          <article class="lf-card">
+            <div class="lf-card__img">
+              <img src="images/gallery-rose-bush.webp" width="760" height="520" alt="" loading="lazy">
+            </div>
+            <h3>Объёмный букет с кустовой, пионовидной розой</h3>
+            <p class="lf-price">4&nbsp;730&nbsp;₽</p>
+          </article>
+          <article class="lf-card">
+            <div class="lf-card__img">
+              <img src="images/gallery-chrysanthemum.webp" width="760" height="520" alt="" loading="lazy">
+            </div>
+            <h3>Авторский букет: розовая хризантема, натуральный хлопок и лагурус</h3>
+            <p class="lf-price">4&nbsp;950&nbsp;₽</p>
+          </article>
+          <article class="lf-card">
+            <div class="lf-card__img">
+              <img src="images/gallery-eustoma.webp" width="760" height="520" alt="" loading="lazy">
+            </div>
+            <h3>Эустома с альстромерией в коробке</h3>
+            <p class="lf-price">6&nbsp;300&nbsp;₽</p>
+          </article>
+          <article class="lf-card">
+            <div class="lf-card__img">
+              <img src="images/gallery-red-white-rose.webp" width="760" height="520" alt="" loading="lazy">
+            </div>
+            <h3>Букет из красно-белой кустовой розы, 7&nbsp;шт</h3>
+            <p class="lf-price">2&nbsp;400&nbsp;₽</p>
+          </article>
+          <article class="lf-card">
+            <div class="lf-card__img">
+              <img src="images/gallery-grand-french.webp" width="760" height="520" alt="" loading="lazy">
+            </div>
+            <h3>Гранд букет из французских роз и маттиолы</h3>
+            <p class="lf-price">11&nbsp;600&nbsp;₽</p>
+          </article>
+          <article class="lf-card">
+            <div class="lf-card__img">
+              <img src="images/gallery-daisies.webp" width="760" height="520" alt="" loading="lazy">
+            </div>
+            <h3>Букет ромашек и кустовых роз «Летние минуты»</h3>
+            <p class="lf-price">10&nbsp;300&nbsp;₽</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="lf-top5" id="top5" aria-labelledby="top5-title">
+        <h2 id="top5-title">Топ-5 продаж</h2>
+        <div class="lf-top5__rows">
+          <div class="lf-top5__row lf-top5__row--2">
+            <article class="lf-mini-card">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22a7 7 0 0 0 7-7c0-4-7-13-7-13S5 11 5 15a7 7 0 0 0 7 7z"/></svg>
+              <h3>1. Классический шедевр</h3>
+              <p>Пудровые розы в шляпной коробке</p>
+            </article>
+            <article class="lf-mini-card">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+              <h3>2. Сады Амальфи</h3>
+              <p>Сборная композиция в итальянском стиле</p>
+            </article>
+          </div>
+          <div class="lf-top5__row lf-top5__row--3">
+            <article class="lf-mini-card">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12.64 2.64a1 1 0 0 0-1.28 0L4 8.5V20h16V8.5l-7.36-5.86z"/><path d="M8 14h8"/></svg>
+              <h3>3. Облако</h3>
+              <p>Гортензия и гипсофила</p>
+            </article>
+            <article class="lf-mini-card">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3L12 3z"/></svg>
+              <h3>4. Сливки &amp; Лаванда</h3>
+              <p>Нежно-кремовые тона с акцентом шалфея</p>
+            </article>
+            <article class="lf-mini-card">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 4V2M15 16v-2M8 9h2M20 9h2M17.8 11.8 19 13M19 13l1.3 1.3M4.6 4.6 3 3M3 3l1.3 1.3M3 12h2M5.6 5.6 3 3"/></svg>
+              <h3>5. Взмах крыльев</h3>
+              <p>Микс-сборка в крафте с логотипом-феей</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="lf-moods" id="moods" aria-labelledby="moods-title">
+        <h2 id="moods-title">Текстуры и настроения</h2>
+        <div class="lf-moods__grid">
+          <article class="lf-mood-card">
+            <h3>Утренняя свежесть</h3>
+            <p>Пионы цвета #FFC2BE, нежный шафран и веточки эвкалипта. Букет, полный воздуха и света.</p>
+          </article>
+          <article class="lf-mood-card">
+            <h3 class="sage-title">Силуэт феи</h3>
+            <p>Экзотические орхидеи, маттиола и сухоцветы в оливковых тонах (#ADB680). Изящная композиция для тех, кто ценит эстетику минимализма.</p>
+          </article>
+          <article class="lf-mood-card">
+            <h3>Персиковый мусс</h3>
+            <p>Махровые розы, ранункулюсы и декоративная зелень. Вкусный, текстурный букет в модной журнальной стилистике.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="lf-cta-final" aria-labelledby="cta-final-title">
+        <div class="lf-cta-final__text">
+          <h2 id="cta-final-title">Изящество в каждом лепестке.</h2>
+          <p>Нежность, ставшая формой. Позвольте легкости коснуться вашей жизни — мы соберем композицию для вашего особенного момента.</p>
+        </div>
+        <a class="lf-btn lf-btn--outline" href="#contacts">Заказать букет</a>
+      </section>
+
+      <footer class="lf-footer" id="contacts">
+        <div class="lf-footer__contacts">
+          <strong>Контакты</strong>
+          <strong>Email / Telegram</strong>
+          <strong>Тел. 8&nbsp;900&nbsp;355&nbsp;44&nbsp;22</strong>
+          <p class="lf-sub">
+            <a href="mailto:ola457752@gmail.com">ola457752@gmail.com</a>
+            &nbsp;/&nbsp;
+            <a href="https://t.me/Olya18si" target="_blank" rel="noopener noreferrer">t.me/Olya18si</a>
+          </p>
+        </div>
+        <div class="lf-footer__img">
+          <img src="images/footer-bouquet.webp" width="854" height="430" alt="Букет LA FÉE FLEUR" loading="lazy">
+        </div>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    (function () {
+      var btn = document.querySelector('[data-nav-toggle]');
+      var nav = document.querySelector('[data-nav]');
+      if (!btn || !nav) return;
+      btn.addEventListener('click', function () {
+        var open = nav.classList.toggle('lf-nav--open');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    })();
+  </script>
+</body>
+</html>

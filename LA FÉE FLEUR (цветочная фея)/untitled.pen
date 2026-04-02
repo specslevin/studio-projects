@@ -1,0 +1,2027 @@
+{
+  "version": "2.10",
+  "children": [
+    {
+      "type": "frame",
+      "id": "mwLUB",
+      "x": 4879.194762684123,
+      "y": 648.1031096563006,
+      "name": "LA FEE FLEUR Landing",
+      "clip": true,
+      "width": 1440,
+      "fill": "#d4dda7ff",
+      "stroke": {
+        "align": "inside",
+        "thickness": 1
+      },
+      "layout": "vertical",
+      "gap": 39,
+      "padding": [
+        0,
+        88,
+        88,
+        88
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "8NHLr",
+          "name": "Header",
+          "width": 1264,
+          "height": 80,
+          "fill": "#4c5731ff",
+          "cornerRadius": [
+            0,
+            0,
+            20,
+            20
+          ],
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "ZqPap",
+              "x": 30,
+              "y": 20.5,
+              "name": "LA FÉE FLEUR",
+              "fill": "#adb680ff",
+              "content": "LA FÉE FLEUR",
+              "textAlign": "center",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 32,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "ugcLS",
+              "x": 807.0556030273438,
+              "y": 28,
+              "name": "Главная",
+              "fill": "#ffffffff",
+              "content": "Главная ",
+              "textAlign": "center",
+              "textAlignVertical": "middle",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "LN05R",
+              "x": 954.3333740234375,
+              "y": 28,
+              "name": "О магазине",
+              "fill": "#ffffffff",
+              "content": "О магазине",
+              "textAlign": "center",
+              "textAlignVertical": "middle",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "1wQUv",
+              "x": 1128.1112060546875,
+              "y": 28,
+              "name": "Контакты",
+              "fill": "#ffffffff",
+              "content": "Контакты",
+              "textAlign": "center",
+              "textAlignVertical": "middle",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "VYLdg",
+          "name": "Hero",
+          "clip": true,
+          "width": "fill_container",
+          "height": 760,
+          "fill": "#798951ff",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "layout": "vertical",
+          "gap": 32,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "4AtmI",
+              "name": "heroTopA",
+              "clip": true,
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "gap": 56,
+              "padding": [
+                0,
+                32,
+                0,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "A4NEw",
+                  "name": "brandColA",
+                  "clip": true,
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    0,
+                    40
+                  ],
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "sSNwx",
+                      "name": "Default_Elegant_logo_design_for_LA_FE_FLEUR_botanical_art_styl_0_87247a23-b81f-46ef-809a-ae81afb0c8c1_0 2",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/logo-la-fee-fleur.webp",
+                        "mode": "fill"
+                      },
+                      "width": 220,
+                      "height": 239,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "3UwWF",
+                      "name": "brandNameA",
+                      "fill": "#adb680ff",
+                      "content": "LA FÉE FLEUR",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 92,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KLRZk",
+                      "name": "heroQuoteA",
+                      "fill": "#ffffffff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Там, где рождается эстетика природы. Мы превращаем мимолетную красоту цветов в искусство, достойное страниц самых изысканных журналов. Позвольте легкости коснуться вашей жизни.",
+                      "lineHeight": 1.4500000476837158,
+                      "fontFamily": "Jost",
+                      "fontSize": 24,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Zonk3",
+                  "name": "Hero Bouquet",
+                  "clip": true,
+                  "width": 520,
+                  "height": 660,
+                  "fill": [
+                    "#d9d9deff",
+                    {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "images/hero-bouquet.webp",
+                      "mode": "fill"
+                    }
+                  ],
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 4,
+                    "fill": "#5d2611ff"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kUOfk",
+          "name": "О нас",
+          "clip": true,
+          "width": "fill_container",
+          "fill": "#adb680d4",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "gap": 48,
+          "padding": [
+            16,
+            32
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "dqtaJ",
+              "name": "aboutTitleA",
+              "fill": "#5d2611ff",
+              "content": "О магазине",
+              "lineHeight": 1.953125,
+              "textAlign": "center",
+              "textAlignVertical": "middle",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 64,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "ZHHUw",
+              "name": "aboutTextA",
+              "fill": "#3e2a27ff",
+              "textGrowth": "fixed-width",
+              "width": 860,
+              "content": "Наш магазин — это признание в любви к природе и красоте. Мы не просто собираем букеты, мы создаем истории. Вдохновляясь оттенками рассвета и силуэтами садовых фей, мы подбираем каждую композицию так, чтобы она говорила на языке чувств. Мы верим, что цветы — это самый изящный способ выразить то, что сложно описать словами.",
+              "lineHeight": 1.5499999523162842,
+              "fontFamily": "Jost",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FCva7",
+          "name": "CTA",
+          "clip": true,
+          "width": "fill_container",
+          "fill": "#d07449ab",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "center",
+            "thickness": 1,
+            "fill": "#eadde2ff"
+          },
+          "gap": 28,
+          "padding": [
+            36,
+            32
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "p7Mhp",
+              "name": "ctaLeftD",
+              "clip": true,
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Behb8",
+                  "name": "ctaTitleD",
+                  "fill": "#5d2611ff",
+                  "content": "Свежие букеты каждый день ",
+                  "textAlignVertical": "middle",
+                  "fontFamily": "Cormorant Garamond",
+                  "fontSize": 52,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dp3RU",
+              "name": "ctaButtonD",
+              "clip": true,
+              "width": 194,
+              "height": 53,
+              "fill": "#b4bc86ff",
+              "cornerRadius": 20,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#5d2611ff"
+              },
+              "gap": 8,
+              "padding": [
+                14,
+                24
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "5KZ3N",
+                  "name": "ctaBtnTextD",
+                  "fill": "#5d2611ff",
+                  "content": "Заказать букет",
+                  "fontFamily": "Jost",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "W1Ey1",
+          "name": "Галерея",
+          "clip": true,
+          "width": "fill_container",
+          "height": 1234,
+          "fill": "#adb680ff",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            20,
+            32,
+            0,
+            32
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "swgKW",
+              "name": "галерея букетов",
+              "width": 1200,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pn0Rg",
+                  "name": "galleryTitleA",
+                  "fill": "#5d2611ff",
+                  "content": "Галерея букетов",
+                  "fontFamily": "Cormorant Garamond",
+                  "fontSize": 56,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "t1san",
+              "name": "карточки ",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "L6VqK",
+                  "name": "Frame 1000008504",
+                  "clip": true,
+                  "width": 380,
+                  "height": 556,
+                  "fill": "#7f8c5eff",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": [
+                    20,
+                    25
+                  ],
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "mQ5lK",
+                      "name": "Rectangle 46",
+                      "geometry": "M0 0l330 0 0 260-330 0 0-260z",
+                      "fill": [
+                        "#d9d9d9ff",
+                        {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "images/gallery-rose-bush.webp",
+                          "mode": "stretch"
+                        }
+                      ],
+                      "width": "fill_container",
+                      "height": 260,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "ySpNH",
+                      "name": "Объемный букет с кустовой, пионовидной розой",
+                      "fill": "#000000ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Объемный букет с кустовой, пионовидной розой",
+                      "textAlign": "center",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 36,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ag8xc",
+                      "name": "4 730р",
+                      "fill": "#000000ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "4 730р",
+                      "textAlign": "center",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 36,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "1tmn5",
+                  "name": "Frame 1000008503",
+                  "clip": true,
+                  "width": 380,
+                  "fill": "#7f8c5eff",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": [
+                    20,
+                    25
+                  ],
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "H3Md8",
+                      "name": "Rectangle 46",
+                      "geometry": "M0 0l330 0 0 260-330 0 0-260z",
+                      "fill": [
+                        "#d9d9d9ff",
+                        {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "images/gallery-chrysanthemum.webp",
+                          "mode": "stretch"
+                        }
+                      ],
+                      "width": "fill_container",
+                      "height": 260,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "6Aye2",
+                      "name": "Авторский букет: розовая хризантема, натуральный хлопок и лагурус",
+                      "fill": "#000000ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Авторский букет: розовая хризантема, натуральный хлопок и лагурус",
+                      "textAlign": "center",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 36,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zefv5",
+                      "name": "4 950₽",
+                      "fill": "#000000ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "4 950₽",
+                      "textAlign": "center",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 36,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GMN7j",
+                  "name": "Frame 1000008503",
+                  "clip": true,
+                  "width": 380,
+                  "height": 556,
+                  "fill": "#7f8c5eff",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": [
+                    20,
+                    25
+                  ],
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "8UTza",
+                      "name": "Rectangle 46",
+                      "geometry": "M0 0l330 0 0 260-330 0 0-260z",
+                      "fill": [
+                        "#d9d9d9ff",
+                        {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "images/gallery-eustoma.webp",
+                          "mode": "stretch"
+                        }
+                      ],
+                      "width": "fill_container",
+                      "height": 260,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "w9RAF",
+                      "name": "Эустома с альстромерией в коробке",
+                      "fill": "#000000ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Эустома с альстромерией в коробке",
+                      "textAlign": "center",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 36,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "amoeR",
+                      "name": "6 300₽",
+                      "fill": "#000000ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "6 300₽",
+                      "textAlign": "center",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 36,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "kls2q",
+              "name": "карточки 2",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "F5JrJ",
+                  "name": "Frame 1000008504",
+                  "clip": true,
+                  "width": 380,
+                  "fill": "#7f8c5eff",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": [
+                    20,
+                    25
+                  ],
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "2FSrM",
+                      "name": "Rectangle 46",
+                      "geometry": "M0 0l330 0 0 260-330 0 0-260z",
+                      "fill": [
+                        "#d9d9d9ff",
+                        {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "images/gallery-red-white-rose.webp",
+                          "mode": "stretch"
+                        }
+                      ],
+                      "width": "fill_container",
+                      "height": 260,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "zZYDo",
+                      "name": "Букет из красно-белой кустовой розы 7 шт",
+                      "fill": "#000000ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Букет из красно-белой кустовой розы \n7 шт",
+                      "textAlign": "center",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 36,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "6IqHr",
+                      "name": "2 400₽",
+                      "fill": "#000000ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "2 400₽",
+                      "textAlign": "center",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 36,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "gD5OG",
+                  "name": "Frame 1000008503",
+                  "clip": true,
+                  "width": 380,
+                  "fill": "#7f8c5eff",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": [
+                    20,
+                    25
+                  ],
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "MxMTg",
+                      "name": "Rectangle 46",
+                      "geometry": "M0 0l330 0 0 260-330 0 0-260z",
+                      "fill": [
+                        "#d9d9d9ff",
+                        {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "images/gallery-grand-french.webp",
+                          "mode": "fill"
+                        }
+                      ],
+                      "width": "fill_container",
+                      "height": 260,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "S8P7X",
+                      "name": "Гранд букет из французских роз и маттиолы",
+                      "fill": "#000000ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Гранд букет из французских роз и маттиолы",
+                      "textAlign": "center",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 36,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zCkOi",
+                      "name": "11 600₽",
+                      "fill": "#000000ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "11 600₽",
+                      "textAlign": "center",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 36,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "598OX",
+                  "name": "Frame 1000008503",
+                  "clip": true,
+                  "width": 380,
+                  "fill": "#7f8c5eff",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": [
+                    20,
+                    25
+                  ],
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "ktnDg",
+                      "name": "Rectangle 46",
+                      "geometry": "M0 0l330 0 0 260-330 0 0-260z",
+                      "fill": [
+                        "#d9d9d9ff",
+                        {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "images/gallery-daisies.webp",
+                          "mode": "fill"
+                        }
+                      ],
+                      "width": "fill_container",
+                      "height": 260,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "XeBIk",
+                      "name": "Букет ромашек и кустовых роз \"Летние минуты\"",
+                      "fill": "#000000ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Букет ромашек и кустовых роз \"Летние минуты\"",
+                      "textAlign": "center",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 36,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "y2hvn",
+                      "name": "10 300₽",
+                      "fill": "#000000ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "10 300₽",
+                      "textAlign": "center",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 36,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "TPryX",
+          "name": "Топ-5 продаж",
+          "clip": true,
+          "width": "fill_container",
+          "height": 604,
+          "fill": "#adb680ff",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            0,
+            32,
+            32,
+            32
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "xxFrE",
+              "name": "top5TitleB",
+              "fill": "#5d2611ff",
+              "content": "Топ-5 продаж",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 56,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "CQSa3",
+              "name": "rowsB",
+              "clip": true,
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "6FFxv",
+                  "name": "row1B",
+                  "clip": true,
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "KX52f",
+                      "name": "card1B",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 230,
+                      "fill": "#fff9fbff",
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1,
+                        "fill": "#eadde2ff"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#000000",
+                        "offset": {
+                          "x": 0,
+                          "y": 6
+                        },
+                        "blur": 14
+                      },
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "UKeEK",
+                          "name": "lucide/droplets",
+                          "clip": true,
+                          "width": 22,
+                          "height": 22,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "path",
+                              "id": "3c20U",
+                              "x": 2.75,
+                              "y": 4.858333587646484,
+                              "name": "Vector",
+                              "geometry": "M4 11c2.2 0 4-1.83 4-4.05 0-1.16-0.57-2.26-1.71-3.19-1.14-0.93-2-2.31-2.29-3.76-0.29 1.45-1.14 2.84-2.29 3.76-1.15 0.92-1.71 2.04-1.71 3.19 0 2.22 1.8 4.05 4 4.05z",
+                              "width": 7.333333492279053,
+                              "height": 10.083332061767578,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            },
+                            {
+                              "type": "path",
+                              "id": "O1kSh",
+                              "x": 8.332500457763672,
+                              "y": 2.7683334350585938,
+                              "name": "Vector",
+                              "geometry": "M3.47 3.58c0.68776-1.09887 1.1753-2.31096 1.44-3.58 0.5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5 0.00571 1.38229-0.39913 2.73516-1.1632 3.88709-0.76408 1.15193-1.85298 2.05106-3.12867 2.5834-1.27569 0.53234-2.68071 0.67392-4.03696 0.40679-1.35625-0.26713-2.60264-0.93094-3.58117-1.90728",
+                              "width": 10.91755485534668,
+                              "height": 17.424785614013672,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "WV2C0",
+                          "name": "title1B",
+                          "fill": "#4a4347ff",
+                          "content": "1. Классический шедевр",
+                          "fontFamily": "Jost",
+                          "fontSize": 26,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "e5YsU",
+                          "name": "desc1B",
+                          "fill": "#7a7076ff",
+                          "content": "Пудровые розы в шляпной коробке",
+                          "lineHeight": 1.4500000476837158,
+                          "fontFamily": "Jost",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "4JgcP",
+                      "name": "card2B",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 230,
+                      "fill": "#fff9fbff",
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1,
+                        "fill": "#eadde2ff"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#000000",
+                        "offset": {
+                          "x": 0,
+                          "y": 6
+                        },
+                        "blur": 14
+                      },
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Yh141",
+                          "name": "lucide/sun",
+                          "clip": true,
+                          "width": 22,
+                          "height": 22,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "path",
+                              "id": "EXwcB",
+                              "x": 7.333333492279053,
+                              "y": 7.333333492279053,
+                              "name": "Vector",
+                              "geometry": "M8 4c0 2.20914-1.79086 4-4 4-2.20914 0-4-1.79086-4-4 0-2.20914 1.79086-4 4-4 2.20914 0 4 1.79086 4 4z",
+                              "width": 7.333333492279053,
+                              "height": 7.333333492279053,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            },
+                            {
+                              "type": "path",
+                              "id": "zvDoh",
+                              "x": 11,
+                              "y": 1.8333333730697632,
+                              "name": "Vector",
+                              "geometry": "M0 0l0 2",
+                              "width": 0,
+                              "height": 1.8333333730697632,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            },
+                            {
+                              "type": "path",
+                              "id": "nYjEh",
+                              "x": 11,
+                              "y": 18.33333396911621,
+                              "name": "Vector",
+                              "geometry": "M0 0l0 2",
+                              "width": 0,
+                              "height": 1.8333333730697632,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            },
+                            {
+                              "type": "path",
+                              "id": "kDDkb",
+                              "x": 4.519166469573975,
+                              "y": 4.519166469573975,
+                              "name": "Vector",
+                              "geometry": "M0 0l1.41 1.41",
+                              "width": 1.2925002574920654,
+                              "height": 1.2925002574920654,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            },
+                            {
+                              "type": "path",
+                              "id": "0YxBL",
+                              "x": 16.18833351135254,
+                              "y": 16.18833351135254,
+                              "name": "Vector",
+                              "geometry": "M0 0l1.41 1.41",
+                              "width": 1.2924998998641968,
+                              "height": 1.2924998998641968,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            },
+                            {
+                              "type": "path",
+                              "id": "eeu5j",
+                              "x": 1.8333333730697632,
+                              "y": 11,
+                              "name": "Vector",
+                              "geometry": "M0 0l2 0",
+                              "width": 1.8333333730697632,
+                              "height": 0,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            },
+                            {
+                              "type": "path",
+                              "id": "wNMpX",
+                              "x": 18.33333396911621,
+                              "y": 11,
+                              "name": "Vector",
+                              "geometry": "M0 0l2 0",
+                              "width": 1.8333333730697632,
+                              "height": 0,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            },
+                            {
+                              "type": "path",
+                              "id": "2LPMH",
+                              "x": 4.519166469573975,
+                              "y": 16.18833351135254,
+                              "name": "Vector",
+                              "geometry": "M1.41 0l-1.41 1.41",
+                              "width": 1.2925002574920654,
+                              "height": 1.2924998998641968,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            },
+                            {
+                              "type": "path",
+                              "id": "YAO7L",
+                              "x": 16.18833351135254,
+                              "y": 4.519166469573975,
+                              "name": "Vector",
+                              "geometry": "M1.41 0l-1.41 1.41",
+                              "width": 1.2924998998641968,
+                              "height": 1.2925002574920654,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "Y9iqB",
+                          "name": "title2B",
+                          "fill": "#4a4347ff",
+                          "content": "2. Сады Амальфи",
+                          "fontFamily": "Jost",
+                          "fontSize": 26,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "voFyt",
+                          "name": "desc2B",
+                          "fill": "#7a7076ff",
+                          "content": "Сборная композиция в итальянском стиле",
+                          "lineHeight": 1.4500000476837158,
+                          "fontFamily": "Jost",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OBrx8",
+                  "name": "row2B",
+                  "clip": true,
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "aaPsn",
+                      "name": "card3B",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 230,
+                      "fill": "#fff9fbff",
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1,
+                        "fill": "#eadde2ff"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#000000",
+                        "blur": 14
+                      },
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "2HGpR",
+                          "name": "lucide/feather",
+                          "clip": true,
+                          "width": 22,
+                          "height": 22,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "path",
+                              "id": "eG9Ra",
+                              "x": 4.583333492279053,
+                              "y": 1.8256914615631104,
+                              "name": "Vector",
+                              "geometry": "M7.67 17.00834c0.2631-0.00005 0.5236-0.05202 0.76658-0.15292 0.24298-0.1009 0.46367-0.24875 0.64942-0.43508l6.154-6.172c1.12584-1.12584 1.75834-2.65282 1.75834-4.245 0-1.59218-0.63249-3.11916-1.75834-4.245-1.12584-1.12584-2.65282-1.75834-4.245-1.75834-1.59218 0-3.11916 0.63249-4.245 1.75834l-6.164 6.164c-0.3751 0.37499-0.58589 0.88361-0.586 1.414l0 6.672c0 0.26522 0.10536 0.51957 0.29289 0.7071 0.18754 0.18754 0.44189 0.29289 0.70711 0.2929l6.67 0z",
+                              "width": 15.581809043884277,
+                              "height": 15.590975761413574,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            },
+                            {
+                              "type": "path",
+                              "id": "a37mm",
+                              "x": 1.8333333730697632,
+                              "y": 7.333333492279053,
+                              "name": "Vector",
+                              "geometry": "M14 0l-14 14",
+                              "width": 12.833333015441895,
+                              "height": 12.833333015441895,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            },
+                            {
+                              "type": "path",
+                              "id": "zvvGK",
+                              "x": 8.25,
+                              "y": 13.75,
+                              "name": "Vector",
+                              "geometry": "M8.5 0l-8.5 0",
+                              "width": 7.791666507720947,
+                              "height": 0,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "RtX7U",
+                          "name": "title3B",
+                          "fill": "#4a4347ff",
+                          "content": "3. Облако",
+                          "fontFamily": "Jost",
+                          "fontSize": 26,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "kaEZX",
+                          "name": "desc3B",
+                          "fill": "#7a7076ff",
+                          "content": "Гортензия и гипсофила",
+                          "lineHeight": 1.4500000476837158,
+                          "fontFamily": "Jost",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "rf7Ko",
+                      "name": "card4B",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 230,
+                      "fill": "#fff9fbff",
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1,
+                        "fill": "#eadde2ff"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#000000",
+                        "offset": {
+                          "x": 0,
+                          "y": 6
+                        },
+                        "blur": 14
+                      },
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "giOVP",
+                          "name": "lucide/sparkles",
+                          "clip": true,
+                          "width": 22,
+                          "height": 22,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "path",
+                              "id": "hrIjw",
+                              "x": 1.8311383724212646,
+                              "y": 1.8311383724212646,
+                              "name": "Vector",
+                              "geometry": "M9.01939 0.81639c0.04285-0.2294 0.16457-0.43658 0.3441-0.58568 0.17952-0.1491 0.40554-0.23071 0.63891-0.23071 0.23336 0 0.45938 0.08162 0.6389 0.23071 0.17952 0.1491 0.30125 0.35628 0.34409 0.58568l1.05101 5.558c0.07464 0.39515 0.26668 0.75862 0.55102 1.04298 0.28435 0.28435 0.64782 0.47638 1.04298 0.55102l5.558 1.051c0.2294 0.04285 0.43658 0.16457 0.58568 0.3441 0.1491 0.17952 0.23071 0.40554 0.23071 0.63891 0 0.23336-0.08161 0.45938-0.23071 0.6389-0.1491 0.17952-0.35628 0.30125-0.58568 0.34409l-5.558 1.05101c-0.39515 0.07464-0.75862 0.26668-1.04298 0.55102-0.28435 0.28435-0.47638 0.64782-0.55102 1.04298l-1.05101 5.558c-0.04285 0.2294-0.16457 0.43658-0.34409 0.58568-0.17952 0.1491-0.40554 0.23071-0.63891 0.23071-0.23336 0-0.45938-0.08161-0.6389-0.23071-0.17952-0.1491-0.30125-0.35628-0.3441-0.58568l-1.051-5.558c-0.07465-0.39515-0.26668-0.75862-0.55102-1.04298-0.28435-0.28435-0.64782-0.47638-1.04298-0.55102l-5.558-1.05101c-0.2294-0.04285-0.43658-0.16457-0.58568-0.34409-0.1491-0.17952-0.23071-0.40554-0.23071-0.63891 0-0.23336 0.08162-0.45938 0.23071-0.6389 0.1491-0.17952 0.35628-0.30125 0.58568-0.3441l5.558-1.051c0.39515-0.07465 0.75862-0.26668 1.04298-0.55102 0.28435-0.28435 0.47638-0.64782 0.55102-1.04298l1.051-5.558z",
+                              "width": 18.337722778320312,
+                              "height": 18.337722778320312,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            },
+                            {
+                              "type": "path",
+                              "id": "w2V1Q",
+                              "x": 18.33333396911621,
+                              "y": 1.8333333730697632,
+                              "name": "Vector",
+                              "geometry": "M0 0l0 4",
+                              "width": 0,
+                              "height": 3.6666667461395264,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            },
+                            {
+                              "type": "path",
+                              "id": "60yCn",
+                              "x": 16.5,
+                              "y": 3.6666667461395264,
+                              "name": "Vector",
+                              "geometry": "M4 0l-4 0",
+                              "width": 3.6666667461395264,
+                              "height": 0,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            },
+                            {
+                              "type": "path",
+                              "id": "xOkUJ",
+                              "x": 1.8333333730697632,
+                              "y": 16.5,
+                              "name": "Vector",
+                              "geometry": "M4 2c0 1.10457-0.89543 2-2 2-1.10457 0-2-0.89543-2-2 0-1.10457 0.89543-2 2-2 1.10457 0 2 0.89543 2 2z",
+                              "width": 3.6666667461395264,
+                              "height": 3.6666667461395264,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "0Kvdr",
+                          "name": "title4B",
+                          "fill": "#4a4347ff",
+                          "content": "4. Сливки & Лаванда",
+                          "fontFamily": "Jost",
+                          "fontSize": 26,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "UC1IW",
+                          "name": "desc4B",
+                          "fill": "#7a7076ff",
+                          "content": "Нежно-кремовые тона с акцентом шалфея",
+                          "lineHeight": 1.4500000476837158,
+                          "fontFamily": "Jost",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "GYY6H",
+                      "name": "card5B",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 230,
+                      "fill": "#fff9fbff",
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1,
+                        "fill": "#eadde2ff"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#000000",
+                        "offset": {
+                          "x": 0,
+                          "y": 6
+                        },
+                        "blur": 14
+                      },
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ZJ5Ru",
+                          "name": "lucide/wand-sparkles",
+                          "clip": true,
+                          "width": 22,
+                          "height": 22,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "path",
+                              "id": "v257B",
+                              "x": 1.8344110250473022,
+                              "y": 1.8344110250473022,
+                              "name": "Vector",
+                              "geometry": "M19.63882 1.63882l-1.27999-1.28c-0.11252-0.11368-0.24646-0.20393-0.39408-0.26552-0.14762-0.06159-0.30598-0.0933-0.46592-0.0933-0.15995 0-0.31831 0.03171-0.46593 0.0933-0.14761 0.06159-0.28156 0.15184-0.39408 0.26552l-16.28 16.28c-0.11368 0.11252-0.20393 0.24646-0.26552 0.39408-0.06159 0.14762-0.0933 0.30598-0.0933 0.46592 0 0.15995 0.03171 0.31831 0.0933 0.46593 0.06159 0.14762 0.15184 0.28156 0.26552 0.39408l1.28 1.27999c0.11182 0.11491 0.24553 0.20624 0.39325 0.26861 0.14771 0.06236 0.30642 0.0945 0.46675 0.0945 0.16034 0 0.31905-0.03213 0.46676-0.0945 0.14771-0.06236 0.28142-0.1537 0.39324-0.26861l16.28-16.28c0.11491-0.11182 0.20624-0.24553 0.26861-0.39324 0.06236-0.14771 0.0945-0.30642 0.0945-0.46676 0-0.16034-0.03213-0.31905-0.0945-0.46675-0.06236-0.14771-0.1537-0.28142-0.26861-0.39325z",
+                              "width": 18.335098266601562,
+                              "height": 18.335098266601562,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            },
+                            {
+                              "type": "path",
+                              "id": "83XbJ",
+                              "x": 12.833333015441895,
+                              "y": 6.416666507720947,
+                              "name": "Vector",
+                              "geometry": "M0 0l3 3",
+                              "width": 2.75,
+                              "height": 2.75,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            },
+                            {
+                              "type": "path",
+                              "id": "ugDA6",
+                              "x": 4.583333492279053,
+                              "y": 5.5,
+                              "name": "Vector",
+                              "geometry": "M0 0l0 4",
+                              "width": 0,
+                              "height": 3.6666667461395264,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            },
+                            {
+                              "type": "path",
+                              "id": "uPzD5",
+                              "x": 17.41666603088379,
+                              "y": 12.833333015441895,
+                              "name": "Vector",
+                              "geometry": "M0 0l0 4",
+                              "width": 0,
+                              "height": 3.6666667461395264,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            },
+                            {
+                              "type": "path",
+                              "id": "FEmDa",
+                              "x": 9.166666984558105,
+                              "y": 1.8333333730697632,
+                              "name": "Vector",
+                              "geometry": "M0 0l0 2",
+                              "width": 0,
+                              "height": 1.8333333730697632,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            },
+                            {
+                              "type": "path",
+                              "id": "2wJ27",
+                              "x": 2.75,
+                              "y": 7.333333492279053,
+                              "name": "Vector",
+                              "geometry": "M4 0l-4 0",
+                              "width": 3.6666667461395264,
+                              "height": 0,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            },
+                            {
+                              "type": "path",
+                              "id": "S4O0f",
+                              "x": 15.583333015441895,
+                              "y": 14.666666984558105,
+                              "name": "Vector",
+                              "geometry": "M4 0l-4 0",
+                              "width": 3.6666667461395264,
+                              "height": 0,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            },
+                            {
+                              "type": "path",
+                              "id": "6V4cZ",
+                              "x": 8.25,
+                              "y": 2.75,
+                              "name": "Vector",
+                              "geometry": "M2 0l-2 0",
+                              "width": 1.8333333730697632,
+                              "height": 0,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 2,
+                                "join": "round",
+                                "cap": "round",
+                                "fill": "#d97f8bff"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "0gwGq",
+                          "name": "title5B",
+                          "fill": "#4a4347ff",
+                          "content": "5. Взмах крыльев",
+                          "fontFamily": "Jost",
+                          "fontSize": 26,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "XpG1w",
+                          "name": "desc5B",
+                          "fill": "#7a7076ff",
+                          "content": "Микс-сборка в крафте с логотипом-феей",
+                          "lineHeight": 1.4500000476837158,
+                          "fontFamily": "Jost",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nDTob",
+          "name": "Описание букетов",
+          "clip": true,
+          "width": "fill_container",
+          "height": 310,
+          "fill": "#adb680ff",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "layout": "vertical",
+          "gap": 22,
+          "padding": [
+            0,
+            32
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "aHwIi",
+              "name": "bqTitleD",
+              "fill": "#5d2611ff",
+              "content": "Текстуры и настроения",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 48,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "RA5ZS",
+              "name": "bqGridD",
+              "clip": true,
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "lu7E3",
+                  "name": "bqCard1D",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 206,
+                  "fill": "#fff9fbff",
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1,
+                    "fill": "#eadde2ff"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "U74i4",
+                      "name": "bqName1D",
+                      "fill": "#d97f8bff",
+                      "content": "Утренняя свежесть",
+                      "fontFamily": "Jost",
+                      "fontSize": 28,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hlB2b",
+                      "name": "bqText1D",
+                      "fill": "#7a7076ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Пионы цвета #FFC2BE, нежный шафран и веточки эвкалипта. Букет, полный воздуха и света.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Jost",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "f2VFs",
+                  "name": "bqCard2D",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "#fff9fbff",
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1,
+                    "fill": "#eadde2ff"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NfHUR",
+                      "name": "bqName2D",
+                      "fill": "#adb680ff",
+                      "content": "Силуэт феи",
+                      "fontFamily": "Jost",
+                      "fontSize": 28,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "uJ9ro",
+                      "name": "bqText2D",
+                      "fill": "#7a7076ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Экзотические орхидеи, маттиола и сухоцветы в оливковых тонах (#ADB680). Изящная композиция для тех, кто ценит эстетику минимализма.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Jost",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HnGEE",
+                  "name": "bqCard3D",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 206,
+                  "fill": "#fff9fbff",
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1,
+                    "fill": "#eadde2ff"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SasGO",
+                      "name": "bqName3D",
+                      "fill": "#d97f8bff",
+                      "content": "Персиковый мусс",
+                      "fontFamily": "Jost",
+                      "fontSize": 28,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "03mvi",
+                      "name": "bqText3D",
+                      "fill": "#7a7076ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Махровые розы, ранункулюсы и декоративная зелень. Вкусный, текстурный букет в модной журнальной стилистике.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Jost",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "VUA4u",
+          "name": "CTA",
+          "clip": true,
+          "width": "fill_container",
+          "fill": "#d29768ff",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "center",
+            "thickness": 1,
+            "fill": "#eadde2ff"
+          },
+          "gap": 28,
+          "padding": [
+            36,
+            32
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "2voal",
+              "name": "ctaLeftD",
+              "clip": true,
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Rjd6X",
+                  "name": "ctaTitleD",
+                  "fill": "#5d2611ff",
+                  "content": "Изящество в каждом лепестке.",
+                  "fontFamily": "Cormorant Garamond",
+                  "fontSize": 52,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "BGg10",
+                  "name": "ctaTextD",
+                  "fill": "#5d2611ff",
+                  "content": "Нежность, ставшая формой. Позвольте легкости коснуться вашей жизни — мы соберем композицию для вашего особенного момента.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Jost",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "oibTI",
+              "name": "ctaButtonD",
+              "clip": true,
+              "fill": "#adb680ff",
+              "cornerRadius": 20,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#5d2611ff"
+              },
+              "gap": 8,
+              "padding": [
+                14,
+                24
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "reXvL",
+                  "name": "ctaBtnTextD",
+                  "fill": "#5d2611ff",
+                  "content": "Заказать букет",
+                  "fontFamily": "Jost",
+                  "fontSize": 18,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "swH2a",
+          "name": "futer",
+          "clip": true,
+          "width": "fill_container",
+          "fill": "#7f8c5eff",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "padding": 32,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Ygt3f",
+              "name": "Frame 1000008505",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "layout": "vertical",
+              "gap": 12,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Dai6n",
+                  "name": "Контакты",
+                  "fill": "#ffffffff",
+                  "content": "Контакты ",
+                  "fontFamily": "Cormorant Garamond",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "0GvkM",
+                  "name": "Email/ Telegram",
+                  "fill": "#ffffffff",
+                  "content": "Email/ Telegram",
+                  "fontFamily": "Cormorant Garamond",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "WclNx",
+                  "name": "Тел. 8 900 355 44 22",
+                  "fill": "#ffffffff",
+                  "content": "Тел. 8 900 355 44 22",
+                  "fontFamily": "Cormorant Garamond",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "Zoq78",
+                  "name": "ola457752@gmail.com / https://t.me/Olya18si",
+                  "fill": "#ffffffff",
+                  "content": "ola457752@gmail.com / https://t.me/Olya18si",
+                  "fontFamily": "Cormorant Garamond",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 20,
+              "id": "czBgw",
+              "name": "Rectangle 17",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/footer-bouquet.webp",
+                "mode": "fill"
+              },
+              "width": 427,
+              "height": 215,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

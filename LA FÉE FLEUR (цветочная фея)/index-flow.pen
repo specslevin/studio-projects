@@ -1,0 +1,1870 @@
+{
+  "version": "2.10",
+  "children": [
+    {
+      "type": "frame",
+      "id": "FJrPv",
+      "x": 0,
+      "y": 0,
+      "name": "LA FEE FLEUR — index-flow",
+      "width": 1440,
+      "fill": "#d4dda7ff",
+      "layout": "vertical",
+      "gap": 40,
+      "padding": [
+        0,
+        72,
+        72,
+        72
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "3KiBU",
+          "name": "header",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#4c5731ff",
+          "cornerRadius": [
+            0,
+            0,
+            20,
+            20
+          ],
+          "padding": [
+            16,
+            28
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "0P1hW",
+              "name": "logoT",
+              "fill": "#adb680ff",
+              "content": "LA FÉE FLEUR",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 28,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "la0tp",
+              "name": "navF",
+              "width": "fill_container",
+              "gap": 18,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "oysBU",
+                  "name": "l1",
+                  "fill": "#ffffffff",
+                  "content": "Главная",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "aSTwL",
+                  "name": "l2",
+                  "fill": "#ffffffff",
+                  "content": "О магазине",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "CioJz",
+                  "name": "l3",
+                  "fill": "#ffffffff",
+                  "content": "Каталог",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ENgrz",
+                  "name": "l4",
+                  "fill": "#ffffffff",
+                  "content": "Топ-5",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "dmmLs",
+                  "name": "l5",
+                  "fill": "#ffffffff",
+                  "content": "Настроения",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "uYNh9",
+                  "name": "l6",
+                  "fill": "#ffffffff",
+                  "content": "Контакты",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BoULE",
+              "name": "ctaHdr",
+              "fill": "#b4bc86ff",
+              "cornerRadius": 999,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#5d2611ff"
+              },
+              "padding": [
+                10,
+                20
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XnoGD",
+                  "name": "ctaHtxt",
+                  "fill": "#5d2611ff",
+                  "content": "Заказать букет",
+                  "fontFamily": "Jost",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "KOaly",
+          "name": "Hero",
+          "width": "fill_container",
+          "fill": "#798951ff",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#5d261114"
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "kO50K",
+              "name": "heroGrid",
+              "width": "fill_container",
+              "gap": 48,
+              "padding": [
+                0,
+                16,
+                0,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "R01Rq",
+                  "name": "brand",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    0,
+                    32
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 12,
+                      "id": "bmLyZ",
+                      "name": "logoImg",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/logo-la-fee-fleur.webp",
+                        "mode": "fill"
+                      },
+                      "width": 220,
+                      "height": 220,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#ffffff40"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "fNxPC",
+                      "name": "h1",
+                      "fill": "#adb680ff",
+                      "content": "LA FÉE FLEUR",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 72,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zm9Ek",
+                      "name": "quote",
+                      "fill": "#ffffffff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Там, где рождается эстетика природы. Мы превращаем мимолетную красоту цветов в искусство, достойное страниц самых изысканных журналов. Позвольте легкости коснуться вашей жизни.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Jost",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CjiAS",
+                      "name": "act",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Oop9s",
+                          "name": "b1",
+                          "fill": "#b4bc86ff",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#5d2611ff"
+                          },
+                          "padding": [
+                            12,
+                            20
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "LFkGn",
+                              "name": "b1t",
+                              "fill": "#5d2611ff",
+                              "content": "Заказать букет",
+                              "fontFamily": "Jost",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Uqs6k",
+                          "name": "b2",
+                          "fill": "#ffffff24",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#ffffff73"
+                          },
+                          "padding": [
+                            12,
+                            20
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "4i6gq",
+                              "name": "b2t",
+                              "fill": "#ffffffff",
+                              "content": "Смотреть каталог",
+                              "fontFamily": "Jost",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jeuHn",
+                  "name": "heroPic",
+                  "clip": true,
+                  "width": 520,
+                  "height": 660,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/hero-bouquet.webp",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 4,
+                    "fill": "#5d2611ff"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "0Qplc",
+          "name": "Как мы работаем",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "text",
+              "id": "x30vD",
+              "name": "eyW",
+              "fill": "#5d2611a8",
+              "content": "КАК МЫ РАБОТАЕМ",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "QanEf",
+              "name": "h2W",
+              "fill": "#5d2611ff",
+              "textGrowth": "fixed-width",
+              "width": 560,
+              "content": "Три шага до букета вашей мечты",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 40,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "i4gWq",
+              "name": "rowW",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "dH47o",
+                  "name": "s1",
+                  "width": "fill_container",
+                  "fill": "#fff9fbff",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1,
+                    "fill": "#eadde2ff"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "L6qQ7",
+                      "name": "n1",
+                      "width": 36,
+                      "height": 36,
+                      "fill": "#adb680ff",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#5d2611ff"
+                      },
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "8csYJ",
+                          "name": "n1t",
+                          "fill": "#5d2611ff",
+                          "content": "1",
+                          "fontFamily": "Cormorant Garamond",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ygur2",
+                      "name": "s1h",
+                      "fill": "#5d2611ff",
+                      "content": "Выберите композицию",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 22,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "THNZm",
+                      "name": "s1p",
+                      "fill": "#7a7076ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Ознакомьтесь с галереей и топом продаж или опишите пожелания — подберём стиль и палитру.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Jost",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JMilB",
+                  "name": "s2",
+                  "width": "fill_container",
+                  "fill": "#fff9fbff",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1,
+                    "fill": "#eadde2ff"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "5U2aX",
+                      "name": "n2",
+                      "width": 36,
+                      "height": 36,
+                      "fill": "#adb680ff",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#5d2611ff"
+                      },
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rSuc4",
+                          "name": "n2t",
+                          "fill": "#5d2611ff",
+                          "content": "2",
+                          "fontFamily": "Cormorant Garamond",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "wJpWy",
+                      "name": "s2h",
+                      "fill": "#5d2611ff",
+                      "content": "Свяжитесь с нами",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 22,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ltskj",
+                      "name": "s2p",
+                      "fill": "#7a7076ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Напишите в Telegram или на почту, уточним дату, адрес и бюджет за пару сообщений.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Jost",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hqVzV",
+                  "name": "s3",
+                  "width": "fill_container",
+                  "fill": "#fff9fbff",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1,
+                    "fill": "#eadde2ff"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "87FQ9",
+                      "name": "n3",
+                      "width": 36,
+                      "height": 36,
+                      "fill": "#adb680ff",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#5d2611ff"
+                      },
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "UcQe7",
+                          "name": "n3t",
+                          "fill": "#5d2611ff",
+                          "content": "3",
+                          "fontFamily": "Cormorant Garamond",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Nbhsh",
+                      "name": "s3h",
+                      "fill": "#5d2611ff",
+                      "content": "Получите свежий букет",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 22,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YRjlJ",
+                      "name": "s3p",
+                      "fill": "#7a7076ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Соберём цветы в день заказа и передадим так, как удобно вам — с заботой о деталях.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Jost",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "WqeOZ",
+          "name": "О магазине",
+          "width": "fill_container",
+          "fill": "#adb680d4",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#5d26110f"
+          },
+          "layout": "vertical",
+          "gap": 16,
+          "padding": 32,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "BJeNz",
+              "name": "eyA",
+              "fill": "#5d2611a8",
+              "content": "ФИЛОСОФИЯ БРЕНДА",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "7mdoI",
+              "name": "h2A",
+              "fill": "#5d2611ff",
+              "content": "О магазине",
+              "textAlign": "center",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 48,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "6avdf",
+              "name": "pA",
+              "fill": "#3e2a27ff",
+              "textGrowth": "fixed-width",
+              "width": 860,
+              "content": "Наш магазин — это признание в любви к природе и красоте. Мы не просто собираем букеты, мы создаем истории. Вдохновляясь оттенками рассвета и силуэтами садовых фей, мы подбираем каждую композицию так, чтобы она говорила на языке чувств. Мы верим, что цветы — это самый изящный способ выразить то, что сложно описать словами.",
+              "lineHeight": 1.55,
+              "textAlign": "center",
+              "fontFamily": "Jost",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "jdxvr",
+          "name": "CTA день",
+          "width": "fill_container",
+          "fill": "#d07449ab",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "center",
+            "thickness": 1,
+            "fill": "#eadde2ff"
+          },
+          "gap": 24,
+          "padding": 32,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "KneNF",
+              "name": "ctaL",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mv1KH",
+                  "name": "eyC",
+                  "fill": "#5d26118c",
+                  "content": "СЕГОДНЯ В РАБОТЕ",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "ipegk",
+                  "name": "h2C",
+                  "fill": "#5d2611ff",
+                  "textGrowth": "fixed-width",
+                  "width": 520,
+                  "content": "Свежие букеты каждый день",
+                  "fontFamily": "Cormorant Garamond",
+                  "fontSize": 36,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "eT61P",
+              "name": "ctaBtn",
+              "fill": "#b4bc86ff",
+              "cornerRadius": 20,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#5d2611ff"
+              },
+              "padding": [
+                12,
+                22
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hYUwR",
+                  "name": "ctaBt",
+                  "fill": "#5d2611ff",
+                  "content": "Написать в Telegram",
+                  "fontFamily": "Jost",
+                  "fontSize": 17,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "b7qke",
+          "name": "Галерея",
+          "width": "fill_container",
+          "fill": "#adb680ff",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#5d261114"
+          },
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            24,
+            28,
+            32,
+            28
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "FvNnS",
+              "name": "eyG",
+              "fill": "#5d2611a8",
+              "content": "КАТАЛОГ",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "l9lXR",
+              "name": "h2G",
+              "fill": "#5d2611ff",
+              "content": "Галерея букетов",
+              "textAlign": "center",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 44,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "6RbYo",
+              "name": "r1",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "urQTb",
+                  "name": "c1",
+                  "width": "fill_container",
+                  "fill": "#7f8c5eff",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "digjV",
+                      "name": "im1",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/gallery-rose-bush.webp",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "dQ3Bz",
+                      "name": "t1",
+                      "fill": "#000000ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Объёмный букет с кустовой, пионовидной розой",
+                      "textAlign": "center",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 20,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zQ2se",
+                      "name": "pr1",
+                      "fill": "#5d2611ff",
+                      "content": "4 730 ₽",
+                      "textAlign": "center",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 22,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZzpXW",
+                      "name": "lk1",
+                      "fill": "#5d2611ff",
+                      "content": "Заказать — Telegram",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.2
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IavsH",
+                  "name": "c2",
+                  "width": "fill_container",
+                  "fill": "#7f8c5eff",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "SNuBB",
+                      "name": "im2",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/gallery-chrysanthemum.webp",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "sIEL9",
+                      "name": "t2",
+                      "fill": "#000000ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Авторский букет: хризантема, хлопок и лагурус",
+                      "textAlign": "center",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 20,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "DPy90",
+                      "name": "pr2",
+                      "fill": "#5d2611ff",
+                      "content": "4 950 ₽",
+                      "textAlign": "center",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 22,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QN6qr",
+                      "name": "lk2",
+                      "fill": "#5d2611ff",
+                      "content": "Заказать — Telegram",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.2
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VOuY9",
+                  "name": "c3",
+                  "width": "fill_container",
+                  "fill": "#7f8c5eff",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "kL9DM",
+                      "name": "im3",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/gallery-eustoma.webp",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "XXSuL",
+                      "name": "t3",
+                      "fill": "#000000ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Эустома с альстромерией в коробке",
+                      "textAlign": "center",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 20,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qtsZ1",
+                      "name": "pr3",
+                      "fill": "#5d2611ff",
+                      "content": "6 300 ₽",
+                      "textAlign": "center",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 22,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vh5IN",
+                      "name": "lk3",
+                      "fill": "#5d2611ff",
+                      "content": "Заказать — Telegram",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.2
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ygXNV",
+              "name": "r2",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "zvOpb",
+                  "name": "c4",
+                  "width": "fill_container",
+                  "fill": "#7f8c5eff",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "qhoK1",
+                      "name": "im4",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/gallery-red-white-rose.webp",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "SIAd0",
+                      "name": "t4",
+                      "fill": "#000000ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Букет из красно-белой кустовой розы, 7 шт",
+                      "textAlign": "center",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 20,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "irSTb",
+                      "name": "pr4",
+                      "fill": "#5d2611ff",
+                      "content": "2 400 ₽",
+                      "textAlign": "center",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 22,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "uqDXO",
+                      "name": "lk4",
+                      "fill": "#5d2611ff",
+                      "content": "Заказать — Telegram",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.2
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hmnpJ",
+                  "name": "c5",
+                  "width": "fill_container",
+                  "fill": "#7f8c5eff",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "5cSnW",
+                      "name": "im5",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/gallery-grand-french.webp",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "X6DZp",
+                      "name": "t5",
+                      "fill": "#000000ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Гранд букет из французских роз и маттиолы",
+                      "textAlign": "center",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 20,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VabKg",
+                      "name": "pr5",
+                      "fill": "#5d2611ff",
+                      "content": "11 600 ₽",
+                      "textAlign": "center",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 22,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VNlY0",
+                      "name": "lk5",
+                      "fill": "#5d2611ff",
+                      "content": "Заказать — Telegram",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.2
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XHajT",
+                  "name": "c6",
+                  "width": "fill_container",
+                  "fill": "#7f8c5eff",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "c9lhv",
+                      "name": "im6",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/gallery-daisies.webp",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "0vWo9",
+                      "name": "t6",
+                      "fill": "#000000ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Букет ромашек и кустовых роз «Летние минуты»",
+                      "textAlign": "center",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 20,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PNMpR",
+                      "name": "pr6",
+                      "fill": "#5d2611ff",
+                      "content": "10 300 ₽",
+                      "textAlign": "center",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 22,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "I2V3r",
+                      "name": "lk6",
+                      "fill": "#5d2611ff",
+                      "content": "Заказать — Telegram",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.2
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "vmaXm",
+          "name": "Топ-5",
+          "width": "fill_container",
+          "fill": "#adb680ff",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#5d261114"
+          },
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            24,
+            28,
+            32,
+            28
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "tjiM8",
+              "name": "eyT",
+              "fill": "#5d2611a8",
+              "content": "ХИТЫ СЕЗОНА",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "db4dM",
+              "name": "h2T",
+              "fill": "#5d2611ff",
+              "content": "Топ-5 продаж",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 40,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "b8wMP",
+              "name": "rT1",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "0Bkrs",
+                  "name": "mc1",
+                  "width": "fill_container",
+                  "fill": "#fff9fbff",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1,
+                    "fill": "#eadde2ff"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "E2Ogr",
+                      "name": "ic1",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "droplets",
+                      "iconFontFamily": "lucide",
+                      "fill": "#d97f8bff"
+                    },
+                    {
+                      "type": "text",
+                      "id": "8oIFa",
+                      "name": "m1h",
+                      "fill": "#4a4347ff",
+                      "content": "1. Классический шедевр",
+                      "fontFamily": "Jost",
+                      "fontSize": 22,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "SgvxD",
+                      "name": "m1p",
+                      "fill": "#7a7076ff",
+                      "content": "Пудровые розы в шляпной коробке",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Jost",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "olaUF",
+                  "name": "mc2",
+                  "width": "fill_container",
+                  "fill": "#fff9fbff",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1,
+                    "fill": "#eadde2ff"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "je9FF",
+                      "name": "ic2",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "sun",
+                      "iconFontFamily": "lucide",
+                      "fill": "#d97f8bff"
+                    },
+                    {
+                      "type": "text",
+                      "id": "bRsgt",
+                      "name": "m2h",
+                      "fill": "#4a4347ff",
+                      "content": "2. Сады Амальфи",
+                      "fontFamily": "Jost",
+                      "fontSize": 22,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "T1RnH",
+                      "name": "m2p",
+                      "fill": "#7a7076ff",
+                      "content": "Сборная композиция в итальянском стиле",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Jost",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pZQC6",
+              "name": "rT2",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "5Q11q",
+                  "name": "mc3",
+                  "width": "fill_container",
+                  "fill": "#fff9fbff",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1,
+                    "fill": "#eadde2ff"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "Ayb3B",
+                      "name": "ic3",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "feather",
+                      "iconFontFamily": "lucide",
+                      "fill": "#d97f8bff"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LWAge",
+                      "name": "m3h",
+                      "fill": "#4a4347ff",
+                      "content": "3. Облако",
+                      "fontFamily": "Jost",
+                      "fontSize": 22,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "r7FI0",
+                      "name": "m3p",
+                      "fill": "#7a7076ff",
+                      "content": "Гортензия и гипсофила",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Jost",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Uj1ck",
+                  "name": "mc4",
+                  "width": "fill_container",
+                  "fill": "#fff9fbff",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1,
+                    "fill": "#eadde2ff"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "NL6k3",
+                      "name": "ic4",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "sparkles",
+                      "iconFontFamily": "lucide",
+                      "fill": "#d97f8bff"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tic82",
+                      "name": "m4h",
+                      "fill": "#4a4347ff",
+                      "content": "4. Сливки и лаванда",
+                      "fontFamily": "Jost",
+                      "fontSize": 22,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "8P7kj",
+                      "name": "m4p",
+                      "fill": "#7a7076ff",
+                      "content": "Нежно-кремовые тона с акцентом шалфея",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Jost",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RlYmP",
+                  "name": "mc5",
+                  "width": "fill_container",
+                  "fill": "#fff9fbff",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1,
+                    "fill": "#eadde2ff"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "933PF",
+                      "name": "ic5",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "wand-sparkles",
+                      "iconFontFamily": "lucide",
+                      "fill": "#d97f8bff"
+                    },
+                    {
+                      "type": "text",
+                      "id": "DO2CI",
+                      "name": "m5h",
+                      "fill": "#4a4347ff",
+                      "content": "5. Взмах крыльев",
+                      "fontFamily": "Jost",
+                      "fontSize": 22,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WVB4H",
+                      "name": "m5p",
+                      "fill": "#7a7076ff",
+                      "content": "Микс-сборка в крафте с логотипом-феей",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Jost",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nCxZL",
+          "name": "Настроения",
+          "width": "fill_container",
+          "fill": "#adb680ff",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#5d261114"
+          },
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            24,
+            28,
+            32,
+            28
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "4uR5P",
+              "name": "eyM",
+              "fill": "#5d2611a8",
+              "content": "ВДОХНОВЕНИЕ",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "CWMWD",
+              "name": "h2M",
+              "fill": "#5d2611ff",
+              "content": "Текстуры и настроения",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 36,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "MknBL",
+              "name": "rowM",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gAIJj",
+                  "name": "md1",
+                  "width": "fill_container",
+                  "fill": "#fff9fbff",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1,
+                    "fill": "#eadde2ff"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fwgzD",
+                      "name": "md1h",
+                      "fill": "#d97f8bff",
+                      "content": "Утренняя свежесть",
+                      "fontFamily": "Jost",
+                      "fontSize": 24,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XAyCR",
+                      "name": "md1p",
+                      "fill": "#7a7076ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Пионы в нежно-розовом тоне, шафран и эвкалипт. Букет, полный воздуха и света.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Jost",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Z1TyL",
+                  "name": "md2",
+                  "width": "fill_container",
+                  "fill": "#fff9fbff",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1,
+                    "fill": "#eadde2ff"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xigiU",
+                      "name": "md2h",
+                      "fill": "#7f8c5eff",
+                      "content": "Силуэт феи",
+                      "fontFamily": "Jost",
+                      "fontSize": 24,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "oDIGG",
+                      "name": "md2p",
+                      "fill": "#7a7076ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Орхидеи, маттиола и сухоцветы в оливковых тонах. Минималистичная композиция.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Jost",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "T9alq",
+                  "name": "md3",
+                  "width": "fill_container",
+                  "fill": "#fff9fbff",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1,
+                    "fill": "#eadde2ff"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Q231Y",
+                      "name": "md3h",
+                      "fill": "#d97f8bff",
+                      "content": "Персиковый мусс",
+                      "fontFamily": "Jost",
+                      "fontSize": 24,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fY54N",
+                      "name": "md3p",
+                      "fill": "#7a7076ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Розы, ранункулюсы и зелень. Текстурный букет в журнальной стилистике.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Jost",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "63BBU",
+          "name": "CTA финал",
+          "width": "fill_container",
+          "fill": "#d29768ff",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "center",
+            "thickness": 1,
+            "fill": "#eadde2ff"
+          },
+          "gap": 28,
+          "padding": 32,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "M5r1g",
+              "name": "ctaFL",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "LCEG8",
+                  "name": "eyF",
+                  "fill": "#5d26118c",
+                  "content": "ГОТОВЫ К МОМЕНТУ",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "HOPAT",
+                  "name": "h2F",
+                  "fill": "#5d2611ff",
+                  "textGrowth": "fixed-width",
+                  "width": 480,
+                  "content": "Изящество в каждом лепестке.",
+                  "fontFamily": "Cormorant Garamond",
+                  "fontSize": 36,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "5YJRR",
+                  "name": "pF",
+                  "fill": "#3e2a27ff",
+                  "textGrowth": "fixed-width",
+                  "width": 520,
+                  "content": "Нежность, ставшая формой. Позвольте легкости коснуться вашей жизни — мы соберем композицию для вашего особенного момента.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Jost",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gNami",
+              "name": "ctaFB",
+              "fill": "#adb680ff",
+              "cornerRadius": 20,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#5d2611ff"
+              },
+              "padding": [
+                12,
+                22
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nMQcM",
+                  "name": "ctaFBt",
+                  "fill": "#5d2611ff",
+                  "content": "Написать на email",
+                  "fontFamily": "Jost",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "XUect",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#7f8c5eff",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#5d26111a"
+          },
+          "gap": 32,
+          "padding": 32,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "2IIzc",
+              "name": "footL",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "gHSkW",
+                  "name": "fl1",
+                  "fill": "#ffffffa6",
+                  "content": "СВЯЗЬ",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "wLAeO",
+                  "name": "fl2",
+                  "fill": "#ffffffff",
+                  "content": "Контакты",
+                  "fontFamily": "Cormorant Garamond",
+                  "fontSize": 26,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "NWj48",
+                  "name": "fl3",
+                  "fill": "#fff9fbff",
+                  "content": "ola457752@gmail.com",
+                  "fontFamily": "Cormorant Garamond",
+                  "fontSize": 20,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "IVQ3J",
+                  "name": "fl4",
+                  "fill": "#fff9fbff",
+                  "content": "Telegram — @Olya18si",
+                  "fontFamily": "Cormorant Garamond",
+                  "fontSize": 20,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "ISxoK",
+                  "name": "fl5",
+                  "fill": "#ffffffff",
+                  "content": "8 900 355 44 22",
+                  "fontFamily": "Cormorant Garamond",
+                  "fontSize": 24,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gjXwE",
+              "name": "footR",
+              "clip": true,
+              "width": 400,
+              "height": 200,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/footer-bouquet.webp",
+                "mode": "fill"
+              },
+              "cornerRadius": 20,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#ffffff40"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
