@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanek Coffee</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="overlay" id="overlay"></div>
+
+  <aside class="sidebar" id="sidebar" aria-hidden="true">
+    <button class="sidebar__close" id="closeSidebar" aria-label="Закрыть меню">&times;</button>
+    <nav class="sidebar__nav">
+      <a href="#menu" class="sidebar__link">Меню</a>
+      <a href="#about" class="sidebar__link">О нас</a>
+      <a href="#contacts" class="sidebar__link">Контакты</a>
+    </nav>
+  </aside>
+
+  <header class="header" id="home">
+    <div class="brand">
+      <img src="./images/logo.png" alt="Логотип Sanek" class="brand__logo">
+      <span class="brand__name">Sanek</span>
+    </div>
+    <nav class="nav desktop-nav">
+      <a href="#menu" class="nav__link">Меню</a>
+      <a href="#about" class="nav__link">О нас</a>
+      <a href="#contacts" class="nav__link">Контакты</a>
+    </nav>
+    <button class="menu-toggle" id="openSidebar" aria-label="Открыть меню">☰</button>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="hero__content">
+        <h1>Sanek</h1>
+        <p>Кофе, который не злится по утрам. В отличие от Санька.</p>
+        <a href="#menu" class="btn">Посмотреть меню</a>
+      </div>
+      <img src="./images/hero-photo.jpg" alt="Интерьер кофейни Sanek" class="hero__image">
+    </section>
+
+    <section class="about section" id="about">
+      <h2>О нас</h2>
+      <p>
+        Sanek — это маленькая кофейня с большим сердцем и отличным чувством юмора. Назвали в честь владельца,
+        который обещал не кричать на бариста, если вы будете заказывать раф с сиропом в третий раз. Пока держится.
+      </p>
+      <p class="about__note">У нас есть розетки. И печеньки. Живите здесь сколько нужно.</p>
+    </section>
+
+    <section class="menu section" id="menu">
+      <h2>Меню напитков</h2>
+      <div class="menu-grid">
+        <article class="menu-card"><h3>Эспрессо</h3><p>Короткий, бодрый, без лишних разговоров.</p><strong>190 ₽</strong></article>
+        <article class="menu-card"><h3>Флэт уайт</h3><p>Шелковистый микс двойного эспрессо и молока.</p><strong>260 ₽</strong></article>
+        <article class="menu-card"><h3>Капучино</h3><p>Тот самый пушистый облачок на удачное утро.</p><strong>280 ₽</strong></article>
+        <article class="menu-card"><h3>Матча латте</h3><p>Зелёный дзен, когда дедлайн уже дышит в спину.</p><strong>320 ₽</strong></article>
+        <article class="menu-card"><h3>Раф с фисташкой</h3><p>Сливочный, ореховый и dangerously comforting.</p><strong>360 ₽</strong></article>
+      </div>
+    </section>
+
+    <section class="baking section">
+      <img src="./images/croissant.jpg" alt="Круассан и кофе" class="baking__image">
+      <div class="baking__content">
+        <h2>Выпечка</h2>
+        <p>Круассан с хрустящей корочкой и мягким сливочным сердцем. Серьезно, он красивее некоторых бывших.</p>
+        <strong>Круассан — 240 ₽</strong>
+      </div>
+    </section>
+
+    <section class="atmosphere section">
+      <h2>Атмосфера</h2>
+      <div class="gallery">
+        <img src="./images/atmosphere-1.jpg" alt="Атмосфера кофейни 1">
+        <img src="./images/atmosphere-2.jpg" alt="Атмосфера кофейни 2">
+        <img src="./images/atmosphere-3.jpg" alt="Атмосфера кофейни 3">
+      </div>
+    </section>
+
+    <section class="contacts section" id="contacts">
+      <div class="contacts__info">
+        <h2>Контакты</h2>
+        <p>Москва, ул. Тёплый переулок, 7</p>
+        <p>Ежедневно: 08:00 - 22:00</p>
+        <p>@sanek.coffee | t.me/sanekcoffee</p>
+      </div>
+      <a href="https://yandex.ru/maps/?text=Москва%2C%20ул.%20Тёплый%20переулок%2C%207" target="_blank" rel="noopener noreferrer" class="contacts__map-link">
+        <img src="./images/map.jpg" alt="Карта кофейни Sanek" class="contacts__map">
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">Sanek © 2026</footer>
+
+  <script>
+    const sidebar = document.getElementById('sidebar');
+    const overlay = document.getElementById('overlay');
+    const openSidebar = document.getElementById('openSidebar');
+    const closeSidebar = document.getElementById('closeSidebar');
+    const sidebarLinks = document.querySelectorAll('.sidebar__link');
+
+    function showSidebar() {
+      sidebar.classList.add('is-open');
+      overlay.classList.add('is-open');
+      sidebar.setAttribute('aria-hidden', 'false');
+      document.body.classList.add('no-scroll');
+    }
+
+    function hideSidebar() {
+      sidebar.classList.remove('is-open');
+      overlay.classList.remove('is-open');
+      sidebar.setAttribute('aria-hidden', 'true');
+      document.body.classList.remove('no-scroll');
+    }
+
+    openSidebar.addEventListener('click', showSidebar);
+    closeSidebar.addEventListener('click', hideSidebar);
+    overlay.addEventListener('click', hideSidebar);
+    sidebarLinks.forEach((link) => link.addEventListener('click', hideSidebar));
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 900) hideSidebar();
+    });
+  </script>
+</body>
+</html>
