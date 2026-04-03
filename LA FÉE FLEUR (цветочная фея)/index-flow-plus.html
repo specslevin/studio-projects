@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LA FÉE FLEUR — цветочный бутик (версия +)</title>
+  <meta name="description" content="Авторские букеты LA FÉE FLEUR: каталог, топ продаж, заказ в Telegram или по почте. Без корзины — собираем под ваш повод.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Jost:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles-flow-plus.css">
+</head>
+<body>
+  <a class="lf-skip" href="#main">К основному содержимому</a>
+  <div class="lf-flow">
+    <header class="lf-header" data-header>
+      <div class="lf-header__inner">
+        <a class="lf-logo" href="#hero">LA FÉE FLEUR</a>
+        <button class="lf-nav-toggle" type="button" aria-expanded="false" aria-controls="lf-nav" aria-label="Меню" data-nav-toggle>
+          <span class="lf-nav-toggle__bar" aria-hidden="true"></span>
+        </button>
+        <nav class="lf-nav" id="lf-nav" data-nav aria-label="Основная навигация">
+          <a href="#hero" data-nav-link>Главная</a>
+          <a href="#about" data-nav-link>О магазине</a>
+          <a href="#gallery" data-nav-link>Каталог</a>
+          <a href="#top5" data-nav-link>Топ-5</a>
+          <a href="#order" data-nav-link>Заказ</a>
+          <a href="#moods" data-nav-link>Настроения</a>
+          <a href="#contacts" data-nav-link>Контакты</a>
+          <a class="lf-nav__mobile-cta" href="https://t.me/Olya18si?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20LA%20F%C3%89E%20FLEUR." target="_blank" rel="noopener noreferrer" data-nav-link>Написать в Telegram</a>
+        </nav>
+        <a class="lf-header__cta" href="https://t.me/Olya18si?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20LA%20F%C3%89E%20FLEUR." target="_blank" rel="noopener noreferrer">Заказать в Telegram</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="lf-hero lf-section" id="hero" aria-labelledby="hero-title">
+        <div class="lf-hero__grid">
+          <div class="lf-hero__brand">
+            <img class="lf-hero__logo-img" src="images/logo-la-fee-fleur.webp" width="440" height="478" alt="Логотип LA FÉE FLEUR" loading="eager">
+            <h1 class="lf-hero__title" id="hero-title">LA FÉE FLEUR</h1>
+            <p class="lf-hero__quote">Мы собираем букеты как короткие истории — про нежность, свет и повод. Без суеты: выбираете настроение, пишете нам, мы берём остальное на себя.</p>
+            <div class="lf-hero__actions">
+              <a class="lf-btn" href="https://t.me/Olya18si?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20LA%20F%C3%89E%20FLEUR." target="_blank" rel="noopener noreferrer">Заказать в Telegram</a>
+              <a class="lf-btn lf-btn--ghost" href="#gallery">Смотреть каталог</a>
+            </div>
+          </div>
+          <div class="lf-hero__visual" data-parallax-wrap>
+            <img src="images/hero-bouquet.webp" width="1040" height="1320" alt="Авторский букет LA FÉE FLEUR" loading="eager" decoding="async" data-parallax-img>
+          </div>
+        </div>
+      </section>
+
+      <section class="lf-section lf-section--work js-reveal" id="order" aria-labelledby="steps-title">
+        <span class="lf-eyebrow" id="steps-title">Как мы работаем</span>
+        <h2 class="lf-section__title lf-section__title--left">Три шага до вашего букета</h2>
+        <div class="lf-steps-grid">
+          <article class="lf-step">
+            <span class="lf-step__num" aria-hidden="true">1</span>
+            <h3>Выберите настроение</h3>
+            <p>Каталог, топ продаж или пара слов о поводе — подберём палитру и форму под ваш запрос.</p>
+          </article>
+          <article class="lf-step">
+            <span class="lf-step__num" aria-hidden="true">2</span>
+            <h3>Напишите в Telegram</h3>
+            <p>Уточним дату, адрес и бюджет в переписке. Оплата и доставка — по договорённости, без форм на сайте.</p>
+          </article>
+          <article class="lf-step">
+            <span class="lf-step__num" aria-hidden="true">3</span>
+            <h3>Получите свежую работу</h3>
+            <p>Соберём в день передачи и аккуратно упакуем — чтобы букет доехал таким, каким вы его задумали.</p>
+          </article>
+        </div>
+        <div class="lf-order-strip">
+          <p class="lf-order-strip__text">Готовы начать? Один шаг — сообщение в Telegram. Почта и телефон — если вам так привычнее.</p>
+          <div class="lf-order-strip__actions">
+            <a class="lf-btn" href="https://t.me/Olya18si?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20LA%20F%C3%89E%20FLEUR." target="_blank" rel="noopener noreferrer">Написать в Telegram</a>
+            <a class="lf-btn lf-btn--outline lf-btn--compact" href="mailto:ola457752@gmail.com?subject=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%20%D0%B1%D1%83%D0%BA%D0%B5%D1%82%D0%B0%20LA%20F%C3%89E%20FLEUR">Или на почту</a>
+            <a class="lf-btn lf-btn--ghost-dark lf-btn--compact" href="tel:+79003554422">Позвонить</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="lf-about lf-section js-reveal" id="about" aria-labelledby="about-title">
+        <span class="lf-eyebrow">Философия бренда</span>
+        <h2 class="lf-section__title" id="about-title">О магазине</h2>
+        <p>LA FÉE FLEUR — про тишину, текстуру и свет. Мы не гонимся за шаблоном: каждый букет — авторская работа под ваш повод. Природа задаёт палитру, а забота о деталях — наш обычный ритм.</p>
+      </section>
+
+      <section class="lf-cta-bar lf-section js-reveal" aria-labelledby="cta-daily-title">
+        <div>
+          <span class="lf-eyebrow" style="color: rgba(93,38,17,0.55)">Сегодня в работе</span>
+          <h2 id="cta-daily-title">Свежие букеты каждый день</h2>
+        </div>
+        <a class="lf-btn" href="https://t.me/Olya18si?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20LA%20F%C3%89E%20FLEUR." target="_blank" rel="noopener noreferrer">Написать в Telegram</a>
+      </section>
+
+      <section class="lf-gallery lf-section js-reveal" id="gallery" aria-labelledby="gallery-title">
+        <span class="lf-eyebrow">Каталог</span>
+        <h2 class="lf-section__title" id="gallery-title">Галерея букетов</h2>
+        <p class="lf-gallery__note">Цены ориентировочные — финальную сумму и состав согласуем с вами лично.</p>
+        <div class="lf-gallery__grid">
+          <article class="lf-card">
+            <div class="lf-card__img">
+              <img src="images/gallery-rose-bush.webp" width="760" height="520" alt="Объёмный букет с пионовидной розой" loading="lazy">
+            </div>
+            <h3>Объёмный букет с кустовой, пионовидной розой</h3>
+            <p class="lf-price">4&nbsp;730&nbsp;₽</p>
+            <a class="lf-card__link" href="https://t.me/Olya18si?text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C!%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%C2%AB%D0%9E%D0%B1%D1%8A%D1%91%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%B1%D1%83%D0%BA%D0%B5%D1%82%20%D1%81%20%D0%BA%D1%83%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B9%2C%20%D0%BF%D0%B8%D0%BE%D0%BD%D0%BE%D0%B2%D0%B8%D0%B4%D0%BD%D0%BE%D0%B9%20%D1%80%D0%BE%D0%B7%D0%BE%D0%B9%C2%BB%20%E2%80%94%20LA%20F%C3%89E%20FLEUR%2C%20%D1%81%D0%B0%D0%B9%D1%82." target="_blank" rel="noopener noreferrer">Написать в Telegram</a>
+          </article>
+          <article class="lf-card">
+            <div class="lf-card__img">
+              <img src="images/gallery-chrysanthemum.webp" width="760" height="520" alt="Авторский букет с хризантемой и хлопком" loading="lazy">
+            </div>
+            <h3>Авторский букет: розовая хризантема, натуральный хлопок и лагурус</h3>
+            <p class="lf-price">4&nbsp;950&nbsp;₽</p>
+            <a class="lf-card__link" href="https://t.me/Olya18si?text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C!%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%C2%AB%D0%90%D0%B2%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B1%D1%83%D0%BA%D0%B5%D1%82%3A%20%D1%85%D1%80%D0%B8%D0%B7%D0%B0%D0%BD%D1%82%D0%B5%D0%BC%D0%B0%2C%20%D1%85%D0%BB%D0%BE%D0%BF%D0%BE%D0%BA%20%D0%B8%20%D0%BB%D0%B0%D0%B3%D1%83%D1%80%D1%83%D1%81%C2%BB%20%E2%80%94%20LA%20F%C3%89E%20FLEUR%2C%20%D1%81%D0%B0%D0%B9%D1%82." target="_blank" rel="noopener noreferrer">Написать в Telegram</a>
+          </article>
+          <article class="lf-card">
+            <div class="lf-card__img">
+              <img src="images/gallery-eustoma.webp" width="760" height="520" alt="Эустома с альстромерией в коробке" loading="lazy">
+            </div>
+            <h3>Эустома с альстромерией в коробке</h3>
+            <p class="lf-price">6&nbsp;300&nbsp;₽</p>
+            <a class="lf-card__link" href="https://t.me/Olya18si?text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C!%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%C2%AB%D0%AD%D1%83%D1%81%D1%82%D0%BE%D0%BC%D0%B0%20%D1%81%20%D0%B0%D0%BB%D1%8C%D1%81%D1%82%D1%80%D0%BE%D0%BC%D0%B5%D1%80%D0%B8%D0%B5%D0%B9%20%D0%B2%20%D0%BA%D0%BE%D1%80%D0%BE%D0%B1%D0%BA%D0%B5%C2%BB%20%E2%80%94%20LA%20F%C3%89E%20FLEUR%2C%20%D1%81%D0%B0%D0%B9%D1%82." target="_blank" rel="noopener noreferrer">Написать в Telegram</a>
+          </article>
+          <article class="lf-card">
+            <div class="lf-card__img">
+              <img src="images/gallery-red-white-rose.webp" width="760" height="520" alt="Букет из красно-белой кустовой розы" loading="lazy">
+            </div>
+            <h3>Букет из красно-белой кустовой розы, 7&nbsp;шт</h3>
+            <p class="lf-price">2&nbsp;400&nbsp;₽</p>
+            <a class="lf-card__link" href="https://t.me/Olya18si?text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C!%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%C2%AB%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE-%D0%B1%D0%B5%D0%BB%D0%B0%D1%8F%20%D0%BA%D1%83%D1%81%D1%82%D0%BE%D0%B2%D0%B0%D1%8F%20%D1%80%D0%BE%D0%B7%D0%B0%2C%207%20%D1%88%D1%82%C2%BB%20%E2%80%94%20LA%20F%C3%89E%20FLEUR%2C%20%D1%81%D0%B0%D0%B9%D1%82." target="_blank" rel="noopener noreferrer">Написать в Telegram</a>
+          </article>
+          <article class="lf-card">
+            <div class="lf-card__img">
+              <img src="images/gallery-grand-french.webp" width="760" height="520" alt="Гранд букет из роз и маттиолы" loading="lazy">
+            </div>
+            <h3>Гранд букет из французских роз и маттиолы</h3>
+            <p class="lf-price">11&nbsp;600&nbsp;₽</p>
+            <a class="lf-card__link" href="https://t.me/Olya18si?text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C!%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%C2%AB%D0%93%D1%80%D0%B0%D0%BD%D0%B4%20%D0%B1%D1%83%D0%BA%D0%B5%D1%82%20%D0%B8%D0%B7%20%D1%84%D1%80%D0%B0%D0%BD%D1%86%D1%83%D0%B7%D1%81%D0%BA%D0%B8%D1%85%20%D1%80%D0%BE%D0%B7%20%D0%B8%20%D0%BC%D0%B0%D1%82%D1%82%D0%B8%D0%BE%D0%BB%D1%8B%C2%BB%20%E2%80%94%20LA%20F%C3%89E%20FLEUR%2C%20%D1%81%D0%B0%D0%B9%D1%82." target="_blank" rel="noopener noreferrer">Написать в Telegram</a>
+          </article>
+          <article class="lf-card">
+            <div class="lf-card__img">
+              <img src="images/gallery-daisies.webp" width="760" height="520" alt="Букет ромашек и кустовых роз" loading="lazy">
+            </div>
+            <h3>Букет ромашек и кустовых роз «Летние минуты»</h3>
+            <p class="lf-price">10&nbsp;300&nbsp;₽</p>
+            <a class="lf-card__link" href="https://t.me/Olya18si?text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C!%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%C2%AB%D0%A0%D0%BE%D0%BC%D0%B0%D1%88%D0%BA%D0%B8%20%D0%B8%20%D0%BA%D1%83%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B5%20%D1%80%D0%BE%D0%B7%D1%8B%20%C2%AB%D0%9B%D0%B5%D1%82%D0%BD%D0%B8%D0%B5%20%D0%BC%D0%B8%D0%BD%D1%83%D1%82%D1%8B%C2%BB%C2%BB%20%E2%80%94%20LA%20F%C3%89E%20FLEUR%2C%20%D1%81%D0%B0%D0%B9%D1%82." target="_blank" rel="noopener noreferrer">Написать в Telegram</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="lf-top5 lf-section js-reveal" id="top5" aria-labelledby="top5-title">
+        <span class="lf-eyebrow">Хиты сезона</span>
+        <h2 class="lf-section__title lf-section__title--left" id="top5-title">Топ-5 продаж</h2>
+        <p class="lf-top5__lead">Скоро здесь будут живые фото витрины. Пока ориентируйтесь на описание — или напишите, и мы пришлём актуальные снимки.</p>
+        <div class="lf-top5__grid">
+          <article class="lf-top5-card">
+            <div class="lf-top5-card__media" aria-hidden="true">
+              <span class="lf-top5-card__badge">Фото скоро</span>
+            </div>
+            <div class="lf-top5-card__body">
+              <h3><span class="lf-top5-card__rank">1</span> Классический шедевр</h3>
+              <p>Пудровые розы в шляпной коробке</p>
+              <a class="lf-top5-card__link" href="https://t.me/Olya18si?text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C!%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F%20%C2%AB%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%88%D0%B5%D0%B4%D0%B5%D0%B2%D1%80%20%E2%80%94%20%D0%BF%D1%83%D0%B4%D1%80%D0%BE%D0%B2%D1%8B%D0%B5%20%D1%80%D0%BE%D0%B7%D1%8B%20%D0%B2%20%D0%BA%D0%BE%D1%80%D0%BE%D0%B1%D0%BA%D0%B5%C2%BB%20%E2%80%94%20%D1%82%D0%BE%D0%BF%20LA%20F%C3%89E%20FLEUR." target="_blank" rel="noopener noreferrer">Уточнить в Telegram</a>
+            </div>
+          </article>
+          <article class="lf-top5-card">
+            <div class="lf-top5-card__media" aria-hidden="true">
+              <span class="lf-top5-card__badge">Фото скоро</span>
+            </div>
+            <div class="lf-top5-card__body">
+              <h3><span class="lf-top5-card__rank">2</span> Сады Амальфи</h3>
+              <p>Сборная композиция в итальянском стиле</p>
+              <a class="lf-top5-card__link" href="https://t.me/Olya18si?text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C!%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F%20%C2%AB%D0%A1%D0%B0%D0%B4%D1%8B%20%D0%90%D0%BC%D0%B0%D0%BB%D1%8C%D1%84%D0%B8%20%E2%80%94%20%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D1%81%D0%B1%D0%BE%D1%80%D0%BA%D0%B0%C2%BB%20%E2%80%94%20%D1%82%D0%BE%D0%BF%20LA%20F%C3%89E%20FLEUR." target="_blank" rel="noopener noreferrer">Уточнить в Telegram</a>
+            </div>
+          </article>
+          <article class="lf-top5-card">
+            <div class="lf-top5-card__media" aria-hidden="true">
+              <span class="lf-top5-card__badge">Фото скоро</span>
+            </div>
+            <div class="lf-top5-card__body">
+              <h3><span class="lf-top5-card__rank">3</span> Облако</h3>
+              <p>Гортензия и гипсофила</p>
+              <a class="lf-top5-card__link" href="https://t.me/Olya18si?text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C!%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F%20%C2%AB%D0%9E%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE%20%E2%80%94%20%D0%B3%D0%BE%D1%80%D1%82%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F%20%D0%B8%20%D0%B3%D0%B8%D0%BF%D1%81%D0%BE%D1%84%D0%B8%D0%BB%D0%B0%C2%BB%20%E2%80%94%20%D1%82%D0%BE%D0%BF%20LA%20F%C3%89E%20FLEUR." target="_blank" rel="noopener noreferrer">Уточнить в Telegram</a>
+            </div>
+          </article>
+          <article class="lf-top5-card">
+            <div class="lf-top5-card__media" aria-hidden="true">
+              <span class="lf-top5-card__badge">Фото скоро</span>
+            </div>
+            <div class="lf-top5-card__body">
+              <h3><span class="lf-top5-card__rank">4</span> Сливки &amp; лаванда</h3>
+              <p>Нежно-кремовые тона с акцентом шалфея</p>
+              <a class="lf-top5-card__link" href="https://t.me/Olya18si?text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C!%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F%20%C2%AB%D0%A1%D0%BB%D0%B8%D0%B2%D0%BA%D0%B8%20%D0%B8%20%D0%BB%D0%B0%D0%B2%D0%B0%D0%BD%D0%B4%D0%B0%20%E2%80%94%20%D0%BA%D1%80%D0%B5%D0%BC%20%D0%B8%20%D1%88%D0%B0%D0%BB%D1%84%D0%B5%D0%B9%C2%BB%20%E2%80%94%20%D1%82%D0%BE%D0%BF%20LA%20F%C3%89E%20FLEUR." target="_blank" rel="noopener noreferrer">Уточнить в Telegram</a>
+            </div>
+          </article>
+          <article class="lf-top5-card">
+            <div class="lf-top5-card__media" aria-hidden="true">
+              <span class="lf-top5-card__badge">Фото скоро</span>
+            </div>
+            <div class="lf-top5-card__body">
+              <h3><span class="lf-top5-card__rank">5</span> Взмах крыльев</h3>
+              <p>Микс-сборка в крафте с фирменным акцентом</p>
+              <a class="lf-top5-card__link" href="https://t.me/Olya18si?text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C!%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F%20%C2%AB%D0%92%D0%B7%D0%BC%D0%B0%D1%85%20%D0%BA%D1%80%D1%8B%D0%BB%D1%8C%D0%B5%D0%B2%20%E2%80%94%20%D0%BA%D1%80%D0%B0%D1%84%D1%82%20%D1%81%20%D1%84%D0%B8%D1%80%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC%20%D0%B0%D0%BA%D1%86%D0%B5%D0%BD%D1%82%D0%BE%D0%BC%C2%BB%20%E2%80%94%20%D1%82%D0%BE%D0%BF%20LA%20F%C3%89E%20FLEUR." target="_blank" rel="noopener noreferrer">Уточнить в Telegram</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="lf-moods lf-section js-reveal" id="moods" aria-labelledby="moods-title">
+        <span class="lf-eyebrow">Вдохновение</span>
+        <h2 class="lf-section__title lf-section__title--left" id="moods-title">Текстуры и настроения</h2>
+        <div class="lf-moods__grid">
+          <article class="lf-mood-card">
+            <h3>Утренняя свежесть</h3>
+            <p>Пионы в нежно-розовом тоне, шафран и веточки эвкалипта. Букет, полный воздуха и света.</p>
+          </article>
+          <article class="lf-mood-card">
+            <h3 class="sage-title">Силуэт феи</h3>
+            <p>Экзотические орхидеи, маттиола и сухоцветы в спокойных оливковых тонах. Изящная композиция в духе минимализма.</p>
+          </article>
+          <article class="lf-mood-card">
+            <h3>Персиковый мусс</h3>
+            <p>Махровые розы, ранункулюсы и декоративная зелень. Текстурный букет в журнальной стилистике.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="lf-cta-final lf-section js-reveal" aria-labelledby="cta-final-title">
+        <div class="lf-cta-final__text">
+          <span class="lf-eyebrow" style="color: rgba(93,38,17,0.55)">Готовы к моменту</span>
+          <h2 id="cta-final-title">Осталось выбрать повод</h2>
+          <p>Расскажите дату и настроение — предложим варианты и срок. Онлайн-корзины пока нет: заказ оформляем в переписке, так спокойнее и точнее.</p>
+        </div>
+        <div class="lf-cta-final__actions">
+          <a class="lf-btn" href="https://t.me/Olya18si?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20LA%20F%C3%89E%20FLEUR." target="_blank" rel="noopener noreferrer">Telegram</a>
+          <a class="lf-btn lf-btn--outline" href="mailto:ola457752@gmail.com?subject=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%20%D0%B1%D1%83%D0%BA%D0%B5%D1%82%D0%B0%20LA%20F%C3%89E%20FLEUR">Email</a>
+        </div>
+      </section>
+
+      <footer class="lf-footer lf-section js-reveal" id="contacts">
+        <div class="lf-footer__contacts">
+          <div class="lf-footer__block">
+            <span class="lf-footer__label">Связь</span>
+            <p class="lf-footer__value"><strong>Контакты</strong></p>
+          </div>
+          <div class="lf-footer__block">
+            <span class="lf-footer__label">Мессенджер и почта</span>
+            <div class="lf-footer__value lf-footer__links">
+              <a href="mailto:ola457752@gmail.com">ola457752@gmail.com</a>
+              <a href="https://t.me/Olya18si?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20LA%20F%C3%89E%20FLEUR." target="_blank" rel="noopener noreferrer">Telegram — @Olya18si</a>
+            </div>
+          </div>
+          <div class="lf-footer__block">
+            <span class="lf-footer__label">Телефон</span>
+            <p class="lf-footer__value"><strong><a href="tel:+79003554422">8&nbsp;900&nbsp;355&nbsp;44&nbsp;22</a></strong></p>
+          </div>
+        </div>
+        <div class="lf-footer__img">
+          <img src="images/footer-bouquet.webp" width="854" height="430" alt="Букет LA FÉE FLEUR" loading="lazy">
+        </div>
+      </footer>
+    </main>
+  </div>
+
+  <div class="lf-sticky-cta" role="region" aria-label="Быстрый заказ">
+    <a class="lf-btn" href="https://t.me/Olya18si?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20LA%20F%C3%89E%20FLEUR." target="_blank" rel="noopener noreferrer">Заказать в Telegram</a>
+  </div>
+
+  <script>
+    (function () {
+      var header = document.querySelector("[data-header]");
+      var btn = document.querySelector("[data-nav-toggle]");
+      var nav = document.querySelector("[data-nav]");
+      var navLinks = document.querySelectorAll("[data-nav-link]");
+
+      function setScrolled() {
+        if (!header) return;
+        header.classList.toggle("is-scrolled", window.scrollY > 20);
+      }
+
+      setScrolled();
+      window.addEventListener("scroll", setScrolled, { passive: true });
+
+      if (btn && nav) {
+        btn.addEventListener("click", function () {
+          var open = !nav.classList.contains("lf-nav--open");
+          nav.classList.toggle("lf-nav--open", open);
+          btn.setAttribute("aria-expanded", open ? "true" : "false");
+          if (header) header.classList.toggle("lf-header--nav-open", open);
+        });
+        navLinks.forEach(function (link) {
+          link.addEventListener("click", function () {
+            nav.classList.remove("lf-nav--open");
+            btn.setAttribute("aria-expanded", "false");
+            if (header) header.classList.remove("lf-header--nav-open");
+          });
+        });
+      }
+
+      var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      if (!reduceMotion && "IntersectionObserver" in window) {
+        var revealEls = document.querySelectorAll(".js-reveal");
+        var obs = new IntersectionObserver(
+          function (entries) {
+            entries.forEach(function (e) {
+              if (e.isIntersecting) {
+                e.target.classList.add("is-visible");
+                obs.unobserve(e.target);
+              }
+            });
+          },
+          { rootMargin: "0px 0px -8% 0px", threshold: 0.08 }
+        );
+        revealEls.forEach(function (el) {
+          obs.observe(el);
+        });
+      } else {
+        document.querySelectorAll(".js-reveal").forEach(function (el) {
+          el.classList.add("is-visible");
+        });
+      }
+
+      if (!reduceMotion) {
+        var parallaxImg = document.querySelector("[data-parallax-img]");
+        if (parallaxImg) {
+          var maxShift = 12;
+          function parallaxTick() {
+            var rect = parallaxImg.getBoundingClientRect();
+            var vh = window.innerHeight || 1;
+            var t = (rect.top + rect.height * 0.35) / vh;
+            var clamped = Math.min(Math.max(t, 0), 1);
+            var y = (0.5 - clamped) * maxShift;
+            parallaxImg.style.transform = "translate3d(0, " + y.toFixed(2) + "px, 0)";
+          }
+          parallaxTick();
+          window.addEventListener("scroll", parallaxTick, { passive: true });
+          window.addEventListener("resize", parallaxTick, { passive: true });
+        }
+      }
+
+      var sectionIds = ["hero", "order", "about", "gallery", "top5", "moods", "contacts"];
+      var navAnchors = document.querySelectorAll('.lf-nav a[href^="#"]');
+
+      function setActiveNav() {
+        var y = window.scrollY + 120;
+        var current = "hero";
+        sectionIds.forEach(function (id) {
+          var el = document.getElementById(id);
+          if (el && el.offsetTop <= y) current = id;
+        });
+        navAnchors.forEach(function (a) {
+          var href = a.getAttribute("href");
+          a.classList.toggle("is-active", href === "#" + current);
+        });
+      }
+
+      window.addEventListener("scroll", setActiveNav, { passive: true });
+      setActiveNav();
+    })();
+  </script>
+</body>
+</html>
