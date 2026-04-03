@@ -1,0 +1,11 @@
+# LA FÉE FLEUR — публикация варианта «+» (index-flow-plus.html как главная)
+# https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  publish = "LA FÉE FLEUR (цветочная фея)"
+
+# Корень сайта отдаёт index-flow-plus.html (URL остаётся /)
+[[redirects]]
+  from = "/"
+  to = "/index-flow-plus.html"
+  status = 200
