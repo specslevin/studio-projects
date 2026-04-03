@@ -161,29 +161,6 @@ button:focus-visible {
   border-radius: var(--radius-sm);
 }
 
-/* Skip link */
-.lf-skip {
-  position: absolute;
-  top: var(--space-4);
-  left: var(--space-4);
-  z-index: 200;
-  padding: var(--space-3) var(--space-5);
-  font-family: var(--font-ui);
-  font-size: var(--text-sm);
-  font-weight: 500;
-  color: var(--color-earth);
-  background: var(--color-cream);
-  border: 1px solid var(--border-strong);
-  border-radius: var(--radius-md);
-  text-decoration: none;
-  transform: translateY(-120%);
-  transition: transform var(--duration-base) var(--ease-out);
-}
-
-.lf-skip:focus {
-  transform: translateY(0);
-}
-
 /* —— Reveal on scroll —— */
 .js-reveal {
   opacity: 0;
@@ -230,6 +207,27 @@ button:focus-visible {
   gap: var(--space-4);
   padding: var(--space-3) var(--space-5);
   min-height: var(--header-h);
+}
+
+@media (min-width: 769px) {
+  .lf-header__inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    align-items: center;
+    justify-content: unset;
+  }
+
+  .lf-logo {
+    justify-self: start;
+  }
+
+  .lf-nav {
+    justify-self: center;
+  }
+
+  .lf-header__cta {
+    justify-self: end;
+  }
 }
 
 .lf-logo {
@@ -312,17 +310,25 @@ button:focus-visible {
 .lf-nav {
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: clamp(var(--space-4), 2vw, var(--space-8));
 }
 
 .lf-nav a {
   position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
   font-family: var(--font-ui);
   font-size: var(--text-sm);
   font-weight: 500;
   color: rgba(255, 255, 255, 0.92);
   text-decoration: none;
-  padding: var(--space-2) 0;
+  padding: var(--space-2) var(--space-1);
+  text-align: center;
+  line-height: 1.25;
 }
 
 .lf-nav a::after {
@@ -351,7 +357,8 @@ button:focus-visible {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: var(--space-3) var(--space-5);
+  min-height: 2.75rem;
+  padding: var(--space-2) var(--space-5);
   font-family: var(--font-body);
   font-size: var(--text-sm);
   font-weight: 600;
@@ -384,6 +391,11 @@ button:focus-visible {
 }
 
 @media (max-width: 768px) {
+  .lf-header:has(.lf-nav--open),
+  .lf-header.lf-header--nav-open {
+    border-radius: 0;
+  }
+
   .lf-nav-toggle {
     display: flex;
   }
@@ -394,7 +406,8 @@ button:focus-visible {
     right: 0;
     top: 100%;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
+    justify-content: flex-start;
     gap: 0;
     padding: var(--space-4) var(--space-5) var(--space-6);
     background: var(--color-forest-deep);
@@ -405,10 +418,14 @@ button:focus-visible {
 
   .lf-nav--open {
     display: flex;
+    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
   }
 
   .lf-nav a {
-    padding: var(--space-3) 0;
+    justify-content: center;
+    width: 100%;
+    max-width: 20rem;
+    padding: var(--space-3) var(--space-2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   }
 
@@ -417,14 +434,19 @@ button:focus-visible {
   }
 
   .lf-nav__mobile-cta {
-    display: block;
-    margin-top: var(--space-4);
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 20rem;
+    margin: var(--space-4) auto 0;
     text-align: center;
-    padding: var(--space-4) !important;
+    padding: var(--space-4) var(--space-3) !important;
     background: var(--color-moss);
     color: var(--color-earth) !important;
     border-radius: var(--radius-md);
-    border: 1px solid var(--color-earth);
+    border: 1px solid var(--color-earth) !important;
     font-weight: 600;
   }
 
@@ -1054,7 +1076,17 @@ button:focus-visible {
 .lf-footer__contacts {
   display: flex;
   flex-direction: column;
-  gap: var(--space-3);
+  gap: var(--space-6);
+  align-items: flex-start;
+  max-width: 22rem;
+}
+
+.lf-footer__block {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  align-items: flex-start;
+  width: 100%;
 }
 
 .lf-footer__label {
@@ -1066,11 +1098,23 @@ button:focus-visible {
   color: rgba(255, 255, 255, 0.65);
 }
 
+.lf-footer__value {
+  margin: 0;
+  width: 100%;
+}
+
 .lf-footer__contacts strong {
   font-family: var(--font-display);
   font-size: var(--text-title-sm);
   font-weight: 600;
   color: var(--color-white);
+}
+
+.lf-footer__links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-2);
 }
 
 .lf-footer__contacts a {
@@ -1085,13 +1129,6 @@ button:focus-visible {
 .lf-footer__contacts a:hover {
   color: var(--color-white);
   text-decoration: underline;
-}
-
-.lf-footer__contacts .lf-sub {
-  margin: 0;
-  font-size: var(--text-sm);
-  line-height: var(--leading-normal);
-  color: rgba(255, 255, 255, 0.88);
 }
 
 .lf-footer__img {
