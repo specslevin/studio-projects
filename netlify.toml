@@ -2,9 +2,8 @@
 # https://docs.netlify.com/configure-builds/file-based-configuration/
 
 [build]
-  publish = "LA FÉE FLEUR (цветочная фея)"
+  publish = "LA FÉE FLEUR"
 
-# Корень сайта отдаёт index-flow-plus.html (URL остаётся /)
 [[redirects]]
   from = "/"
   to = "/index-flow-plus.html"
