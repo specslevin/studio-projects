@@ -1,27 +1,5 @@
 {
   "version": "2.10",
-  "variables": {
-    "bg": {
-      "type": "color",
-      "value": "#FDF2F8"
-    },
-    "brand": {
-      "type": "color",
-      "value": "#E91E63"
-    },
-    "card": {
-      "type": "color",
-      "value": "#FFFFFF"
-    },
-    "muted": {
-      "type": "color",
-      "value": "#8D6B7A"
-    },
-    "text": {
-      "type": "color",
-      "value": "#4A2635"
-    }
-  },
   "children": [
     {
       "type": "frame",
@@ -5401,5 +5379,27 @@
         }
       ]
     }
-  ]
+  ],
+  "variables": {
+    "bg": {
+      "type": "color",
+      "value": "#FDF2F8"
+    },
+    "brand": {
+      "type": "color",
+      "value": "#E91E63"
+    },
+    "card": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "muted": {
+      "type": "color",
+      "value": "#8D6B7A"
+    },
+    "text": {
+      "type": "color",
+      "value": "#4A2635"
+    }
+  }
 }
