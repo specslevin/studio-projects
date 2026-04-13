@@ -1,0 +1,5405 @@
+{
+  "version": "2.10",
+  "variables": {
+    "bg": {
+      "type": "color",
+      "value": "#FDF2F8"
+    },
+    "brand": {
+      "type": "color",
+      "value": "#E91E63"
+    },
+    "card": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "muted": {
+      "type": "color",
+      "value": "#8D6B7A"
+    },
+    "text": {
+      "type": "color",
+      "value": "#4A2635"
+    }
+  },
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Мир Роз — лендинг",
+      "width": 1280,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "WjAS8",
+          "name": "Header",
+          "width": "fill_container",
+          "fill": "$card",
+          "cornerRadius": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "gap": 24,
+          "padding": [
+            20,
+            40
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "wDLGy",
+              "name": "logoWrap",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "s4fXa",
+                  "name": "iconPet",
+                  "fill": "$brand",
+                  "width": 40,
+                  "height": 40
+                },
+                {
+                  "type": "text",
+                  "id": "Py0LW",
+                  "name": "logoTxt",
+                  "fill": "$brand",
+                  "content": "Мир Роз",
+                  "fontFamily": "Inter",
+                  "fontSize": 22,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ETXj3",
+              "name": "nav",
+              "gap": 28,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "qmQXk",
+                  "fill": "$text",
+                  "content": "О нас",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ELEpe",
+                  "fill": "$text",
+                  "content": "Букеты",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "JcsK0",
+                  "fill": "$text",
+                  "content": "Топ 5",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "yYuW9",
+                  "fill": "$text",
+                  "content": "Доставка",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aVm2d",
+              "name": "cta",
+              "fill": "$brand",
+              "cornerRadius": 100,
+              "gap": 8,
+              "padding": [
+                14,
+                28
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OegXg",
+                  "fill": "#FFFFFF",
+                  "content": "ЗАКАЗАТЬ",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nPkP8",
+          "name": "О магазине",
+          "width": "fill_container",
+          "fill": "$card",
+          "cornerRadius": 24,
+          "gap": 48,
+          "padding": 48,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "dN22l",
+              "name": "aboutText",
+              "width": 600,
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TQmIU",
+                  "fill": "$text",
+                  "content": "О магазине",
+                  "fontFamily": "Inter",
+                  "fontSize": 32,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "YZ7LV",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "Мир Роз приветствует Вас и дарит всем клиентам радостные улыбки от наших композиций, свежих букетов и изысканных цветов. Если Вы не нашли нужного Вам товара — звоните, с удовольствием увеличим/уменьшим количество цветов в Вашем букете и соберём под пожелания и бюджет.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "11wH9",
+              "name": "photoAbout",
+              "metadata": {
+                "type": "unsplash",
+                "username": "toyamakanna",
+                "link": "https://unsplash.com/@toyamakanna",
+                "author": "戸山 神奈"
+              },
+              "clip": true,
+              "width": 440,
+              "height": 320,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/base-about-photo.jpg",
+                "mode": "fill"
+              },
+              "cornerRadius": 20
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tZ7gD",
+          "name": "CTA 1",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            32,
+            48
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "saiPz",
+              "name": "cta1Btn",
+              "fill": "$brand",
+              "cornerRadius": 100,
+              "padding": [
+                18,
+                40
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "luVa3",
+                  "fill": "#FFFFFF",
+                  "content": "Заказать букет с доставкой",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "JLSKm",
+          "name": "Популярные товары",
+          "width": "fill_container",
+          "fill": "$bg",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            40,
+            48
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "l5aJz",
+              "fill": "$text",
+              "content": "Популярные товары",
+              "fontFamily": "Inter",
+              "fontSize": 28,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "zd6zd",
+              "name": "rowA",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "q0ZII",
+                  "name": "c1",
+                  "width": "fill_container",
+                  "fill": "$card",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "mUBEn",
+                      "name": "im1",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "billow926",
+                        "link": "https://unsplash.com/@billow926",
+                        "author": "billow926"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/base-catalog-1.jpg",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "viR9w",
+                      "fill": "$text",
+                      "content": "Роза нежная",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nHZXT",
+                      "fill": "$muted",
+                      "content": "1 290 ₽",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "e4OrJ",
+                      "name": "b1",
+                      "fill": "$brand",
+                      "cornerRadius": 12,
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "hTIER",
+                          "fill": "#FFFFFF",
+                          "content": "В корзину",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "3avId",
+                  "name": "c2",
+                  "width": "fill_container",
+                  "fill": "$card",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ja7t9",
+                      "name": "im2",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "jogara_0",
+                        "link": "https://unsplash.com/@jogara_0",
+                        "author": "JOGphotos"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/base-catalog-2.jpg",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "4NzIf",
+                      "fill": "$text",
+                      "content": "Кустовая",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wT5tr",
+                      "fill": "$muted",
+                      "content": "1 590 ₽",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aPTHj",
+                      "name": "b2",
+                      "fill": "$brand",
+                      "cornerRadius": 12,
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Pr57q",
+                          "fill": "#FFFFFF",
+                          "content": "В корзину",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "yGNAn",
+              "name": "rowB",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "c9WkG",
+                  "name": "c3",
+                  "width": "fill_container",
+                  "fill": "$card",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "1ClhG",
+                      "name": "im3",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "ameliacui",
+                        "link": "https://unsplash.com/@ameliacui",
+                        "author": "Amelia Cui"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/base-catalog-3.jpg",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "FICox",
+                      "fill": "$text",
+                      "content": "Шарон",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UYLjD",
+                      "fill": "$muted",
+                      "content": "2 150 ₽",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lon8i",
+                      "name": "b3",
+                      "fill": "$brand",
+                      "cornerRadius": 12,
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "H4HTW",
+                          "fill": "#FFFFFF",
+                          "content": "В корзину",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "la2Aa",
+                  "name": "c4",
+                  "width": "fill_container",
+                  "fill": "$card",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Alka3",
+                      "name": "im4",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "karolinabobek",
+                        "link": "https://unsplash.com/@karolinabobek",
+                        "author": "Karolina Bobek"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/base-catalog-4.jpg",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "KtxHL",
+                      "fill": "$text",
+                      "content": "Классика",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "X8y5r",
+                      "fill": "$muted",
+                      "content": "1 890 ₽",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gpjUz",
+                      "name": "b4",
+                      "fill": "$brand",
+                      "cornerRadius": 12,
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "igkwZ",
+                          "fill": "#FFFFFF",
+                          "content": "Заказать",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "XqunK",
+          "name": "Топ 5 продаж",
+          "width": "fill_container",
+          "fill": "$card",
+          "cornerRadius": 24,
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            40,
+            48
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "YnDi5",
+              "name": "h5",
+              "fill": "$text",
+              "content": "Топ 5 продаж",
+              "fontFamily": "Inter",
+              "fontSize": 28,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "mRbwG",
+              "name": "car",
+              "clip": true,
+              "width": "fill_container",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "MWdHG",
+                  "name": "s1",
+                  "width": 216,
+                  "fill": "$bg",
+                  "cornerRadius": 14,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jsuNx",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": 190,
+                      "content": "1 · Малиновая нежность",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wLBEg",
+                      "name": "im1",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "megan95",
+                        "link": "https://unsplash.com/@megan95",
+                        "author": "Megan"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/base-top-1.jpg",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "hQpwC",
+                      "fill": "$muted",
+                      "content": "3 490 ₽",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "H1EwC",
+                  "name": "s2",
+                  "width": 216,
+                  "fill": "$bg",
+                  "cornerRadius": 14,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "9WLHb",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": 190,
+                      "content": "2 · Розовый закат",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "h0FLM",
+                      "name": "im2",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "drofficial_96",
+                        "link": "https://unsplash.com/@drofficial_96",
+                        "author": "Deepak Rastogi"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/base-top-2.jpg",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "Cg3p7",
+                      "fill": "$muted",
+                      "content": "2 990 ₽",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dMnqW",
+                  "name": "s3",
+                  "width": 216,
+                  "fill": "$bg",
+                  "cornerRadius": 14,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tD8sh",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": 190,
+                      "content": "3 · 100 роз",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "V7PpV",
+                      "name": "im3",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "laowai66",
+                        "link": "https://unsplash.com/@laowai66",
+                        "author": "Aleksei Zaitcev"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/base-top-3.jpg",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "a0KtQ",
+                      "fill": "$muted",
+                      "content": "7 990 ₽",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cRvHC",
+                  "name": "s4",
+                  "width": 216,
+                  "fill": "$bg",
+                  "cornerRadius": 14,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dgzfS",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": 190,
+                      "content": "4 · Невеста",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Ep49H",
+                      "name": "im4",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "valeon",
+                        "link": "https://unsplash.com/@valeon",
+                        "author": "Mitchel Boot"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/base-top-4.jpg",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "wQvKy",
+                      "fill": "$muted",
+                      "content": "4 490 ₽",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "09leZ",
+                  "name": "s5",
+                  "width": 216,
+                  "fill": "$bg",
+                  "cornerRadius": 14,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "CXeO8",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": 190,
+                      "content": "5 · Мужской характер",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tVMV9",
+                      "name": "im5",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "xtrovarts",
+                        "link": "https://unsplash.com/@xtrovarts",
+                        "author": "Shedrack Salami"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/base-top-5.jpg",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "Lx37T",
+                      "fill": "$muted",
+                      "content": "3 690 ₽",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PIfEb",
+          "name": "Доставка",
+          "width": "fill_container",
+          "fill": "$card",
+          "cornerRadius": 24,
+          "gap": 32,
+          "padding": 40,
+          "children": [
+            {
+              "type": "frame",
+              "id": "OlPrZ",
+              "name": "leftCol",
+              "width": 600,
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "fcL11",
+                  "width": 44,
+                  "height": 44,
+                  "iconFontName": "truck",
+                  "iconFontFamily": "lucide",
+                  "fill": "$brand"
+                },
+                {
+                  "type": "text",
+                  "id": "p9BTo",
+                  "fill": "$text",
+                  "content": "Служба бережной доставки «Мир Роз»",
+                  "fontFamily": "Inter",
+                  "fontSize": 22,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "AnPCP",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "Доставляем исключительно профессиональные курьеры — служба бережной доставки с радиусом покрытия ±100 км. Только профессиональные курьеры. Радиус: до 100 км от города. Бесплатно от 3 000 ₽.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "p8mjB",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "Сроки: в день заказа по городу при заказе до 15:00",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dbCF9",
+              "name": "mapBox",
+              "width": 520,
+              "height": 280,
+              "fill": "#E1BEE7",
+              "cornerRadius": 16,
+              "layout": "vertical",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "qaose",
+                  "fill": "$muted",
+                  "content": "Карта зоны доставки",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "t8xVy",
+          "name": "CTA 2",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            28,
+            48
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "3mndV",
+              "name": "cta2Btn",
+              "fill": "$brand",
+              "cornerRadius": 100,
+              "padding": [
+                18,
+                40
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lwNTy",
+                  "fill": "#FFFFFF",
+                  "content": "Заказать букет с доставкой",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "VQhQN",
+          "name": "Футер",
+          "width": "fill_container",
+          "fill": "#4A2635",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": [
+            28,
+            48
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "yubmk",
+              "fill": "#FCE4EC",
+              "content": "г. Екатеринбург, ул. Малышева, 15",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "gHePl",
+              "fill": "#FCE4EC",
+              "content": "☎ +7 (XXX) XXX-XX-XX",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "K0LpG",
+              "fill": "#FCE4EC",
+              "content": "Ежедневно 9:00–21:00",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "uF6S9",
+      "x": 1360,
+      "y": 0,
+      "name": "Мир Роз — лендинг (DeepSeek)",
+      "width": 1920,
+      "fill": "#FFF0F5",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "CM6Lg",
+          "name": "hdr",
+          "width": "fill_container",
+          "fill": "#FFF0F5",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "NIWfU",
+              "name": "hdrTop",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": [
+                0,
+                0,
+                16,
+                16
+              ],
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000014",
+                "offset": {
+                  "x": 0,
+                  "y": 6
+                },
+                "blur": 28
+              },
+              "padding": [
+                20,
+                48
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "YKxZt",
+                  "name": "logoRow",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "kyOyO",
+                      "name": "rose",
+                      "fill": "#E91E63",
+                      "width": 44,
+                      "height": 44
+                    },
+                    {
+                      "type": "text",
+                      "id": "N7lft",
+                      "name": "logoTxt",
+                      "fill": "#E91E63",
+                      "content": "Мир Роз",
+                      "fontFamily": "Nunito",
+                      "fontSize": 24,
+                      "fontWeight": "800"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "4yDGx",
+                  "name": "rightHdr",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "rrx4g",
+                      "name": "loginBtn",
+                      "cornerRadius": 14,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 2,
+                        "fill": "#E91E63"
+                      },
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        18
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "PaI22",
+                          "name": "loginIc",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "log-in",
+                          "iconFontFamily": "lucide",
+                          "fill": "#E91E63"
+                        },
+                        {
+                          "type": "text",
+                          "id": "dpvsO",
+                          "name": "loginTxt",
+                          "fill": "#E91E63",
+                          "content": "Вход",
+                          "fontFamily": "Nunito",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VaUBH",
+                      "name": "cartBtn",
+                      "fill": "#E91E6314",
+                      "cornerRadius": 14,
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        18
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "eLiXM",
+                          "name": "cartIc",
+                          "width": 22,
+                          "height": 22,
+                          "iconFontName": "shopping-cart",
+                          "iconFontFamily": "lucide",
+                          "fill": "#E91E63"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RNoZ7",
+          "name": "hero",
+          "width": "fill_container",
+          "fill": "#FFF0F5",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            40,
+            56,
+            32,
+            56
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "J7Wz9",
+              "name": "h1",
+              "fill": "#880E4F",
+              "textGrowth": "fixed-width",
+              "width": 1600,
+              "content": "Подарите улыбку с Мир Роз",
+              "lineHeight": 1.12,
+              "textAlign": "center",
+              "fontFamily": "Nunito",
+              "fontSize": 46,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "VCAKa",
+              "name": "subH",
+              "fill": "#6D4C5C",
+              "textGrowth": "fixed-width",
+              "width": 900,
+              "content": "Авторские букеты и композиции с бережной доставкой до 100 км",
+              "lineHeight": 1.45,
+              "textAlign": "center",
+              "fontFamily": "Nunito",
+              "fontSize": 20,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "HXfek",
+              "name": "btnCat",
+              "fill": "#E91E63",
+              "cornerRadius": 100,
+              "gap": 10,
+              "padding": [
+                18,
+                44
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "us5YZ",
+                  "name": "txtCat",
+                  "fill": "#FFFFFF",
+                  "content": "В КАТАЛОГ",
+                  "fontFamily": "Nunito",
+                  "fontSize": 17,
+                  "fontWeight": "800",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ph5pI",
+          "name": "aboutWrap",
+          "width": "fill_container",
+          "fill": "#FFF0F5",
+          "layout": "vertical",
+          "padding": [
+            0,
+            56
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "dRKtk",
+              "name": "about",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 16,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000012",
+                "offset": {
+                  "x": 0,
+                  "y": 8
+                },
+                "blur": 32
+              },
+              "gap": 48,
+              "padding": 40,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "taepR",
+                  "name": "aboutTxt",
+                  "width": 920,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ssNS9",
+                      "name": "hAbout",
+                      "fill": "#E91E63",
+                      "content": "О магазине",
+                      "fontFamily": "Nunito",
+                      "fontSize": 32,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UX1Lb",
+                      "name": "pAbout",
+                      "fill": "#4E343E",
+                      "textGrowth": "fixed-width",
+                      "width": 920,
+                      "content": "Мир Роз приветствует Вас и дарит всем клиентам радостные улыбки от наших композиций, свежих букетов и изысканных цветов. Если Вы не нашли нужного Вам товара — звоните, с удовольствием увеличим/уменьшим количество цветов в Вашем букете и соберём под пожелания и бюджет.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "Nunito",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tc9gU",
+                  "name": "aboutPh",
+                  "clip": true,
+                  "width": 720,
+                  "height": 380,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1776113254302.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 16
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "4j2yG",
+          "name": "cta1w",
+          "width": "fill_container",
+          "fill": "#FFF0F5",
+          "layout": "vertical",
+          "padding": [
+            8,
+            56,
+            32,
+            56
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Hna22",
+              "name": "cta1",
+              "fill": "#E91E63",
+              "cornerRadius": 100,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#E91E6344",
+                "offset": {
+                  "x": 0,
+                  "y": 12
+                },
+                "blur": 28
+              },
+              "padding": [
+                22,
+                64
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "SESst",
+                  "name": "cta1t",
+                  "fill": "#FFFFFF",
+                  "content": "ЗАКАЗАТЬ БУКЕТ",
+                  "fontFamily": "Nunito",
+                  "fontSize": 22,
+                  "fontWeight": "900",
+                  "letterSpacing": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "vNFw2",
+          "name": "adv",
+          "width": "fill_container",
+          "fill": "#FFF0F5",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            16,
+            56,
+            40,
+            56
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "EwJ1s",
+              "name": "advH",
+              "fill": "#E91E63",
+              "content": "Наши преимущества",
+              "textAlign": "center",
+              "fontFamily": "Nunito",
+              "fontSize": 32,
+              "fontWeight": "800"
+            },
+            {
+              "type": "frame",
+              "id": "BkPq6",
+              "name": "advRow",
+              "width": "fill_container",
+              "gap": 24,
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ItBj2",
+                  "name": "c1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000010",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 20
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 28,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tZqqv",
+                      "name": "t1",
+                      "fill": "#4E343E",
+                      "textGrowth": "fixed-width",
+                      "width": 340,
+                      "content": "🌸  Только свежие цветы",
+                      "lineHeight": 1.4,
+                      "textAlign": "center",
+                      "fontFamily": "Nunito",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "g4KiH",
+                  "name": "c2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000010",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 20
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 28,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "t8c1u",
+                      "name": "t2",
+                      "fill": "#4E343E",
+                      "textGrowth": "fixed-width",
+                      "width": 340,
+                      "content": "🚚  Бережная доставка ±100 км",
+                      "lineHeight": 1.4,
+                      "textAlign": "center",
+                      "fontFamily": "Nunito",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qiByo",
+                  "name": "c3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000010",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 20
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 28,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vyqEo",
+                      "name": "t3",
+                      "fill": "#4E343E",
+                      "textGrowth": "fixed-width",
+                      "width": 340,
+                      "content": "💐  Соберём под ваш бюджет",
+                      "lineHeight": 1.4,
+                      "textAlign": "center",
+                      "fontFamily": "Nunito",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "3Iiw8",
+          "name": "catSec",
+          "width": "fill_container",
+          "fill": "#FFF0F5",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            8,
+            56,
+            40,
+            56
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "RsV54",
+              "name": "catH",
+              "fill": "#E91E63",
+              "content": "Каталог",
+              "fontFamily": "Nunito",
+              "fontSize": 32,
+              "fontWeight": "800"
+            },
+            {
+              "type": "frame",
+              "id": "4X1ty",
+              "name": "catRow",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "yoqqn",
+                  "name": "card1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000012",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 24
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "26edw",
+                      "name": "img1",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "kamillaisalieva",
+                        "link": "https://unsplash.com/@kamillaisalieva",
+                        "author": "Kamilla Isalieva"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1730123481681-82a244d7cfc5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTMyNzZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "DDEuI",
+                      "name": "name1",
+                      "fill": "#4E343E",
+                      "content": "Малиновая нежность",
+                      "fontFamily": "Nunito",
+                      "fontSize": 18,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Hh9pJ",
+                      "name": "price1",
+                      "fill": "#E91E63",
+                      "content": "3490 ₽",
+                      "fontFamily": "Nunito",
+                      "fontSize": 20,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "8YJOE",
+                      "name": "btn1",
+                      "width": "fill_container",
+                      "fill": "#E91E63",
+                      "cornerRadius": 12,
+                      "padding": [
+                        12,
+                        0
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "M1gs7",
+                          "name": "b1t",
+                          "fill": "#FFFFFF",
+                          "content": "Заказать",
+                          "fontFamily": "Nunito",
+                          "fontSize": 15,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "6Rslw",
+                  "name": "card2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000012",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 24
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "5Ssnb",
+                      "name": "img2",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "lindapz",
+                        "link": "https://unsplash.com/@lindapz",
+                        "author": "Linda Pomerantz Zhang"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1740408504218-0d101470c22b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTMyNzZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "dqtzR",
+                      "name": "name2",
+                      "fill": "#4E343E",
+                      "content": "Розовый закат",
+                      "fontFamily": "Nunito",
+                      "fontSize": 18,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "EwbyA",
+                      "name": "price2",
+                      "fill": "#E91E63",
+                      "content": "2990 ₽",
+                      "fontFamily": "Nunito",
+                      "fontSize": 20,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tDhjB",
+                      "name": "btn2",
+                      "width": "fill_container",
+                      "fill": "#E91E63",
+                      "cornerRadius": 12,
+                      "padding": [
+                        12,
+                        0
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "1K7Tf",
+                          "name": "b2t",
+                          "fill": "#FFFFFF",
+                          "content": "Заказать",
+                          "fontFamily": "Nunito",
+                          "fontSize": 15,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vGmvr",
+                  "name": "card3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000012",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 24
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ypejh",
+                      "name": "img3",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "marwan15",
+                        "link": "https://unsplash.com/@marwan15",
+                        "author": "Marwan Ahmed"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1625062152589-2b90e913e3b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTMyNzd8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "pUJ2I",
+                      "name": "name3",
+                      "fill": "#4E343E",
+                      "content": "100 роз",
+                      "fontFamily": "Nunito",
+                      "fontSize": 18,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zVgfU",
+                      "name": "price3",
+                      "fill": "#E91E63",
+                      "content": "7990 ₽",
+                      "fontFamily": "Nunito",
+                      "fontSize": 20,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "hGN4z",
+                      "name": "btn3",
+                      "width": "fill_container",
+                      "fill": "#E91E63",
+                      "cornerRadius": 12,
+                      "padding": [
+                        12,
+                        0
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ljHFU",
+                          "name": "b3t",
+                          "fill": "#FFFFFF",
+                          "content": "Заказать",
+                          "fontFamily": "Nunito",
+                          "fontSize": 15,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "0jbGy",
+                  "name": "card4",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000012",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 24
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "nDfx1",
+                      "name": "img4",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "dropfastcollective",
+                        "link": "https://unsplash.com/@dropfastcollective",
+                        "author": "Frederick Shaw"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1664853021355-6a5d73f6198f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTMyNzd8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "dAnua",
+                      "name": "name4",
+                      "fill": "#4E343E",
+                      "content": "Невеста",
+                      "fontFamily": "Nunito",
+                      "fontSize": 18,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fPiV1",
+                      "name": "price4",
+                      "fill": "#E91E63",
+                      "content": "4490 ₽",
+                      "fontFamily": "Nunito",
+                      "fontSize": 20,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FwwBX",
+                      "name": "btn4",
+                      "width": "fill_container",
+                      "fill": "#E91E63",
+                      "cornerRadius": 12,
+                      "padding": [
+                        12,
+                        0
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ihPKW",
+                          "name": "b4t",
+                          "fill": "#FFFFFF",
+                          "content": "Заказать",
+                          "fontFamily": "Nunito",
+                          "fontSize": 15,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "xst8Y",
+          "name": "top5sec",
+          "width": "fill_container",
+          "fill": "#FFF0F5",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            8,
+            56,
+            32,
+            56
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "6aj6G",
+              "name": "h5",
+              "fill": "#E91E63",
+              "content": "Топ 5 продаж",
+              "fontFamily": "Nunito",
+              "fontSize": 32,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "dek8y",
+              "name": "hint5",
+              "fill": "#AD1457",
+              "content": "Листайте альбом горизонтально →",
+              "textAlign": "center",
+              "fontFamily": "Nunito",
+              "fontSize": 14,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "Xhb7I",
+              "name": "scrollOuter",
+              "clip": true,
+              "width": 1180,
+              "height": 340,
+              "fill": "#FFF0F5",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "QAH7j",
+                  "name": "scrollRow",
+                  "gap": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Xr9uL",
+                      "name": "k1",
+                      "width": 300,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000012",
+                        "offset": {
+                          "x": 0,
+                          "y": 6
+                        },
+                        "blur": 20
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 14,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "CFyMl",
+                          "name": "k1i",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "mary_schultz",
+                            "link": "https://unsplash.com/@mary_schultz",
+                            "author": "Mary Schultz"
+                          },
+                          "clip": true,
+                          "width": "fill_container",
+                          "height": 200,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1773017024707-f1014bb0d253?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTMzNDl8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 12
+                        },
+                        {
+                          "type": "text",
+                          "id": "MNPIv",
+                          "name": "k1n",
+                          "fill": "#4E343E",
+                          "content": "Хит сезона",
+                          "fontFamily": "Nunito",
+                          "fontSize": 17,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "text",
+                          "id": "9Yces",
+                          "name": "k1p",
+                          "fill": "#E91E63",
+                          "content": "3900 ₽",
+                          "fontFamily": "Nunito",
+                          "fontSize": 18,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "oZW8U",
+                      "name": "k2",
+                      "width": 300,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000012",
+                        "offset": {
+                          "x": 0,
+                          "y": 6
+                        },
+                        "blur": 20
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 14,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "KbxmC",
+                          "name": "k2i",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "angelaua",
+                            "link": "https://unsplash.com/@angelaua",
+                            "author": "Anzhela Bets"
+                          },
+                          "clip": true,
+                          "width": "fill_container",
+                          "height": 200,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1689356156495-0be7b27b3f35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTMzNDl8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 12
+                        },
+                        {
+                          "type": "text",
+                          "id": "e2T3O",
+                          "name": "k2n",
+                          "fill": "#4E343E",
+                          "content": "Мужской характер",
+                          "fontFamily": "Nunito",
+                          "fontSize": 17,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "text",
+                          "id": "HuufU",
+                          "name": "k2p",
+                          "fill": "#E91E63",
+                          "content": "3690 ₽",
+                          "fontFamily": "Nunito",
+                          "fontSize": 18,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "7724t",
+                      "name": "k3",
+                      "width": 300,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000012",
+                        "offset": {
+                          "x": 0,
+                          "y": 6
+                        },
+                        "blur": 20
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 14,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ila6Z",
+                          "name": "k3i",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "annaazart",
+                            "link": "https://unsplash.com/@annaazart",
+                            "author": "Anna Zakharova"
+                          },
+                          "clip": true,
+                          "width": "fill_container",
+                          "height": 200,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1617889124369-978fa00f4f79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTMzNTB8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 12
+                        },
+                        {
+                          "type": "text",
+                          "id": "vsBz2",
+                          "name": "k3n",
+                          "fill": "#4E343E",
+                          "content": "Нежность",
+                          "fontFamily": "Nunito",
+                          "fontSize": 17,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "text",
+                          "id": "rdztr",
+                          "name": "k3p",
+                          "fill": "#E91E63",
+                          "content": "2800 ₽",
+                          "fontFamily": "Nunito",
+                          "fontSize": 18,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aPrMJ",
+                      "name": "k4",
+                      "width": 300,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000012",
+                        "offset": {
+                          "x": 0,
+                          "y": 6
+                        },
+                        "blur": 20
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 14,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "OQ615",
+                          "name": "k4i",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "nkhasebe",
+                            "link": "https://unsplash.com/@nkhasebe",
+                            "author": "Nk Ni"
+                          },
+                          "clip": true,
+                          "width": "fill_container",
+                          "height": 200,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1692773078242-0e6e48449cfa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTMzMDF8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 12
+                        },
+                        {
+                          "type": "text",
+                          "id": "W1DFu",
+                          "name": "k4n",
+                          "fill": "#4E343E",
+                          "content": "Кустовая роза",
+                          "fontFamily": "Nunito",
+                          "fontSize": 17,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "text",
+                          "id": "m4uye",
+                          "name": "k4p",
+                          "fill": "#E91E63",
+                          "content": "3200 ₽",
+                          "fontFamily": "Nunito",
+                          "fontSize": 18,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "J0GYd",
+                      "name": "k5",
+                      "width": 300,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000012",
+                        "offset": {
+                          "x": 0,
+                          "y": 6
+                        },
+                        "blur": 20
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 14,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Q60Ns",
+                          "name": "k5i",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "riiyad",
+                            "link": "https://unsplash.com/@riiyad",
+                            "author": "Kabiur Rahman Riyad"
+                          },
+                          "clip": true,
+                          "width": "fill_container",
+                          "height": 200,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1769772301243-c2bf7cc2d26d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTMzMDF8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 12
+                        },
+                        {
+                          "type": "text",
+                          "id": "m4XhN",
+                          "name": "k5n",
+                          "fill": "#4E343E",
+                          "content": "Экспресс",
+                          "fontFamily": "Nunito",
+                          "fontSize": 17,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "text",
+                          "id": "VxKkq",
+                          "name": "k5p",
+                          "fill": "#E91E63",
+                          "content": "1990 ₽",
+                          "fontFamily": "Nunito",
+                          "fontSize": 18,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "oDQvA",
+          "name": "delWrap",
+          "width": "fill_container",
+          "fill": "#FFF0F5",
+          "layout": "vertical",
+          "padding": [
+            8,
+            56,
+            24,
+            56
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "VGUCs",
+              "name": "del",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 16,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000010",
+                "offset": {
+                  "x": 0,
+                  "y": 8
+                },
+                "blur": 28
+              },
+              "gap": 36,
+              "padding": 40,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "KHNEg",
+                  "name": "delLeft",
+                  "width": 980,
+                  "layout": "vertical",
+                  "gap": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "R87bI",
+                      "name": "delH",
+                      "fill": "#E91E63",
+                      "content": "Доставка от Мир Роз",
+                      "fontFamily": "Nunito",
+                      "fontSize": 30,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "e2Nnx",
+                      "name": "delP",
+                      "fill": "#4E343E",
+                      "textGrowth": "fixed-width",
+                      "width": 980,
+                      "content": "Букеты Мир Роз доставляют исключительно профессиональные курьеры — служба бережной доставки с радиусом покрытия ±100 км.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Nunito",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kKDPy",
+                      "name": "delRow",
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "aF8Em",
+                          "name": "carIc",
+                          "width": 28,
+                          "height": 28,
+                          "iconFontName": "truck",
+                          "iconFontFamily": "lucide",
+                          "fill": "#E91E63"
+                        },
+                        {
+                          "type": "text",
+                          "id": "S8NqO",
+                          "name": "delNote",
+                          "fill": "#4E343E",
+                          "content": "При заказе до 12:00 — доставим в день заказа",
+                          "fontFamily": "Nunito",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "vsa62",
+                      "name": "delGift",
+                      "fill": "#E91E63",
+                      "content": "Бесплатная открытка в подарок 💌",
+                      "fontFamily": "Nunito",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DSzeC",
+                  "name": "delArt",
+                  "width": "fill_container",
+                  "height": 260,
+                  "fill": "#FFE4EC",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "su8YC",
+                      "name": "bigCar",
+                      "width": 72,
+                      "height": 72,
+                      "iconFontName": "car",
+                      "iconFontFamily": "lucide",
+                      "fill": "#E91E63"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fxMyZ",
+          "name": "revW",
+          "width": "fill_container",
+          "fill": "#FFF0F5",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            16,
+            56,
+            32,
+            56
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "A5dAe",
+              "name": "revH",
+              "fill": "#E91E63",
+              "content": "Отзывы",
+              "fontFamily": "Nunito",
+              "fontSize": 32,
+              "fontWeight": "800"
+            },
+            {
+              "type": "frame",
+              "id": "l5v6r",
+              "name": "revRow",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "tZPuO",
+                  "name": "r1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000010",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 24
+                  },
+                  "gap": 20,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ZjkV1",
+                      "name": "r1ph",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "febrisym",
+                        "link": "https://unsplash.com/@febrisym",
+                        "author": "febri sym"
+                      },
+                      "clip": true,
+                      "width": 96,
+                      "height": 96,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1542534759-05f6c34a9e63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTMzMzV8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 100
+                    },
+                    {
+                      "type": "frame",
+                      "id": "5pbgw",
+                      "name": "r1col",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "uedR5",
+                          "name": "r1t",
+                          "fill": "#4E343E",
+                          "textGrowth": "fixed-width",
+                          "width": 720,
+                          "content": "«Букет превзошёл ожидания! Очень свежие розы, доставили точно в срок. Спасибо Мир Роз!»",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Nunito",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "aVd6E",
+                          "name": "r1n",
+                          "fill": "#E91E63",
+                          "content": "— Анна",
+                          "fontFamily": "Nunito",
+                          "fontSize": 16,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "65rMP",
+                  "name": "r2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000010",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 24
+                  },
+                  "gap": 20,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "03pyG",
+                      "name": "r2ph",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "lightphonics",
+                        "link": "https://unsplash.com/@lightphonics",
+                        "author": "Jamie Brown"
+                      },
+                      "clip": true,
+                      "width": 96,
+                      "height": 96,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1544507888-56d73eb6046e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTMzMzV8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 100
+                    },
+                    {
+                      "type": "frame",
+                      "id": "0seAy",
+                      "name": "r2col",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "spU1X",
+                          "name": "r2t",
+                          "fill": "#4E343E",
+                          "textGrowth": "fixed-width",
+                          "width": 720,
+                          "content": "«Заказывала букет на юбилей маме. Собрали идеально под бюджет, мама плакала от счастья!»",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Nunito",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "EfNZn",
+                          "name": "r2n",
+                          "fill": "#E91E63",
+                          "content": "— Екатерина",
+                          "fontFamily": "Nunito",
+                          "fontSize": 16,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "X1Dsg",
+          "name": "cta2w",
+          "width": "fill_container",
+          "fill": "#FFF0F5",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            16,
+            56,
+            40,
+            56
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "8FVsD",
+              "name": "cta2",
+              "fill": "#E91E63",
+              "cornerRadius": 100,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#E91E6344",
+                "offset": {
+                  "x": 0,
+                  "y": 12
+                },
+                "blur": 28
+              },
+              "padding": [
+                22,
+                72
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "2XZh3",
+                  "name": "cta2t",
+                  "fill": "#FFFFFF",
+                  "content": "ЗАКАЗАТЬ",
+                  "fontFamily": "Nunito",
+                  "fontSize": 22,
+                  "fontWeight": "900",
+                  "letterSpacing": 3
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "r9sZZ",
+              "name": "cta2txt",
+              "fill": "#4E343E",
+              "textGrowth": "fixed-width",
+              "width": 1100,
+              "content": "Не нашли нужный букет? Позвоните — соберём под ваш бюджет и пожелания! +7 (XXX) XXX-XX-XX",
+              "lineHeight": 1.45,
+              "textAlign": "center",
+              "fontFamily": "Nunito",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "e7Xrs",
+          "name": "foot",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "cornerRadius": [
+            16,
+            16,
+            0,
+            0
+          ],
+          "stroke": {
+            "align": "inside",
+            "thickness": 2,
+            "fill": "#E91E6329"
+          },
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            40,
+            56
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "no8ml",
+              "name": "footRow",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "EivXf",
+                  "name": "footCol",
+                  "width": 520,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "QKSKa",
+                      "name": "fAddr",
+                      "fill": "#4E343E",
+                      "content": "г. Екатеринбург, ул. Малышева, 15",
+                      "fontFamily": "Nunito",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "3NT5q",
+                      "name": "fTel",
+                      "fill": "#E91E63",
+                      "content": "+7 (XXX) XXX-XX-XX",
+                      "fontFamily": "Nunito",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hYmAC",
+                      "name": "fMail",
+                      "fill": "#6D4C5C",
+                      "content": "hello@mirroz.ru",
+                      "fontFamily": "Nunito",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nW6sY",
+                      "name": "fHours",
+                      "fill": "#4E343E",
+                      "content": "Ежедневно 9:00–21:00",
+                      "fontFamily": "Nunito",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ouhpi",
+                  "name": "soc",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "pxnZV",
+                      "name": "s1",
+                      "width": 28,
+                      "height": 28,
+                      "iconFontName": "instagram",
+                      "iconFontFamily": "lucide",
+                      "fill": "#E91E63"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "TAoP5",
+                      "name": "s2",
+                      "width": 28,
+                      "height": 28,
+                      "iconFontName": "send",
+                      "iconFontFamily": "lucide",
+                      "fill": "#E91E63"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "aBKTp",
+                      "name": "s3",
+                      "width": 28,
+                      "height": 28,
+                      "iconFontName": "facebook",
+                      "iconFontFamily": "lucide",
+                      "fill": "#E91E63"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "VYXMf",
+      "x": 3440,
+      "y": 0,
+      "name": "Мир Роз — лендинг (Вариант 3)",
+      "width": 1920,
+      "fill": "#FFF0F5",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "sbeW2",
+          "name": "Блок 1. Хедер",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            20,
+            0,
+            0,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "YqHbm",
+              "name": "Header Wrap",
+              "width": 1200,
+              "height": 88,
+              "fill": "#FFFFFFCC",
+              "cornerRadius": 28,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E91E6322"
+              },
+              "effect": {
+                "type": "background_blur",
+                "radius": 12
+              },
+              "padding": [
+                16,
+                24
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nMrDH",
+                  "name": "logo",
+                  "fill": "#E91E63",
+                  "content": "Мир Роз",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 32,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "KuCDm",
+                  "name": "nav",
+                  "gap": 28,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HxgKk",
+                      "fill": "#4A2635",
+                      "content": "Каталог",
+                      "fontFamily": "Nunito",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "J5Q9S",
+                      "fill": "#4A2635",
+                      "content": "Доставка",
+                      "fontFamily": "Nunito",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FQj3c",
+                      "fill": "#4A2635",
+                      "content": "О нас",
+                      "fontFamily": "Nunito",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kRkWe",
+                      "fill": "#4A2635",
+                      "content": "Контакты",
+                      "fontFamily": "Nunito",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Vd3z1",
+                  "name": "actions",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HkrR3",
+                      "fill": "#4A2635",
+                      "content": "8-800-123-45-67",
+                      "fontFamily": "Nunito",
+                      "fontSize": 16,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "Nxbox",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "shopping-cart",
+                      "iconFontFamily": "lucide",
+                      "fill": "#E91E63"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "E68PH",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "menu",
+                      "iconFontFamily": "lucide",
+                      "fill": "#E91E63"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "EaDFd",
+          "name": "Блок 2. Герой",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            20,
+            0,
+            64,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "XoUZZ",
+              "name": "Hero Wrap",
+              "width": 1200,
+              "height": 760,
+              "fill": "#FFFFFFE6",
+              "cornerRadius": 32,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E91E6318"
+              },
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#E91E6314",
+                "offset": {
+                  "x": 0,
+                  "y": 16
+                },
+                "blur": 40
+              },
+              "gap": 48,
+              "padding": [
+                56,
+                64
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "WO1Ch",
+                  "name": "heroLeft",
+                  "width": 560,
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZZrF2",
+                      "fill": "#E91E63",
+                      "content": "Доставка цветов в [Название города] с 8:00 до 21:00",
+                      "fontFamily": "Nunito",
+                      "fontSize": 14,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WLDeB",
+                      "fill": "#4A2635",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Цветы с доставкой за 2 часа в [Город]",
+                      "lineHeight": 1.05,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 64,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "5JJ68",
+                      "fill": "#8D6B7A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Свежие букеты от 1500 ₽. Успейте заказать к празднику",
+                      "lineHeight": 1.35,
+                      "fontFamily": "Nunito",
+                      "fontSize": 22,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "t0Mxj",
+                      "name": "ctaRow",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "gvGeQ",
+                          "name": "ctaMain",
+                          "fill": "#E91E63",
+                          "cornerRadius": 40,
+                          "padding": [
+                            16,
+                            28
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "CulUq",
+                              "fill": "#FFFFFF",
+                              "content": "В каталог",
+                              "fontFamily": "Nunito",
+                              "fontSize": 18,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "0QnrY",
+                          "name": "ctaAlt",
+                          "fill": "#FFFFFF00",
+                          "cornerRadius": 40,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1.5,
+                            "fill": "#E91E63"
+                          },
+                          "padding": [
+                            16,
+                            28
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "eCKy9",
+                              "fill": "#E91E63",
+                              "content": "Рассчитать доставку",
+                              "fontFamily": "Nunito",
+                              "fontSize": 18,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "mdNfd",
+                      "fill": "#4A2635",
+                      "content": "Бесплатная открытка • Своя доставка • 7 дней в неделю",
+                      "fontFamily": "Nunito",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NyVQX",
+                  "name": "Hero Bouquet",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "homostudio",
+                    "link": "https://unsplash.com/@homostudio",
+                    "author": "Aleyna Çatak"
+                  },
+                  "clip": true,
+                  "width": 464,
+                  "height": 648,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1712258090343-d9bd801adea7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTU3MDV8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 28,
+                  "layout": "vertical",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "jsBLr",
+                      "layoutPosition": "absolute",
+                      "x": 24,
+                      "y": 24,
+                      "name": "heroBadge",
+                      "fill": "#FFFFFFE6",
+                      "cornerRadius": 20,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000012",
+                        "offset": {
+                          "x": 0,
+                          "y": 8
+                        },
+                        "blur": 20
+                      },
+                      "layout": "vertical",
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "mTSnq",
+                          "fill": "#E91E63",
+                          "content": "Хит сезона",
+                          "fontFamily": "Nunito",
+                          "fontSize": 14,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "4pXq2",
+          "name": "Блок 3. Преимущества",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            0,
+            0,
+            72,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "8JeFu",
+              "name": "Benefits Wrap",
+              "width": 1200,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "uEBkC",
+                  "name": "Benefits Grid",
+                  "width": "fill_container",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "6XS3A",
+                      "name": "card1",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 20,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000D",
+                        "offset": {
+                          "x": 0,
+                          "y": 10
+                        },
+                        "blur": 24
+                      },
+                      "layout": "vertical",
+                      "gap": 18,
+                      "padding": 28,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "cEskW",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "truck",
+                          "iconFontFamily": "lucide",
+                          "fill": "#E91E63"
+                        },
+                        {
+                          "type": "text",
+                          "id": "VnUV1",
+                          "fill": "#4A2635",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Своя доставка\nКурьерская служба магазина, не передаём заказ посторонним.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Nunito",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "J6Srm",
+                      "name": "card2",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 20,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000D",
+                        "offset": {
+                          "x": 0,
+                          "y": 10
+                        },
+                        "blur": 24
+                      },
+                      "layout": "vertical",
+                      "gap": 18,
+                      "padding": 28,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "oVeR5",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "sparkles",
+                          "iconFontFamily": "lucide",
+                          "fill": "#E91E63"
+                        },
+                        {
+                          "type": "text",
+                          "id": "W8QN7",
+                          "fill": "#4A2635",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Свежесть 100%\nПривозим цветы напрямую из питомника и собираем букет перед отправкой.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Nunito",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "p3JRS",
+                      "name": "card3",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 20,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000D",
+                        "offset": {
+                          "x": 0,
+                          "y": 10
+                        },
+                        "blur": 24
+                      },
+                      "layout": "vertical",
+                      "gap": 18,
+                      "padding": 28,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "PowOa",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "gift",
+                          "iconFontFamily": "lucide",
+                          "fill": "#E91E63"
+                        },
+                        {
+                          "type": "text",
+                          "id": "xxr2G",
+                          "fill": "#4A2635",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Упаковка и открытка\nБесплатно к каждому букету, чтобы подарок выглядел готовым сразу.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Nunito",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "y7kUe",
+                      "name": "card4",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 20,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000D",
+                        "offset": {
+                          "x": 0,
+                          "y": 10
+                        },
+                        "blur": 24
+                      },
+                      "layout": "vertical",
+                      "gap": 18,
+                      "padding": 28,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "tGlF2",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "map-pinned",
+                          "iconFontFamily": "lucide",
+                          "fill": "#E91E63"
+                        },
+                        {
+                          "type": "text",
+                          "id": "IGzYC",
+                          "fill": "#4A2635",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Доставка до 100 км\nПо городу и пригороду: от срочных адресов до загородных поздравлений.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Nunito",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "Zv0H5",
+                  "fill": "#4A2635",
+                  "content": "Почему нас выбирают, когда цветы нужны сегодня",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 40,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "adHDO",
+          "name": "Блок 4. О магазине",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            0,
+            0,
+            72,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "JRLWg",
+              "name": "About Wrap",
+              "width": 1200,
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000010",
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "blur": 28
+              },
+              "gap": 36,
+              "padding": 40,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "dGexz",
+                  "name": "aboutText",
+                  "width": 560,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "G0xmg",
+                      "fill": "#4A2635",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Почему «Мир Роз» — это не просто цветы",
+                      "lineHeight": 1.08,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 46,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fRCwr",
+                      "fill": "#8D6B7A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Мы работаем с 2015 года. Знаем, как сохранить свежесть цветов в пути. Упакуем так, чтобы букет доехал идеально. А ещё — напишем открытку вашими словами. Бесплатно.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Nunito",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "toiCJ",
+                      "fill": "#E91E63",
+                      "content": "Собираем букеты вручную и подтверждаем состав фото перед отправкой",
+                      "fontFamily": "Nunito",
+                      "fontSize": 15,
+                      "fontWeight": "800"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BPaex",
+                  "name": "Florist Process",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "bruceb_uk",
+                    "link": "https://unsplash.com/@bruceb_uk",
+                    "author": "Bruce Barrow"
+                  },
+                  "clip": true,
+                  "width": 524,
+                  "height": 360,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1775137589950-861862c3c6de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTU3MDZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "justifyContent": "center",
+                  "alignItems": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "k3S57",
+          "name": "Блок 5. Каталог",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            0,
+            0,
+            72,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "jDWT9",
+              "name": "Catalog Wrap",
+              "width": 1200,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "JAtao",
+                  "name": "Catalog Grid",
+                  "width": "fill_container",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "t7jVH",
+                      "name": "cat1",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 18,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000D",
+                        "offset": {
+                          "x": 0,
+                          "y": 10
+                        },
+                        "blur": 24
+                      },
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": [
+                        12,
+                        12,
+                        16,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "8VrpR",
+                          "name": "Нежность фото",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "paunveiled",
+                            "link": "https://unsplash.com/@paunveiled",
+                            "author": "Thomas Beaman"
+                          },
+                          "width": "fill_container",
+                          "height": 220,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1677768062220-32f1658715c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTUzNjd8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 14
+                        },
+                        {
+                          "type": "text",
+                          "id": "z3r0I",
+                          "fill": "#4A2635",
+                          "content": "Нежность",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "l26KS",
+                          "fill": "#8D6B7A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "розы, пионы, эустома\nот 1 500 ₽",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Nunito",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "fxT0r",
+                          "name": "cat1btn",
+                          "width": "fill_container",
+                          "fill": "#E91E63",
+                          "cornerRadius": 40,
+                          "padding": [
+                            14,
+                            18
+                          ],
+                          "justifyContent": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "KRXdS",
+                              "fill": "#FFFFFF",
+                              "content": "Заказать",
+                              "fontFamily": "Nunito",
+                              "fontSize": 16,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "rz8yx",
+                      "name": "cat2",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 18,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000D",
+                        "offset": {
+                          "x": 0,
+                          "y": 10
+                        },
+                        "blur": 24
+                      },
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": [
+                        12,
+                        12,
+                        16,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "T9Eqd",
+                          "name": "Алые розы фото",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "frolicsomefairy",
+                            "link": "https://unsplash.com/@frolicsomefairy",
+                            "author": "Frolicsome Fairy"
+                          },
+                          "width": "fill_container",
+                          "height": 220,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1714153971428-c2fd03442937?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTUzNjd8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 14
+                        },
+                        {
+                          "type": "text",
+                          "id": "nfDkf",
+                          "fill": "#4A2635",
+                          "content": "Алые розы",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "yUMPS",
+                          "fill": "#8D6B7A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "классические розы, эвкалипт\nот 1 500 ₽",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Nunito",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "YGL5x",
+                          "name": "cat2btn",
+                          "width": "fill_container",
+                          "fill": "#E91E63",
+                          "cornerRadius": 40,
+                          "padding": [
+                            14,
+                            18
+                          ],
+                          "justifyContent": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "olsMR",
+                              "fill": "#FFFFFF",
+                              "content": "Заказать",
+                              "fontFamily": "Nunito",
+                              "fontSize": 16,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qesUX",
+                      "name": "cat3",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 18,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000D",
+                        "offset": {
+                          "x": 0,
+                          "y": 10
+                        },
+                        "blur": 24
+                      },
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": [
+                        12,
+                        12,
+                        16,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "M4A2Z",
+                          "name": "Лавандовое утро фото",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "zaniyar_d",
+                            "link": "https://unsplash.com/@zaniyar_d",
+                            "author": "Zaniyar Saeed"
+                          },
+                          "width": "fill_container",
+                          "height": 220,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1588242187290-5b7ded8c3b12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTUzOTV8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 14
+                        },
+                        {
+                          "type": "text",
+                          "id": "RHEdQ",
+                          "fill": "#4A2635",
+                          "content": "Лавандовое утро",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "bbfki",
+                          "fill": "#8D6B7A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "эустома, пионовидные розы\nот 1 500 ₽",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Nunito",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "3i1Fx",
+                          "name": "cat3btn",
+                          "width": "fill_container",
+                          "fill": "#E91E63",
+                          "cornerRadius": 40,
+                          "padding": [
+                            14,
+                            18
+                          ],
+                          "justifyContent": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "QI49R",
+                              "fill": "#FFFFFF",
+                              "content": "Заказать",
+                              "fontFamily": "Nunito",
+                              "fontSize": 16,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "0rAAy",
+                      "name": "cat4",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 18,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000D",
+                        "offset": {
+                          "x": 0,
+                          "y": 10
+                        },
+                        "blur": 24
+                      },
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": [
+                        12,
+                        12,
+                        16,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "PZl0B",
+                          "name": "Свадебный фото",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "rhamely",
+                            "link": "https://unsplash.com/@rhamely",
+                            "author": "Rhamely"
+                          },
+                          "width": "fill_container",
+                          "height": 220,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1680695303876-7feec37520d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTUzOTd8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 14
+                        },
+                        {
+                          "type": "text",
+                          "id": "rxtVt",
+                          "fill": "#4A2635",
+                          "content": "Свадебный",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "v9Nhg",
+                          "fill": "#8D6B7A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "розы, пионы, эустома\nот 1 500 ₽",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Nunito",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "1fIPj",
+                          "name": "cat4btn",
+                          "width": "fill_container",
+                          "fill": "#E91E63",
+                          "cornerRadius": 40,
+                          "padding": [
+                            14,
+                            18
+                          ],
+                          "justifyContent": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "p7dOg",
+                              "fill": "#FFFFFF",
+                              "content": "Заказать",
+                              "fontFamily": "Nunito",
+                              "fontSize": 16,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "PlM5e",
+                  "fill": "#4A2635",
+                  "content": "Каталог букетов",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 42,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "1aVAN",
+          "name": "Блок 6. Топ-5 продаж",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            0,
+            0,
+            72,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "xRtil",
+              "name": "Top Sales Wrap",
+              "width": 1200,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ruKpD",
+                  "name": "Top Sales Row",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ozPLx",
+                      "name": "cat1",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 18,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000D",
+                        "offset": {
+                          "x": 0,
+                          "y": 10
+                        },
+                        "blur": 24
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        10,
+                        14,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "qIooG",
+                          "name": "Нежность фото",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "anitaaustvika",
+                            "link": "https://unsplash.com/@anitaaustvika",
+                            "author": "Anita Austvika"
+                          },
+                          "width": "fill_container",
+                          "height": 152,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1686902747587-a8cf784c2200?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTU0MDR8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 14
+                        },
+                        {
+                          "type": "text",
+                          "id": "uGNoA",
+                          "fill": "#4A2635",
+                          "content": "Нежность",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "uv2T8",
+                          "fill": "#8D6B7A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "от 1 500 ₽",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Nunito",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "9fanx",
+                          "name": "cat1btn",
+                          "width": "fill_container",
+                          "fill": "#E91E63",
+                          "cornerRadius": 40,
+                          "padding": [
+                            12,
+                            14
+                          ],
+                          "justifyContent": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "3hTrG",
+                              "fill": "#FFFFFF",
+                              "content": "Заказать",
+                              "fontFamily": "Nunito",
+                              "fontSize": 15,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "de5YI",
+                      "name": "cat2",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 18,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000D",
+                        "offset": {
+                          "x": 0,
+                          "y": 10
+                        },
+                        "blur": 24
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        10,
+                        14,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "r6icO",
+                          "name": "Алые розы фото",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "ramit85",
+                            "link": "https://unsplash.com/@ramit85",
+                            "author": "Rami"
+                          },
+                          "width": "fill_container",
+                          "height": 152,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1674675301265-bae09ab57afb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTU0MDd8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 14
+                        },
+                        {
+                          "type": "text",
+                          "id": "RwGiE",
+                          "fill": "#4A2635",
+                          "content": "Алые розы",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "seGK8",
+                          "fill": "#8D6B7A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "от 1 900 ₽",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Nunito",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "caAq3",
+                          "name": "cat2btn",
+                          "width": "fill_container",
+                          "fill": "#E91E63",
+                          "cornerRadius": 40,
+                          "padding": [
+                            12,
+                            14
+                          ],
+                          "justifyContent": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "iI9qW",
+                              "fill": "#FFFFFF",
+                              "content": "Заказать",
+                              "fontFamily": "Nunito",
+                              "fontSize": 15,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SCfl5",
+                      "name": "cat3",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 18,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000D",
+                        "offset": {
+                          "x": 0,
+                          "y": 10
+                        },
+                        "blur": 24
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        10,
+                        14,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "MpCCk",
+                          "name": "Лавандовое утро фото",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "vedmedikk",
+                            "link": "https://unsplash.com/@vedmedikk",
+                            "author": "Anastasiia Vedmedenko"
+                          },
+                          "width": "fill_container",
+                          "height": 152,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1555329062-0193858325c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTU0MDh8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 14
+                        },
+                        {
+                          "type": "text",
+                          "id": "L4VqK",
+                          "fill": "#4A2635",
+                          "content": "Лавандовое утро",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "0pykk",
+                          "fill": "#8D6B7A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "от 2 100 ₽",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Nunito",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "AX4BI",
+                          "name": "cat3btn",
+                          "width": "fill_container",
+                          "fill": "#E91E63",
+                          "cornerRadius": 40,
+                          "padding": [
+                            12,
+                            14
+                          ],
+                          "justifyContent": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "s7Lpc",
+                              "fill": "#FFFFFF",
+                              "content": "Заказать",
+                              "fontFamily": "Nunito",
+                              "fontSize": 15,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Eb9pQ",
+                      "name": "cat4",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 18,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000D",
+                        "offset": {
+                          "x": 0,
+                          "y": 10
+                        },
+                        "blur": 24
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        10,
+                        14,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "xCy5g",
+                          "name": "Свадебный фото",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "brunocervera",
+                            "link": "https://unsplash.com/@brunocervera",
+                            "author": "BRUNO CERVERA"
+                          },
+                          "width": "fill_container",
+                          "height": 152,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1765478220981-479b91c84aa3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTU0MTB8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 14
+                        },
+                        {
+                          "type": "text",
+                          "id": "bVDPL",
+                          "fill": "#4A2635",
+                          "content": "Свадебный",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "VtsDR",
+                          "fill": "#8D6B7A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "от 2 400 ₽",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Nunito",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "MpBTY",
+                          "name": "cat4btn",
+                          "width": "fill_container",
+                          "fill": "#E91E63",
+                          "cornerRadius": 40,
+                          "padding": [
+                            12,
+                            14
+                          ],
+                          "justifyContent": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "HERDI",
+                              "fill": "#FFFFFF",
+                              "content": "Заказать",
+                              "fontFamily": "Nunito",
+                              "fontSize": 15,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "0C4GT",
+                      "name": "cat1",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 18,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000D",
+                        "offset": {
+                          "x": 0,
+                          "y": 10
+                        },
+                        "blur": 24
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        10,
+                        14,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "GIZYF",
+                          "name": "Нежность фото",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "raspopovamarisha",
+                            "link": "https://unsplash.com/@raspopovamarisha",
+                            "author": "Raspopova Marina"
+                          },
+                          "width": "fill_container",
+                          "height": 152,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1648637641726-1f176fdfb733?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTU0MTZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 14
+                        },
+                        {
+                          "type": "text",
+                          "id": "k40IV",
+                          "fill": "#4A2635",
+                          "content": "Пионовый микс",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "TVRQr",
+                          "fill": "#8D6B7A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "от 2 300 ₽",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Nunito",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "XFa2S",
+                          "name": "cat1btn",
+                          "width": "fill_container",
+                          "fill": "#E91E63",
+                          "cornerRadius": 40,
+                          "padding": [
+                            12,
+                            14
+                          ],
+                          "justifyContent": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "MyVSZ",
+                              "fill": "#FFFFFF",
+                              "content": "Заказать",
+                              "fontFamily": "Nunito",
+                              "fontSize": 15,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "lKKHc",
+                  "fill": "#4A2635",
+                  "content": "Топ-5 продаж",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 42,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "P0yfa",
+                  "fill": "#8D6B7A",
+                  "content": "На десктопе все карточки видны сразу, на мобильном блок работает как карусель.",
+                  "fontFamily": "Nunito",
+                  "fontSize": 17,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "izaUx",
+          "name": "Блок 7. Доставка",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            0,
+            0,
+            72,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "j6i8A",
+              "name": "Delivery Wrap",
+              "width": 1200,
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000010",
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "blur": 28
+              },
+              "gap": 28,
+              "padding": 40,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "X1oeM",
+                  "name": "delText",
+                  "width": 660,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "6ehw7",
+                      "fill": "#4A2635",
+                      "content": "Как мы доставляем цветы",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 42,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "8ZWMK",
+                      "fill": "#4A2635",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "По городу — 300 ₽, до 30 км — 500 ₽, до 100 км — 1 500 ₽.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Nunito",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kYNoK",
+                      "fill": "#8D6B7A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Сегодня — от 2 часов, завтра — к 10 утра. Подтверждаем маршрут и время заранее.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Nunito",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Qn4jy",
+                      "name": "proof",
+                      "fill": "#FFE8F0",
+                      "cornerRadius": 20,
+                      "padding": [
+                        14,
+                        18
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "VLu79",
+                          "fill": "#E91E63",
+                          "content": "Каждый заказ сопровождаем фотоотчётом об отправке",
+                          "fontFamily": "Nunito",
+                          "fontSize": 15,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rD4P6",
+                  "name": "delCards",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "S8HhR",
+                      "name": "truckCard",
+                      "width": "fill_container",
+                      "fill": "#FFF0F5",
+                      "cornerRadius": 20,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "OEthH",
+                          "width": 26,
+                          "height": 26,
+                          "iconFontName": "truck",
+                          "iconFontFamily": "lucide",
+                          "fill": "#E91E63"
+                        },
+                        {
+                          "type": "text",
+                          "id": "5aw4R",
+                          "fill": "#4A2635",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Своя курьерская служба\nБережно везём букеты и не перекладываем заказ между подрядчиками.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Nunito",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uoUJS",
+                      "name": "giftCard",
+                      "width": "fill_container",
+                      "fill": "#FFF0F5",
+                      "cornerRadius": 20,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "G5bZb",
+                          "width": 26,
+                          "height": 26,
+                          "iconFontName": "gift",
+                          "iconFontFamily": "lucide",
+                          "fill": "#E91E63"
+                        },
+                        {
+                          "type": "text",
+                          "id": "au5Oo",
+                          "fill": "#4A2635",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Упаковка и открытка в подарок\nПолучатель получает готовый подарок без доплат за оформление.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Nunito",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hTghI",
+          "name": "Блок 8. Форма заказа",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            0,
+            0,
+            72,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "G3Rj9",
+              "name": "Form Wrap",
+              "width": 1200,
+              "fill": "#FFE8F0",
+              "cornerRadius": 28,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E91E6322"
+              },
+              "layout": "vertical",
+              "gap": 24,
+              "padding": 48,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "9Wk7Q",
+                  "fill": "#4A2635",
+                  "content": "Не нашли подходящий букет? Соберём под ваш заказ",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 44,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "PxIHu",
+                  "fill": "#8D6B7A",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Оставьте повод, бюджет и пожелания — менеджер перезвонит и предложит варианты.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "Nunito",
+                  "fontSize": 20,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "N1tM2",
+                  "name": "formRow",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "yw2cl",
+                      "name": "nameField",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 18,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E91E6326"
+                      },
+                      "padding": [
+                        18,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "70Ogz",
+                          "fill": "#8D6B7A",
+                          "content": "Имя",
+                          "fontFamily": "Nunito",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "W9s5O",
+                      "name": "phoneField",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 18,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E91E6326"
+                      },
+                      "padding": [
+                        18,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "0YmD9",
+                          "fill": "#4A2635",
+                          "content": "Телефон *",
+                          "fontFamily": "Nunito",
+                          "fontSize": 17,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "V569T",
+                  "name": "commentField",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E91E6326"
+                  },
+                  "padding": [
+                    22,
+                    20,
+                    90,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Plr8P",
+                      "fill": "#8D6B7A",
+                      "content": "Комментарий: пожелания, повод, бюджет",
+                      "fontFamily": "Nunito",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Uut5I",
+                  "name": "submitBtn",
+                  "width": 260,
+                  "fill": "#E91E63",
+                  "cornerRadius": 40,
+                  "padding": [
+                    18,
+                    24
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XYSSd",
+                      "fill": "#FFFFFF",
+                      "content": "Отправить заявку",
+                      "fontFamily": "Nunito",
+                      "fontSize": 18,
+                      "fontWeight": "800"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Imezn",
+                  "name": "notice",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "padding": [
+                    12,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jimg3",
+                      "fill": "#E91E63",
+                      "content": "Мы перезвоним через 5 минут",
+                      "fontFamily": "Nunito",
+                      "fontSize": 15,
+                      "fontWeight": "800"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "qMPkH",
+          "name": "Блок 9. Отзывы",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            0,
+            0,
+            72,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "gdJ7S",
+              "name": "Reviews Wrap",
+              "width": 1200,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VyhHX",
+                  "name": "Reviews Row",
+                  "width": "fill_container",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "0EVEt",
+                      "name": "rev1",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 20,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000D",
+                        "offset": {
+                          "x": 0,
+                          "y": 10
+                        },
+                        "blur": 24
+                      },
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "AkOKs",
+                          "name": "rev1img",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "sajadnori",
+                            "link": "https://unsplash.com/@sajadnori",
+                            "author": "Sajad Nori"
+                          },
+                          "width": 56,
+                          "height": 56,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1640557443065-cd2b7ed858d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTU0MTd8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 28
+                        },
+                        {
+                          "type": "text",
+                          "id": "4LhJk",
+                          "fill": "#4A2635",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Заказывала букет на годовщину. Привезли вовремя, цветы свежайшие. Отдельное спасибо за открытку!",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Nunito",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "MWxFW",
+                          "fill": "#E91E63",
+                          "content": "Анна, 14.02.2026",
+                          "fontFamily": "Nunito",
+                          "fontSize": 14,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "oI0ub",
+                      "name": "rev2",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 20,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000D",
+                        "offset": {
+                          "x": 0,
+                          "y": 10
+                        },
+                        "blur": 24
+                      },
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "p1z7l",
+                          "name": "rev2img",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "musstashy",
+                            "link": "https://unsplash.com/@musstashy",
+                            "author": "Amit Kumar"
+                          },
+                          "width": 56,
+                          "height": 56,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1734764808191-6e2f89aa84db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTU0MTh8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 28
+                        },
+                        {
+                          "type": "text",
+                          "id": "I1aNX",
+                          "fill": "#4A2635",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Срочно понадобились цветы на день рождения. За два часа всё доставили, букет был даже лучше, чем на фото.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Nunito",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vagLR",
+                          "fill": "#E91E63",
+                          "content": "Игорь, 08.03.2026",
+                          "fontFamily": "Nunito",
+                          "fontSize": 14,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "USR6r",
+                      "name": "rev3",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 20,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000D",
+                        "offset": {
+                          "x": 0,
+                          "y": 10
+                        },
+                        "blur": 24
+                      },
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "yFLkd",
+                          "name": "rev3img",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "zvandrei",
+                            "link": "https://unsplash.com/@zvandrei",
+                            "author": "Andrey Zvyagintsev"
+                          },
+                          "width": 56,
+                          "height": 56,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1581841064838-a470c740e8ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTU0MTl8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 28
+                        },
+                        {
+                          "type": "text",
+                          "id": "JklqL",
+                          "fill": "#4A2635",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Берём композиции для ресторана каждую неделю. Всегда стабильное качество, удобная доставка и понятная коммуникация.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Nunito",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "6DAXH",
+                          "fill": "#E91E63",
+                          "content": "Марина, 21.03.2026",
+                          "fontFamily": "Nunito",
+                          "fontSize": 14,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "lmyHa",
+                  "fill": "#4A2635",
+                  "content": "Отзывы клиентов",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 42,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "mHuNz",
+          "name": "Блок 10. Второй CTA",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            0,
+            0,
+            72,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "PXdn2",
+              "name": "CTA Wrap",
+              "width": 1200,
+              "fill": "#FFFFFF",
+              "cornerRadius": 28,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E91E6322"
+              },
+              "padding": [
+                32,
+                36
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "drvdr",
+                  "name": "ctaText",
+                  "width": 620,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zPmh9",
+                      "fill": "#4A2635",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Остались вопросы? Позвоните нам: 8-800-123-45-67",
+                      "lineHeight": 1.1,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 38,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KnpAt",
+                      "fill": "#8D6B7A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Подскажем по букету, доставке и срочным заказам за пару минут.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Nunito",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IcRxW",
+                  "name": "ctaForm",
+                  "width": 380,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "zDHah",
+                      "name": "cbName",
+                      "width": "fill_container",
+                      "fill": "#FFF0F5",
+                      "cornerRadius": 18,
+                      "padding": [
+                        16,
+                        18
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OfHGq",
+                          "fill": "#8D6B7A",
+                          "content": "Имя",
+                          "fontFamily": "Nunito",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "yhI6z",
+                      "name": "cbPhone",
+                      "width": "fill_container",
+                      "fill": "#FFF0F5",
+                      "cornerRadius": 18,
+                      "padding": [
+                        16,
+                        18
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "7tS7U",
+                          "fill": "#8D6B7A",
+                          "content": "Телефон",
+                          "fontFamily": "Nunito",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BlPXP",
+                      "name": "cbBtn",
+                      "width": "fill_container",
+                      "fill": "#E91E63",
+                      "cornerRadius": 40,
+                      "padding": [
+                        16,
+                        18
+                      ],
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "4NuUn",
+                          "fill": "#FFFFFF",
+                          "content": "Заказать звонок",
+                          "fontFamily": "Nunito",
+                          "fontSize": 17,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hD16Z",
+          "name": "Блок 11. Футер",
+          "width": "fill_container",
+          "fill": "#4A2635",
+          "layout": "vertical",
+          "padding": [
+            40,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "c47LY",
+              "name": "Footer Wrap",
+              "width": 1200,
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "n7cMV",
+                  "name": "brandCol",
+                  "width": 360,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "U4AFm",
+                      "fill": "#FFF6F9",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Мир Роз\n© 2026 Все права защищены\nПолитика конфиденциальности",
+                      "lineHeight": 1.55,
+                      "fontFamily": "Nunito",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OA1c5",
+                  "name": "contactCol",
+                  "width": 320,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sK4em",
+                      "fill": "#FFF6F9",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "8-800-123-45-67\nhello@mir-roz.ru\n8:00–21:00 без выходных",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Nunito",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lBG11",
+                  "name": "socialCol",
+                  "width": 220,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ysPww",
+                      "fill": "#FFF6F9",
+                      "content": "Мы в соцсетях",
+                      "fontFamily": "Nunito",
+                      "fontSize": 16,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "3yz4s",
+                      "name": "socials",
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "CjFT3",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "instagram",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFF6F9"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "IbYVI",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "send",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFF6F9"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "MTTs8",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "message-circle",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFF6F9"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
