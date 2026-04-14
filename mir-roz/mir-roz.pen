@@ -16,7 +16,6 @@
           "id": "WjAS8",
           "name": "Header",
           "width": "fill_container",
-          "fill": "$card",
           "cornerRadius": [
             0,
             0,
@@ -1059,6 +1058,7 @@
           ]
         }
       ]
+<<<<<<< Updated upstream
     },
     {
       "type": "frame",
@@ -5378,6 +5378,8 @@
           ]
         }
       ]
+=======
+>>>>>>> Stashed changes
     }
   ],
   "variables": {
