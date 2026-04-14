@@ -315,7 +315,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "https://images.unsplash.com/photo-1712258090343-d9bd801adea7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTU3MDV8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "url": "./images/v3-hero-bouquet.jpg",
                     "mode": "fill"
                   },
                   "cornerRadius": 28,
@@ -679,7 +679,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "https://images.unsplash.com/photo-1775137589950-861862c3c6de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTU3MDZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "url": "./images/v3-about-process.jpg",
                     "mode": "fill"
                   },
                   "cornerRadius": 24,
@@ -761,7 +761,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "https://images.unsplash.com/photo-1677768062220-32f1658715c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTUzNjd8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "url": "./images/v3-catalog-nezhnost.jpg",
                             "mode": "fill"
                           },
                           "cornerRadius": 14
@@ -854,7 +854,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "https://images.unsplash.com/photo-1714153971428-c2fd03442937?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTUzNjd8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "url": "./images/v3-catalog-red-roses.jpg",
                             "mode": "fill"
                           },
                           "cornerRadius": 14
@@ -947,7 +947,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "https://images.unsplash.com/photo-1588242187290-5b7ded8c3b12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTUzOTV8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "url": "./images/v3-catalog-lavender.jpg",
                             "mode": "fill"
                           },
                           "cornerRadius": 14
@@ -1040,7 +1040,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "https://images.unsplash.com/photo-1680695303876-7feec37520d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTUzOTd8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "url": "./images/v3-catalog-wedding.jpg",
                             "mode": "fill"
                           },
                           "cornerRadius": 14
@@ -1177,7 +1177,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "https://images.unsplash.com/photo-1686902747587-a8cf784c2200?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTU0MDR8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "url": "./images/v3-top-nezhnost.jpg",
                             "mode": "fill"
                           },
                           "cornerRadius": 14
@@ -1270,7 +1270,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "https://images.unsplash.com/photo-1674675301265-bae09ab57afb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTU0MDd8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "url": "./images/v3-top-red-roses.jpg",
                             "mode": "fill"
                           },
                           "cornerRadius": 14
@@ -1363,7 +1363,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "https://images.unsplash.com/photo-1555329062-0193858325c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTU0MDh8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "url": "./images/v3-top-lavender.jpg",
                             "mode": "fill"
                           },
                           "cornerRadius": 14
@@ -1456,7 +1456,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "https://images.unsplash.com/photo-1765478220981-479b91c84aa3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTU0MTB8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "url": "./images/v3-top-wedding.jpg",
                             "mode": "fill"
                           },
                           "cornerRadius": 14
@@ -1549,7 +1549,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "https://images.unsplash.com/photo-1648637641726-1f176fdfb733?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTU0MTZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "url": "./images/v3-top-peony-mix.jpg",
                             "mode": "fill"
                           },
                           "cornerRadius": 14
@@ -2067,7 +2067,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "https://images.unsplash.com/photo-1640557443065-cd2b7ed858d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTU0MTd8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "url": "./images/v3-review-anna.jpg",
                             "mode": "fill"
                           },
                           "cornerRadius": 28
@@ -2131,7 +2131,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "https://images.unsplash.com/photo-1734764808191-6e2f89aa84db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTU0MTh8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "url": "./images/v3-review-igor.jpg",
                             "mode": "fill"
                           },
                           "cornerRadius": 28
@@ -2195,7 +2195,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "https://images.unsplash.com/photo-1581841064838-a470c740e8ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMTU0MTl8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "url": "./images/v3-review-marina.jpg",
                             "mode": "fill"
                           },
                           "cornerRadius": 28
